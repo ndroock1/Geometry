@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    342141,       6589]
-NotebookOptionsPosition[    337457,       6498]
-NotebookOutlinePosition[    337800,       6513]
-CellTagsIndexPosition[    337757,       6510]
+NotebookDataLength[    371762,       6802]
+NotebookOptionsPosition[    367882,       6726]
+NotebookOutlinePosition[    368225,       6741]
+CellTagsIndexPosition[    368182,       6738]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -639,10 +639,11 @@ Cell[BoxData[
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
  CellChangeTimes->{{3.7403791771680593`*^9, 3.7403796168962336`*^9}, 
-   3.7405452918916187`*^9, 3.7407528685792446`*^9, 3.7408086134091735`*^9},
- CellLabel->"Out[15]=",ExpressionUUID->"845a9244-09a7-4885-a58f-b58d8569e24e"]
+   3.7405452918916187`*^9, 3.7407528685792446`*^9, 3.7408086134091735`*^9, 
+   3.740896840398839*^9},
+ CellLabel->"Out[15]=",ExpressionUUID->"b4a25450-66d5-4989-b51d-9e3cea3cc06f"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -676,8 +677,9 @@ Cell[BoxData[
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
  CellChangeTimes->{{3.740384752863267*^9, 3.7403847922427874`*^9}, 
-   3.7405452919056163`*^9, 3.740752868613224*^9, 3.740808613436154*^9},
- CellLabel->"Out[16]=",ExpressionUUID->"94aeca36-681e-42ad-ac2e-1b0aadca97ab"]
+   3.7405452919056163`*^9, 3.740752868613224*^9, 3.740808613436154*^9, 
+   3.740896840418826*^9},
+ CellLabel->"Out[16]=",ExpressionUUID->"2f88f86e-ebc0-4615-9e1c-97a3c35f8499"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -915,11 +917,12 @@ Cell[BoxData[
     {Thickness[0.0025], Dashing[
       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]], 
      CircleBox[{3, 4}, 0.25]}}}]], "Output",
- CellChangeTimes->{3.7407528687971087`*^9, 3.7408086135290885`*^9},
- CellLabel->"Out[20]=",ExpressionUUID->"c31e119d-c26c-4f5c-8d67-992cd36d2bcf"]
+ CellChangeTimes->{3.7407528687971087`*^9, 3.7408086135290885`*^9, 
+  3.740896840605711*^9},
+ CellLabel->"Out[20]=",ExpressionUUID->"a6640340-b1fc-404b-86a8-369fa45c00aa"]
 }, Open  ]]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -1053,8 +1056,9 @@ Cell[BoxData[
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
  CellChangeTimes->{{3.74047799856253*^9, 3.7404780082220936`*^9}, 
-   3.7405452920145435`*^9, 3.7407528688910513`*^9, 3.7408086135520725`*^9},
- CellLabel->"Out[21]=",ExpressionUUID->"4e1d2607-a753-4a93-b5af-d853f4a990b4"]
+   3.7405452920145435`*^9, 3.7407528688910513`*^9, 3.7408086135520725`*^9, 
+   3.7408968406336927`*^9},
+ CellLabel->"Out[21]=",ExpressionUUID->"650764e2-5e1d-4124-9c60-373c78d9fa2d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3033,8 +3037,9 @@ Cell[BoxData[
    3.7404831185795736`*^9, {3.7404831635676084`*^9, 3.7404831677345257`*^9}, {
    3.7404832063570223`*^9, 3.740483238696583*^9}, 3.740483340925067*^9, 
    3.740500500734373*^9, {3.740500751870308*^9, 3.7405007927836666`*^9}, 
-   3.7405452937065125`*^9, 3.7407528712835627`*^9, 3.740808615312859*^9},
- CellLabel->"Out[26]=",ExpressionUUID->"f64a2a15-a199-4e1e-b8b9-099aa094e884"]
+   3.7405452937065125`*^9, 3.7407528712835627`*^9, 3.740808615312859*^9, 
+   3.740896843032202*^9},
+ CellLabel->"Out[26]=",ExpressionUUID->"540a1bd3-9157-4967-9ed0-dbe830ca04dd"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4875,20 +4880,21 @@ Cell[BoxData[
           0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {
       0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}]]], "Output",
  CellChangeTimes->{3.740545322855733*^9, 3.7407528739079313`*^9, 
-  3.7408086167188888`*^9},
- CellLabel->"Out[29]=",ExpressionUUID->"eace220c-6c79-43c4-908e-e51218d5efd2"]
+  3.7408086167188888`*^9, 3.740896844374368*^9},
+ CellLabel->"Out[29]=",ExpressionUUID->"cc86d299-88f4-47da-8a3f-71f3f2c936cb"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["TEST3", "Section",
+Cell["temp-2", "Section",
  CellChangeTimes->{{3.7400415915649385`*^9, 3.740041592894431*^9}, 
    3.7402820670118103`*^9, {3.740411835186225*^9, 3.740411851313122*^9}, {
    3.7404778400947256`*^9, 3.7404778429758615`*^9}, {3.740477877058897*^9, 
    3.740477877199508*^9}, {3.740545345517943*^9, 3.7405453535099797`*^9}, {
-   3.7408087181639175`*^9, 
-   3.7408087240728407`*^9}},ExpressionUUID->"68155d31-c3c7-412c-8be3-\
+   3.7408087181639175`*^9, 3.7408087240728407`*^9}, {3.740901132742487*^9, 
+   3.740901133910759*^9}, {3.740901168029611*^9, 
+   3.7409011688381095`*^9}},ExpressionUUID->"68155d31-c3c7-412c-8be3-\
 108979424e7e"],
 
 Cell[BoxData[
@@ -4903,7 +4909,7 @@ Cell[BoxData[
    3.740628222984326*^9, 3.7406282660981827`*^9}, {3.740646363975978*^9, 
    3.7406463643187537`*^9}, {3.740655779713085*^9, 3.7406557799809227`*^9}, 
    3.740808684772954*^9},
- CellLabel->"In[44]:=",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
+ CellLabel->"In[30]:=",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
 
 Cell[BoxData[{
  RowBox[{"dpoly", ":=", 
@@ -5134,7 +5140,7 @@ Cell[BoxData[{
    3.7405793335224676`*^9}, {3.7405795595610332`*^9, 
    3.7405795851881065`*^9}, {3.740587223251073*^9, 3.74058725348901*^9}, 
    3.7406283623242598`*^9},
- CellLabel->"In[46]:=",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
+ CellLabel->"In[31]:=",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
 
 Cell[CellGroupData[{
 
@@ -5155,7 +5161,7 @@ Cell[BoxData[
   3.740545865149551*^9}, {3.740545959845278*^9, 3.740545984276089*^9}, {
   3.740555024344171*^9, 3.740555027750294*^9}, {3.740628244797329*^9, 
   3.7406282543852425`*^9}, {3.7408086912374935`*^9, 3.740808694476263*^9}},
- CellLabel->"In[48]:=",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
+ CellLabel->"In[33]:=",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -5509,288 +5515,36 @@ Cell[BoxData[
    3.7405872791837635`*^9, {3.7406282462328415`*^9, 3.7406282554355135`*^9}, 
    3.7406282939650173`*^9, 3.740628389365664*^9, 3.740646532662324*^9, 
    3.7406557888624125`*^9, 3.7407528743686447`*^9, 3.7408086171346016`*^9, {
-   3.7408086966707425`*^9, 3.7408087018531694`*^9}},
- CellLabel->"Out[48]=",ExpressionUUID->"119bd60e-884b-4ef7-8105-24fef57e42ef"]
+   3.7408086966707425`*^9, 3.7408087018531694`*^9}, 3.7408968447471356`*^9},
+ CellLabel->"Out[33]=",ExpressionUUID->"b1cdf6e2-7073-4793-ae3f-b2950eedcf3f"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
-Cell["temp-1", "Section",
+Cell["Pythagorean Tiling", "Section",
  CellChangeTimes->{{3.7400415915649385`*^9, 3.740041592894431*^9}, 
    3.7402820670118103`*^9, {3.740411835186225*^9, 3.740411851313122*^9}, {
    3.7404778400947256`*^9, 3.7404778429758615`*^9}, {3.740477877058897*^9, 
    3.740477877199508*^9}, {3.740545345517943*^9, 3.7405453535099797`*^9}, {
-   3.740808831159334*^9, 
-   3.7408088312073*^9}},ExpressionUUID->"53aba776-1ac0-42ed-89bd-\
-09a66c0e6ce8"],
+   3.740808831159334*^9, 3.7408088458142233`*^9}, {3.7409011869818635`*^9, 
+   3.7409012069824657`*^9}},ExpressionUUID->"dd475282-747d-404c-9dd7-\
+a9bd97609f06"],
 
-Cell[BoxData[{
- RowBox[{"dpoly", ":=", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"1", ",", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"0", ",", "0"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0.7", ",", "0.2"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"1", ",", "1"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        InterpretationBox[
-         ButtonBox[
-          TooltipBox[
-           GraphicsBox[{
-             {GrayLevel[0], RectangleBox[{0, 0}]}, 
-             {GrayLevel[0], RectangleBox[{1, -1}]}, 
-             {RGBColor[1, 0.9500000000000001, 0], 
-              RectangleBox[{0, -1}, {2, 1}]}},
-            AspectRatio->1,
-            Frame->True,
-            FrameStyle->RGBColor[0.6666666666666666, 0.6333333333333334, 0.],
-            FrameTicks->None,
-            
-            ImageSize->
-             Dynamic[{
-              Automatic, 
-               1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                Magnification])}],
-            PlotRangePadding->None],
-           "RGBColor[1, 0.9500000000000001, 0]"],
-          Appearance->None,
-          BaseStyle->{},
-          BaselinePosition->Baseline,
-          ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-            If[
-             Not[
-              AbsoluteCurrentValue["Deployed"]], 
-             SelectionMove[Typeset`box$, All, Expression]; 
-             FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-             FrontEnd`Private`$ColorSelectorInitialColor = 
-              RGBColor[1, 0.9500000000000001, 0]; 
-             FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-             MathLink`CallFrontEnd[
-               FrontEnd`AttachCell[Typeset`box$, 
-                FrontEndResource["RGBColorValueSelector"], {
-                0, {Left, Bottom}}, {Left, Top}, 
-                "ClosingActions" -> {
-                 "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-          DefaultBaseStyle->{},
-          Evaluator->Automatic,
-          Method->"Preemptive"],
-         RGBColor[1, 0.9500000000000001, 0],
-         Editable->False,
-         Selectable->False], ",", "1"}], "}"}]}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{
-      InterpretationBox[
-       ButtonBox[
-        TooltipBox[
-         GraphicsBox[{
-           {GrayLevel[0], RectangleBox[{0, 0}]}, 
-           {GrayLevel[0], RectangleBox[{1, -1}]}, 
-           {RGBColor[0.06, 0.06, 0.06], RectangleBox[{0, -1}, {2, 1}]}},
-          AspectRatio->1,
-          Frame->True,
-          FrameStyle->RGBColor[0.04, 0.04, 0.04],
-          FrameTicks->None,
-          
-          ImageSize->
-           Dynamic[{
-            Automatic, 
-             1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-              Magnification])}],
-          PlotRangePadding->None],
-         "RGBColor[0.06, 0.06, 0.06]"],
-        Appearance->None,
-        BaseStyle->{},
-        BaselinePosition->Baseline,
-        ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-          If[
-           Not[
-            AbsoluteCurrentValue["Deployed"]], 
-           SelectionMove[Typeset`box$, All, Expression]; 
-           FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-           FrontEnd`Private`$ColorSelectorInitialColor = 
-            RGBColor[0.06, 0.06, 0.06]; 
-           FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-           MathLink`CallFrontEnd[
-             FrontEnd`AttachCell[Typeset`box$, 
-              FrontEndResource["RGBColorValueSelector"], {
-              0, {Left, Bottom}}, {Left, Top}, 
-              "ClosingActions" -> {
-               "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-        DefaultBaseStyle->{},
-        Evaluator->Automatic,
-        Method->"Preemptive"],
-       RGBColor[0.06, 0.06, 0.06],
-       Editable->False,
-       Selectable->False], ",", "1", ",", "0.05`", ",", 
-      RowBox[{"2", " ", "\[Pi]"}], ",", 
-      RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
- RowBox[{"dpoly", ":=", 
-  RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{
-      RowBox[{"{", 
-       RowBox[{"1", ",", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"0", ",", "0"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"1", ",", "1"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0.25", ",", "1"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0", ",", "0.5"}], "}"}]}], "}"}]}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        InterpretationBox[
-         ButtonBox[
-          TooltipBox[
-           GraphicsBox[{
-             {GrayLevel[0], RectangleBox[{0, 0}]}, 
-             {GrayLevel[0], RectangleBox[{1, -1}]}, 
-             {RGBColor[0.87, 0.87, 0.87], Opacity[0.9], 
-              RectangleBox[{0, -1}, {2, 1}]}},
-            AspectRatio->1,
-            Frame->True,
-            
-            FrameStyle->RGBColor[
-             0.5800000000000001, 0.5800000000000001, 0.5800000000000001, 0.9],
-            FrameTicks->None,
-            
-            ImageSize->
-             Dynamic[{
-              Automatic, 
-               1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                Magnification])}],
-            PlotRangePadding->None],
-           "RGBColor[0.87, 0.87, 0.87, 0.9]"],
-          Appearance->None,
-          BaseStyle->{},
-          BaselinePosition->Baseline,
-          ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-            If[
-             Not[
-              AbsoluteCurrentValue["Deployed"]], 
-             SelectionMove[Typeset`box$, All, Expression]; 
-             FrontEnd`Private`$ColorSelectorInitialAlpha = 0.9; 
-             FrontEnd`Private`$ColorSelectorInitialColor = 
-              RGBColor[0.87, 0.87, 0.87]; 
-             FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-             MathLink`CallFrontEnd[
-               FrontEnd`AttachCell[Typeset`box$, 
-                FrontEndResource["RGBColorValueSelector"], {
-                0, {Left, Bottom}}, {Left, Top}, 
-                "ClosingActions" -> {
-                 "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-          DefaultBaseStyle->{},
-          Evaluator->Automatic,
-          Method->"Preemptive"],
-         RGBColor[0.87, 0.87, 0.87, 0.9],
-         Editable->False,
-         Selectable->False], ",", "1"}], "}"}]}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{
-      InterpretationBox[
-       ButtonBox[
-        TooltipBox[
-         GraphicsBox[{
-           {GrayLevel[0], RectangleBox[{0, 0}]}, 
-           {GrayLevel[0], RectangleBox[{1, -1}]}, 
-           {RGBColor[0.06, 0.06, 0.06], RectangleBox[{0, -1}, {2, 1}]}},
-          AspectRatio->1,
-          Frame->True,
-          FrameStyle->RGBColor[0.04, 0.04, 0.04],
-          FrameTicks->None,
-          
-          ImageSize->
-           Dynamic[{
-            Automatic, 
-             1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-              Magnification])}],
-          PlotRangePadding->None],
-         "RGBColor[0.06, 0.06, 0.06]"],
-        Appearance->None,
-        BaseStyle->{},
-        BaselinePosition->Baseline,
-        ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-          If[
-           Not[
-            AbsoluteCurrentValue["Deployed"]], 
-           SelectionMove[Typeset`box$, All, Expression]; 
-           FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-           FrontEnd`Private`$ColorSelectorInitialColor = 
-            RGBColor[0.06, 0.06, 0.06]; 
-           FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-           MathLink`CallFrontEnd[
-             FrontEnd`AttachCell[Typeset`box$, 
-              FrontEndResource["RGBColorValueSelector"], {
-              0, {Left, Bottom}}, {Left, Top}, 
-              "ClosingActions" -> {
-               "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-        DefaultBaseStyle->{},
-        Evaluator->Automatic,
-        Method->"Preemptive"],
-       RGBColor[0.06, 0.06, 0.06],
-       Editable->False,
-       Selectable->False], ",", "1", ",", "0.05`", ",", 
-      RowBox[{"2", " ", "\[Pi]"}], ",", 
-      RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}]}], "Input",
- CellChangeTimes->{{3.7405706501341763`*^9, 3.7405707135727806`*^9}, 
-   3.7405707606924963`*^9, {3.7405709352673874`*^9, 3.7405709381535892`*^9}, {
-   3.740571053359976*^9, 3.740571065118661*^9}, {3.740579287451088*^9, 
-   3.7405793335224676`*^9}, {3.7405795595610332`*^9, 
-   3.7405795851881065`*^9}, {3.740587223251073*^9, 3.74058725348901*^9}, 
-   3.7406283623242598`*^9},
- CellLabel->"In[55]:=",ExpressionUUID->"ae46055d-b3f0-4c0c-8fcf-b3140b1b142e"],
+Cell["Symmetries", "Subsection",
+ CellChangeTimes->{{3.740898945787099*^9, 3.740898951113031*^9}, {
+  3.7408998008765917`*^9, 3.740899801376571*^9}, {3.740901077975771*^9, 
+  3.7409010783275537`*^9}, {3.740901304700897*^9, 
+  3.7409013069005356`*^9}},ExpressionUUID->"8b8b196c-18ec-40c7-b816-\
+5e41f6fd556d"],
 
 Cell[CellGroupData[{
 
-Cell[BoxData[{
- RowBox[{
-  RowBox[{"ArcSin", "[", 
-   FractionBox["1", 
-    SqrtBox["10"]], "]"}], 
-  FractionBox["180.", "\[Pi]"]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"ArcCos", "[", 
-   FractionBox["3", 
-    SqrtBox["10"]], "]"}], 
-  FractionBox["180.", "\[Pi]"]}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{"ArcTan", "[", 
-   FractionBox["1", "3"], "]"}], 
-  FractionBox["180.", "\[Pi]"]}]}], "Input",
- CellChangeTimes->{{3.740645457959565*^9, 3.7406456133909364`*^9}},
- CellLabel->"In[35]:=",ExpressionUUID->"0d441538-3f92-4371-b638-be6d37aee017"],
-
-Cell[BoxData["18.43494882292201`"], "Output",
- CellChangeTimes->{{3.7406454771616497`*^9, 3.7406456139645786`*^9}, 
-   3.7407528744026227`*^9, 3.7408086171685796`*^9},
- CellLabel->"Out[35]=",ExpressionUUID->"db04a433-6865-4115-a2ba-72a8d83ed12d"],
-
-Cell[BoxData["18.434948822922017`"], "Output",
- CellChangeTimes->{{3.7406454771616497`*^9, 3.7406456139645786`*^9}, 
-   3.7407528744026227`*^9, 3.740808617171577*^9},
- CellLabel->"Out[36]=",ExpressionUUID->"85950c80-b970-4756-a82f-2291af827035"],
-
-Cell[BoxData["18.43494882292201`"], "Output",
- CellChangeTimes->{{3.7406454771616497`*^9, 3.7406456139645786`*^9}, 
-   3.7407528744026227`*^9, 3.7408086171735754`*^9},
- CellLabel->"Out[37]=",ExpressionUUID->"2753702a-03e8-4e1a-83ec-a7f2e66fc043"]
-}, Open  ]],
+Cell["Method", "Subsection",
+ CellChangeTimes->{{3.740898945787099*^9, 3.740898951113031*^9}, {
+  3.7408998008765917`*^9, 3.740899801376571*^9}, {3.740901077975771*^9, 
+  3.7409010783275537`*^9}},ExpressionUUID->"e67554e9-402e-4542-89d9-\
+674ff27d10a6"],
 
 Cell[CellGroupData[{
 
@@ -5868,10 +5622,11 @@ Cell[BoxData[{
          GraphicsBox[{
            {GrayLevel[0], RectangleBox[{0, 0}]}, 
            {GrayLevel[0], RectangleBox[{1, -1}]}, 
-           {RGBColor[0.06, 0.06, 0.06], RectangleBox[{0, -1}, {2, 1}]}},
+           {RGBColor[1, 0.9500000000000001, 0], 
+            RectangleBox[{0, -1}, {2, 1}]}},
           AspectRatio->1,
           Frame->True,
-          FrameStyle->RGBColor[0.04, 0.04, 0.04],
+          FrameStyle->RGBColor[0.6666666666666666, 0.6333333333333334, 0.],
           FrameTicks->None,
           
           ImageSize->
@@ -5880,7 +5635,7 @@ Cell[BoxData[{
              1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
               Magnification])}],
           PlotRangePadding->None],
-         "RGBColor[0.06, 0.06, 0.06]"],
+         "RGBColor[1, 0.9500000000000001, 0]"],
         Appearance->None,
         BaseStyle->{},
         BaselinePosition->Baseline,
@@ -5891,7 +5646,7 @@ Cell[BoxData[{
            SelectionMove[Typeset`box$, All, Expression]; 
            FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
            FrontEnd`Private`$ColorSelectorInitialColor = 
-            RGBColor[0.06, 0.06, 0.06]; 
+            RGBColor[1, 0.9500000000000001, 0]; 
            FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
            MathLink`CallFrontEnd[
              FrontEnd`AttachCell[Typeset`box$, 
@@ -5902,23 +5657,16 @@ Cell[BoxData[{
         DefaultBaseStyle->{},
         Evaluator->Automatic,
         Method->"Preemptive"],
-       RGBColor[0.06, 0.06, 0.06],
+       RGBColor[1, 0.9500000000000001, 0],
        Editable->False,
        Selectable->False], ",", "1", ",", "0.005`", ",", 
       RowBox[{"2", " ", "\[Pi]"}], ",", 
       RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
- RowBox[{"dpoly2", ":=", 
+ RowBox[{
+  RowBox[{"dpoly", "//", "toGL"}], "//", "gr2"}], "\[IndentingNewLine]", 
+ RowBox[{"dpoly1", ":=", 
   RowBox[{"rot3", "[", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{"dpoly", ",", 
-      RowBox[{"rot3", "[", 
-       RowBox[{"dpoly", ",", 
-        RowBox[{"{", 
-         RowBox[{"\[Pi]", ",", 
-          RowBox[{"{", 
-           RowBox[{"0.25", ",", "0.5"}], "}"}]}], "}"}]}], "]"}]}], "}"}], 
-    ",", 
+   RowBox[{"dpoly", ",", 
     RowBox[{"{", 
      RowBox[{
       RowBox[{"-", 
@@ -5928,265 +5676,63 @@ Cell[BoxData[{
        RowBox[{"0", ",", "0"}], "}"}]}], "}"}]}], 
    "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"dpoly2", "//", "toGL"}], "//", "gr2"}]}], "Input",
- CellChangeTimes->{{3.740655830895048*^9, 3.7406558928106637`*^9}, {
-  3.740660877384483*^9, 3.740660920902357*^9}, {3.740661043384512*^9, 
-  3.740661104935246*^9}, {3.7407529176207566`*^9, 3.740752927920353*^9}, {
-  3.740808804821132*^9, 3.7408088096012096`*^9}},
- CellLabel->"In[57]:=",ExpressionUUID->"2db831a2-0c7c-4576-bb33-405e2b9c5de7"],
-
-Cell[BoxData[
- GraphicsBox[{
-   {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
-    {EdgeForm[{RGBColor[0.06, 0.06, 0.06], Opacity[1], Thickness[0.005], 
-     Dashing[
-      NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-     PolygonBox[{{0.7905694150420948, 0.}, {0.7905694150420948, 
-      0.26352313834736496`}, {0.6324555320336759, 0.3162277660168379}, {
-      0.5270462766947299, -2.7755575615628914`*^-17}}]}}, 
-   {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
-    {EdgeForm[{RGBColor[0.06, 0.06, 0.06], Opacity[1], Thickness[0.005], 
-     Dashing[
-      NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-     PolygonBox[{{0., 0.7905694150420948}, {5.551115123125783*^-17, 
-      0.5270462766947299}, {0.15811388300841897`, 0.4743416490252569}, {
-      0.26352313834736496`, 0.7905694150420949}}]}}},
-  Axes->True,
-  AxesOrigin->{0, 0},
-  Background->RGBColor[0.9, 0.9, 0.9],
-  GridLines->FrontEndValueCache[Geometry`grids, {{0., {0.5, 
-       Dashing[{Small, Small}]}}, {0., {0.5, 
-       Dashing[{Small, Small}]}}}]]], "Output",
- CellChangeTimes->{3.740808820862439*^9},
- CellLabel->"Out[59]=",ExpressionUUID->"cc930b6a-95c3-4c2f-b220-f7fe8b7e0cb5"]
-}, Open  ]]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell["temp-2", "Section",
- CellChangeTimes->{{3.7400415915649385`*^9, 3.740041592894431*^9}, 
-   3.7402820670118103`*^9, {3.740411835186225*^9, 3.740411851313122*^9}, {
-   3.7404778400947256`*^9, 3.7404778429758615`*^9}, {3.740477877058897*^9, 
-   3.740477877199508*^9}, {3.740545345517943*^9, 3.7405453535099797`*^9}, {
-   3.740808831159334*^9, 
-   3.7408088458142233`*^9}},ExpressionUUID->"dd475282-747d-404c-9dd7-\
-a9bd97609f06"],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[
+  RowBox[{"dpoly1", "//", "toGL"}], "//", "gr2"}], "\[IndentingNewLine]", 
+ RowBox[{"dpoly2", ":=", 
+  RowBox[{"sca3", "[", 
+   RowBox[{"dpoly1", ",", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", "/", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox[".25", "2"], "+", 
+           SuperscriptBox[".75", "2"]}]]}], ",", 
+        RowBox[{"1", "/", 
+         SqrtBox[
+          RowBox[{
+           SuperscriptBox[".25", "2"], "+", 
+           SuperscriptBox[".75", "2"]}]]}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0"}], "}"}]}], "}"}]}], 
+   "]"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{
-   RowBox[{"newGeo", "[", "6", "]"}], "//", "toGL"}], "//", "gr2"}]], "Input",
- CellChangeTimes->{{3.740808848554341*^9, 3.740808862951404*^9}},
- CellLabel->"In[60]:=",ExpressionUUID->"118be672-dd04-4cd2-893f-38295bc2a7f1"],
-
-Cell[BoxData[
- GraphicsBox[
-  {RGBColor[0, 1, 1], Opacity[1], 
-   {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-    PolygonBox[
-     NCache[{{Rational[1, 2] 3^Rational[1, 2], Rational[1, 2]}, {0, 1}, {
-       Rational[-1, 2] 3^Rational[1, 2], Rational[1, 2]}, {
-       Rational[-1, 2] 3^Rational[1, 2], Rational[-1, 2]}, {0, -1}, {
-       Rational[1, 2] 3^Rational[1, 2], Rational[-1, 2]}}, {{
-       0.8660254037844386, 0.5}, {0, 1}, {-0.8660254037844386, 
-       0.5}, {-0.8660254037844386, -0.5}, {0, -1}, {
-       0.8660254037844386, -0.5}}]]}},
-  Axes->True,
-  AxesOrigin->{0, 0},
-  Background->RGBColor[0.9, 0.9, 0.9],
-  GridLines->FrontEndValueCache[Geometry`grids, {{0., {-0.5, 
-       Dashing[{Small, Small}]}, {0.5, 
-       Dashing[{Small, Small}]}}, {-1., 0., 1., {-0.5, 
-       Dashing[{Small, Small}]}, {0.5, 
-       Dashing[{Small, Small}]}}}]]], "Output",
- CellChangeTimes->{3.7408088641516223`*^9},
- CellLabel->"Out[60]=",ExpressionUUID->"680a116d-9444-42ff-ad5c-fcb8ecb6dbea"]
-}, Open  ]],
-
-Cell[CellGroupData[{
-
-Cell[BoxData[{
- RowBox[{"dpoly", ":=", 
+  RowBox[{"dpoly2", "//", "toGL"}], "//", "gr2"}], "\[IndentingNewLine]", 
+ RowBox[{"dpoly3", ":=", 
   RowBox[{"{", 
-   RowBox[{
-    RowBox[{"{", 
-     RowBox[{
+   RowBox[{"dpoly2", ",", 
+    RowBox[{"rot3", "[", 
+     RowBox[{"dpoly2", ",", 
       RowBox[{"{", 
-       RowBox[{"1", ",", 
+       RowBox[{"\[Pi]", ",", 
         RowBox[{"{", 
-         RowBox[{
-          RowBox[{"{", 
-           RowBox[{"0.75", ",", "0.25"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{
-            RowBox[{"2.", "/", "3"}], ",", "0.5"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0.5", ",", "0.5"}], "}"}], ",", 
-          RowBox[{"{", 
-           RowBox[{"0.5", ",", 
-            RowBox[{"1.", "/", "6"}]}], "}"}]}], "}"}]}], "}"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        InterpretationBox[
-         ButtonBox[
-          TooltipBox[
-           GraphicsBox[{
-             {GrayLevel[0], RectangleBox[{0, 0}]}, 
-             {GrayLevel[0], RectangleBox[{1, -1}]}, 
-             {RGBColor[1, 0.9500000000000001, 0], 
-              RectangleBox[{0, -1}, {2, 1}]}},
-            AspectRatio->1,
-            Frame->True,
-            FrameStyle->RGBColor[0.6666666666666666, 0.6333333333333334, 0.],
-            FrameTicks->None,
-            
-            ImageSize->
-             Dynamic[{
-              Automatic, 
-               1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-                Magnification])}],
-            PlotRangePadding->None],
-           "RGBColor[1, 0.9500000000000001, 0]"],
-          Appearance->None,
-          BaseStyle->{},
-          BaselinePosition->Baseline,
-          ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-            If[
-             Not[
-              AbsoluteCurrentValue["Deployed"]], 
-             SelectionMove[Typeset`box$, All, Expression]; 
-             FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-             FrontEnd`Private`$ColorSelectorInitialColor = 
-              RGBColor[1, 0.9500000000000001, 0]; 
-             FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-             MathLink`CallFrontEnd[
-               FrontEnd`AttachCell[Typeset`box$, 
-                FrontEndResource["RGBColorValueSelector"], {
-                0, {Left, Bottom}}, {Left, Top}, 
-                "ClosingActions" -> {
-                 "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-          DefaultBaseStyle->{},
-          Evaluator->Automatic,
-          Method->"Preemptive"],
-         RGBColor[1, 0.9500000000000001, 0],
-         Editable->False,
-         Selectable->False], ",", "1"}], "}"}]}], "}"}], ",", 
-    RowBox[{"{", 
-     RowBox[{
-      InterpretationBox[
-       ButtonBox[
-        TooltipBox[
-         GraphicsBox[{
-           {GrayLevel[0], RectangleBox[{0, 0}]}, 
-           {GrayLevel[0], RectangleBox[{1, -1}]}, 
-           {RGBColor[0.06, 0.06, 0.06], RectangleBox[{0, -1}, {2, 1}]}},
-          AspectRatio->1,
-          Frame->True,
-          FrameStyle->RGBColor[0.04, 0.04, 0.04],
-          FrameTicks->None,
-          
-          ImageSize->
-           Dynamic[{
-            Automatic, 
-             1.35 (CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-              Magnification])}],
-          PlotRangePadding->None],
-         "RGBColor[0.06, 0.06, 0.06]"],
-        Appearance->None,
-        BaseStyle->{},
-        BaselinePosition->Baseline,
-        ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-          If[
-           Not[
-            AbsoluteCurrentValue["Deployed"]], 
-           SelectionMove[Typeset`box$, All, Expression]; 
-           FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-           FrontEnd`Private`$ColorSelectorInitialColor = 
-            RGBColor[0.06, 0.06, 0.06]; 
-           FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-           MathLink`CallFrontEnd[
-             FrontEnd`AttachCell[Typeset`box$, 
-              FrontEndResource["RGBColorValueSelector"], {
-              0, {Left, Bottom}}, {Left, Top}, 
-              "ClosingActions" -> {
-               "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-        DefaultBaseStyle->{},
-        Evaluator->Automatic,
-        Method->"Preemptive"],
-       RGBColor[0.06, 0.06, 0.06],
-       Editable->False,
-       Selectable->False], ",", "1", ",", "0.005`", ",", 
-      RowBox[{"2", " ", "\[Pi]"}], ",", 
-      RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
+         RowBox[{"0.5", ",", "0.5"}], "}"}]}], "}"}]}], "]"}]}], 
+   "}"}]}], "\[IndentingNewLine]", 
  RowBox[{
-  RowBox[{"dpoly", "//", "toGL"}], "//", "gr2"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{"tra3", "[", 
-     RowBox[{"dpoly", ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"-", ".5"}], ",", 
-        RowBox[{
-         RowBox[{"-", "1."}], "/", "6"}]}], "}"}]}], "]"}], "//", "toGL"}], "//",
-    "gr2"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{"sca2pnt", "[", 
-     RowBox[{
-      RowBox[{"tra3", "[", 
-       RowBox[{"dpoly", ",", 
-        RowBox[{"{", 
-         RowBox[{
-          RowBox[{"-", ".5"}], ",", 
-          RowBox[{
-           RowBox[{"-", "1."}], "/", "6"}]}], "}"}]}], "]"}], ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{"0", ",", "0"}], "}"}], ",", 
-        RowBox[{"1", "/", 
-         SqrtBox[
-          RowBox[{
-           SuperscriptBox[".25", "2"], "+", 
-           SuperscriptBox[".75", "2"]}]]}]}], "}"}]}], "]"}], "//", "toGL"}], 
-   "//", "gr2"}], ";"}], "\[IndentingNewLine]", 
- RowBox[{
-  RowBox[{
-   RowBox[{
-    RowBox[{"sca2pnt", "[", 
-     RowBox[{"dpoly", ",", 
-      RowBox[{"{", 
-       RowBox[{
-        RowBox[{"{", 
-         RowBox[{".5", ",", 
-          RowBox[{"1.", "/", "6"}]}], "}"}], ",", 
-        RowBox[{"1", "/", 
-         SqrtBox[
-          RowBox[{
-           SuperscriptBox[".25", "2"], "+", 
-           SuperscriptBox[".75", "2"]}]]}]}], "}"}]}], "]"}], "//", "toGL"}], 
-   "//", "gr2"}], ";"}]}], "Input",
+  RowBox[{"dpoly3", "//", "toGL"}], "//", "gr2"}]}], "Input",
  CellChangeTimes->{{3.7408146851673145`*^9, 3.7408147449415455`*^9}, {
    3.7408148025302258`*^9, 3.7408148178475585`*^9}, {3.740814901089015*^9, 
    3.7408149540151052`*^9}, {3.7408149865626*^9, 3.740814992868178*^9}, {
    3.740815164488062*^9, 3.7408152028670673`*^9}, 3.740815253576951*^9, {
    3.740815293507784*^9, 3.740815315329299*^9}, {3.7408163350964904`*^9, 
-   3.7408164190973682`*^9}},
+   3.7408164190973682`*^9}, {3.7408291080354614`*^9, 3.740829202580488*^9}, {
+   3.7408292740542355`*^9, 3.740829305364253*^9}, {3.7408293445748415`*^9, 
+   3.740829362978897*^9}, {3.7408472045277386`*^9, 3.740847233432573*^9}, {
+   3.740847399510663*^9, 3.740847443764141*^9}, {3.740898566586914*^9, 
+   3.740898567727497*^9}, {3.7408986231118093`*^9, 3.7408986494331303`*^9}, {
+   3.7408986859221888`*^9, 3.7408987186560745`*^9}, {3.740898753778346*^9, 
+   3.7408988642870646`*^9}, {3.7408998080482035`*^9, 3.740899927750537*^9}, {
+   3.74089996089118*^9, 3.7409000339433165`*^9}, 3.740901585750256*^9, 
+   3.740901623910602*^9},
  CellLabel->
-  "In[102]:=",ExpressionUUID->"f9fa1923-1797-402a-8f24-fc266365fe09"],
+  "In[167]:=",ExpressionUUID->"8263054e-2505-4734-a7b1-a0739bba5fd0"],
 
 Cell[BoxData[
  GraphicsBox[
   {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
-   {EdgeForm[{RGBColor[0.06, 0.06, 0.06], Opacity[1], Thickness[0.005], 
-    Dashing[
+   {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], Thickness[
+    0.005], Dashing[
      NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
     PolygonBox[{{0.75, 0.25}, {0.6666666666666666, 0.5}, {0.5, 0.5}, {0.5, 
      0.16666666666666666`}}]}},
@@ -6199,149 +5745,110 @@ Cell[BoxData[
  CellChangeTimes->{{3.74081472225828*^9, 3.7408147458020134`*^9}, 
    3.740814818407467*^9, 3.7408149549388433`*^9, 3.7408149936938844`*^9, 
    3.7408152044193783`*^9, 3.7408152544432726`*^9, {3.7408153111282964`*^9, 
-   3.7408153159865494`*^9}, 3.7408163898597603`*^9, 3.740816420069064*^9},
+   3.7408153159865494`*^9}, 3.7408163898597603`*^9, 3.740816420069064*^9, {
+   3.7408291270098724`*^9, 3.740829153546111*^9}, {3.7408291913090544`*^9, 
+   3.7408292035838633`*^9}, 3.7408293089794035`*^9, {3.7408293463277435`*^9, 
+   3.740829363986782*^9}, 3.7408472108872967`*^9, 3.7408474451702895`*^9, 
+   3.7408968449190288`*^9, 3.740898650276808*^9, 3.740898724852564*^9, {
+   3.740898757335466*^9, 3.7408988190992565`*^9}, 3.740898865154783*^9, 
+   3.7408998100168447`*^9, 3.740899872351102*^9, 3.7408999283286*^9, {
+   3.7409000181514497`*^9, 3.740900042084753*^9}, 3.7409015905412865`*^9, 
+   3.740901625774449*^9},
  CellLabel->
-  "Out[103]=",ExpressionUUID->"27ca623d-d2c5-42fb-ab0e-f61c8207a240"]
-}, Open  ]],
-
-Cell[CellGroupData[{
+  "Out[168]=",ExpressionUUID->"aeabae31-61cd-4687-94cc-d548470acf7d"],
 
 Cell[BoxData[
- RowBox[{"newGeo", "[", "4", "]"}]], "Input",
- CellChangeTimes->{{3.7408153760753975`*^9, 3.740815378708302*^9}},
- CellLabel->"In[90]:=",ExpressionUUID->"d9454627-5cb7-443c-ad10-ad5986472ae3"],
+ GraphicsBox[
+  {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+   {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], Thickness[
+    0.005], Dashing[
+     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+    PolygonBox[{{0.7905694150420948, 0.}, {0.7905694150420948, 
+     0.26352313834736496`}, {0.6324555320336759, 0.3162277660168379}, {
+     0.5270462766947299, -2.7755575615628914`*^-17}}]}},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  Background->RGBColor[0.9, 0.9, 0.9],
+  GridLines->FrontEndValueCache[Geometry`grids, {{0., {0.5, 
+       Dashing[{Small, Small}]}}, {0.}}]]], "Output",
+ CellChangeTimes->{{3.74081472225828*^9, 3.7408147458020134`*^9}, 
+   3.740814818407467*^9, 3.7408149549388433`*^9, 3.7408149936938844`*^9, 
+   3.7408152044193783`*^9, 3.7408152544432726`*^9, {3.7408153111282964`*^9, 
+   3.7408153159865494`*^9}, 3.7408163898597603`*^9, 3.740816420069064*^9, {
+   3.7408291270098724`*^9, 3.740829153546111*^9}, {3.7408291913090544`*^9, 
+   3.7408292035838633`*^9}, 3.7408293089794035`*^9, {3.7408293463277435`*^9, 
+   3.740829363986782*^9}, 3.7408472108872967`*^9, 3.7408474451702895`*^9, 
+   3.7408968449190288`*^9, 3.740898650276808*^9, 3.740898724852564*^9, {
+   3.740898757335466*^9, 3.7408988190992565`*^9}, 3.740898865154783*^9, 
+   3.7408998100168447`*^9, 3.740899872351102*^9, 3.7408999283286*^9, {
+   3.7409000181514497`*^9, 3.740900042084753*^9}, 3.7409015905412865`*^9, 
+   3.740901625804429*^9},
+ CellLabel->
+  "Out[170]=",ExpressionUUID->"8d8f43ba-7a20-4398-b0ad-19872bca9f3d"],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{"1", ",", 
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{
-           FractionBox["1", 
-            SqrtBox["2"]], ",", 
-           FractionBox["1", 
-            SqrtBox["2"]]}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{
-           RowBox[{"-", 
-            FractionBox["1", 
-             SqrtBox["2"]]}], ",", 
-           FractionBox["1", 
-            SqrtBox["2"]]}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{
-           RowBox[{"-", 
-            FractionBox["1", 
-             SqrtBox["2"]]}], ",", 
-           RowBox[{"-", 
-            FractionBox["1", 
-             SqrtBox["2"]]}]}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{
-           FractionBox["1", 
-            SqrtBox["2"]], ",", 
-           RowBox[{"-", 
-            FractionBox["1", 
-             SqrtBox["2"]]}]}], "}"}]}], "}"}]}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       InterpretationBox[
-        ButtonBox[
-         TooltipBox[
-          GraphicsBox[{
-            {GrayLevel[0], RectangleBox[{0, 0}]}, 
-            {GrayLevel[0], RectangleBox[{1, -1}]}, 
-            {RGBColor[0, 1, 1], RectangleBox[{0, -1}, {2, 1}]}},
-           AspectRatio->1,
-           DefaultBaseStyle->"ColorSwatchGraphics",
-           Frame->True,
-           FrameStyle->RGBColor[0., 0.6666666666666666, 0.6666666666666666],
-           FrameTicks->None,
-           
-           ImageSize->
-            Dynamic[{
-             Automatic, 1.35 CurrentValue["FontCapHeight"]/
-              AbsoluteCurrentValue[Magnification]}],
-           PlotRangePadding->None],
-          StyleBox[
-           RowBox[{"RGBColor", "[", 
-             RowBox[{"0", ",", "1", ",", "1"}], "]"}], NumberMarks -> False]],
-         Appearance->None,
-         BaseStyle->{},
-         BaselinePosition->Baseline,
-         ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-           If[
-            Not[
-             AbsoluteCurrentValue["Deployed"]], 
-            SelectionMove[Typeset`box$, All, Expression]; 
-            FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-            FrontEnd`Private`$ColorSelectorInitialColor = RGBColor[0, 1, 1]; 
-            FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-            MathLink`CallFrontEnd[
-              FrontEnd`AttachCell[Typeset`box$, 
-               FrontEndResource["RGBColorValueSelector"], {
-               0, {Left, Bottom}}, {Left, Top}, 
-               "ClosingActions" -> {
-                "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-         DefaultBaseStyle->{},
-         Evaluator->Automatic,
-         Method->"Preemptive"],
-        RGBColor[0, 1, 1],
-        Editable->False,
-        Selectable->False], ",", "1"}], "}"}]}], "}"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     InterpretationBox[
-      ButtonBox[
-       TooltipBox[
-        GraphicsBox[{
-          {GrayLevel[0], RectangleBox[{0, 0}]}, 
-          {GrayLevel[0], RectangleBox[{1, -1}]}, 
-          {GrayLevel[0], RectangleBox[{0, -1}, {2, 1}]}},
-         AspectRatio->1,
-         DefaultBaseStyle->"ColorSwatchGraphics",
-         Frame->True,
-         FrameStyle->GrayLevel[0.],
-         FrameTicks->None,
-         ImageSize->
-          Dynamic[{
-           Automatic, 1.35 CurrentValue["FontCapHeight"]/AbsoluteCurrentValue[
-            Magnification]}],
-         PlotRangePadding->None],
-        StyleBox[
-         RowBox[{"GrayLevel", "[", "0", "]"}], NumberMarks -> False]],
-       Appearance->None,
-       BaseStyle->{},
-       BaselinePosition->Baseline,
-       ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-         If[
-          Not[
-           AbsoluteCurrentValue["Deployed"]], 
-          SelectionMove[Typeset`box$, All, Expression]; 
-          FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-          FrontEnd`Private`$ColorSelectorInitialColor = GrayLevel[0]; 
-          FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-          MathLink`CallFrontEnd[
-            FrontEnd`AttachCell[Typeset`box$, 
-             FrontEndResource["GrayLevelColorValueSelector"], {
-             0, {Left, Bottom}}, {Left, Top}, 
-             "ClosingActions" -> {
-              "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-       DefaultBaseStyle->{},
-       Evaluator->Automatic,
-       Method->"Preemptive"],
-      GrayLevel[0],
-      Editable->False,
-      Selectable->False], ",", "1", ",", "0.0025`", ",", 
-     RowBox[{"2", " ", "\[Pi]"}], ",", 
-     RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]], "Output",
- CellChangeTimes->{3.7408153796424804`*^9},
- CellLabel->"Out[90]=",ExpressionUUID->"b24869d9-dd30-4dd3-9943-c0c5345596a8"]
+ GraphicsBox[
+  {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+   {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], Thickness[
+    0.005], Dashing[
+     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+    PolygonBox[{{1., 0.}, {1., 0.33333333333333337`}, {0.8, 
+     0.39999999999999997`}, {0.6666666666666667, -3.510833468576701*^-17}}]}},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  Background->RGBColor[0.9, 0.9, 0.9],
+  GridLines->FrontEndValueCache[Geometry`grids, {{0., 1., {0.5, 
+       Dashing[{Small, Small}]}}, {0.}}]]], "Output",
+ CellChangeTimes->{{3.74081472225828*^9, 3.7408147458020134`*^9}, 
+   3.740814818407467*^9, 3.7408149549388433`*^9, 3.7408149936938844`*^9, 
+   3.7408152044193783`*^9, 3.7408152544432726`*^9, {3.7408153111282964`*^9, 
+   3.7408153159865494`*^9}, 3.7408163898597603`*^9, 3.740816420069064*^9, {
+   3.7408291270098724`*^9, 3.740829153546111*^9}, {3.7408291913090544`*^9, 
+   3.7408292035838633`*^9}, 3.7408293089794035`*^9, {3.7408293463277435`*^9, 
+   3.740829363986782*^9}, 3.7408472108872967`*^9, 3.7408474451702895`*^9, 
+   3.7408968449190288`*^9, 3.740898650276808*^9, 3.740898724852564*^9, {
+   3.740898757335466*^9, 3.7408988190992565`*^9}, 3.740898865154783*^9, 
+   3.7408998100168447`*^9, 3.740899872351102*^9, 3.7408999283286*^9, {
+   3.7409000181514497`*^9, 3.740900042084753*^9}, 3.7409015905412865`*^9, 
+   3.74090162582242*^9},
+ CellLabel->
+  "Out[172]=",ExpressionUUID->"e16ad0ea-6aef-4f9c-b89a-752241f952a6"],
+
+Cell[BoxData[
+ GraphicsBox[{
+   {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+    {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], Thickness[
+     0.005], Dashing[
+      NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+     PolygonBox[{{1., 0.}, {1., 0.33333333333333337`}, {0.8, 
+      0.39999999999999997`}, {
+      0.6666666666666667, -3.510833468576701*^-17}}]}}, 
+   {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+    {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], Thickness[
+     0.005], Dashing[
+      NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+     PolygonBox[{{0., 1.}, {0., 0.6666666666666666}, {0.19999999999999996`, 
+      0.6000000000000001}, {0.33333333333333326`, 1.}}]}}},
+  Axes->True,
+  AxesOrigin->{0, 0},
+  Background->RGBColor[0.9, 0.9, 0.9],
+  GridLines->FrontEndValueCache[Geometry`grids, {{0., 1., {0.5, 
+       Dashing[{Small, Small}]}}, {0., 1., {0.5, 
+       Dashing[{Small, Small}]}}}]]], "Output",
+ CellChangeTimes->{{3.74081472225828*^9, 3.7408147458020134`*^9}, 
+   3.740814818407467*^9, 3.7408149549388433`*^9, 3.7408149936938844`*^9, 
+   3.7408152044193783`*^9, 3.7408152544432726`*^9, {3.7408153111282964`*^9, 
+   3.7408153159865494`*^9}, 3.7408163898597603`*^9, 3.740816420069064*^9, {
+   3.7408291270098724`*^9, 3.740829153546111*^9}, {3.7408291913090544`*^9, 
+   3.7408292035838633`*^9}, 3.7408293089794035`*^9, {3.7408293463277435`*^9, 
+   3.740829363986782*^9}, 3.7408472108872967`*^9, 3.7408474451702895`*^9, 
+   3.7408968449190288`*^9, 3.740898650276808*^9, 3.740898724852564*^9, {
+   3.740898757335466*^9, 3.7408988190992565`*^9}, 3.740898865154783*^9, 
+   3.7408998100168447`*^9, 3.740899872351102*^9, 3.7408999283286*^9, {
+   3.7409000181514497`*^9, 3.740900042084753*^9}, 3.7409015905412865`*^9, 
+   3.7409016258803844`*^9},
+ CellLabel->
+  "Out[174]=",ExpressionUUID->"bcf5ba84-e355-4e8a-901a-ea0b627ad6e7"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6349,155 +5856,876 @@ Cell[CellGroupData[{
 Cell[BoxData[
  RowBox[{
   RowBox[{
-   RowBox[{"sca2pnt", "[", 
-    RowBox[{
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{
-         RowBox[{"{", 
-          RowBox[{"1", ",", 
-           RowBox[{"{", 
-            RowBox[{
-             RowBox[{"{", 
-              RowBox[{"0", ",", "0"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{".5", ",", "0"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{".5", ",", ".5"}], "}"}], ",", 
-             RowBox[{"{", 
-              RowBox[{"0", ",", ".5"}], "}"}]}], "}"}]}], "}"}], ",", 
-         RowBox[{"{", 
-          RowBox[{
-           InterpretationBox[
-            ButtonBox[
-             TooltipBox[
-              GraphicsBox[{
-                {GrayLevel[0], RectangleBox[{0, 0}]}, 
-                {GrayLevel[0], RectangleBox[{1, -1}]}, 
-                {RGBColor[0, 1, 1], RectangleBox[{0, -1}, {2, 1}]}},
-               AspectRatio->1,
-               DefaultBaseStyle->"ColorSwatchGraphics",
-               Frame->True,
-               
-               FrameStyle->RGBColor[
-                0., 0.6666666666666666, 0.6666666666666666],
-               FrameTicks->None,
-               
-               ImageSize->
-                Dynamic[{
-                 Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                  AbsoluteCurrentValue[Magnification]}],
-               PlotRangePadding->None],
-              StyleBox[
-               RowBox[{"RGBColor", "[", 
-                 RowBox[{"0", ",", "1", ",", "1"}], "]"}], NumberMarks -> 
-               False]],
-             Appearance->None,
-             BaseStyle->{},
-             BaselinePosition->Baseline,
-             ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-               If[
-                Not[
-                 AbsoluteCurrentValue["Deployed"]], 
-                SelectionMove[Typeset`box$, All, Expression]; 
-                FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-                FrontEnd`Private`$ColorSelectorInitialColor = 
-                 RGBColor[0, 1, 1]; 
-                FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-                MathLink`CallFrontEnd[
-                  FrontEnd`AttachCell[Typeset`box$, 
-                   FrontEndResource["RGBColorValueSelector"], {
-                   0, {Left, Bottom}}, {Left, Top}, 
-                   "ClosingActions" -> {
-                    "SelectionDeparture", "ParentChanged", 
-                    "EvaluatorQuit"}]]]],
-             DefaultBaseStyle->{},
-             Evaluator->Automatic,
-             Method->"Preemptive"],
-            RGBColor[0, 1, 1],
-            Editable->False,
-            Selectable->False], ",", "1"}], "}"}]}], "}"}], ",", 
-       RowBox[{"{", 
-        RowBox[{
-         InterpretationBox[
-          ButtonBox[
-           TooltipBox[
-            GraphicsBox[{
-              {GrayLevel[0], RectangleBox[{0, 0}]}, 
-              {GrayLevel[0], RectangleBox[{1, -1}]}, 
-              {GrayLevel[0], RectangleBox[{0, -1}, {2, 1}]}},
-             AspectRatio->1,
-             DefaultBaseStyle->"ColorSwatchGraphics",
-             Frame->True,
-             FrameStyle->GrayLevel[0.],
-             FrameTicks->None,
-             
-             ImageSize->
-              Dynamic[{
-               Automatic, 1.35 CurrentValue["FontCapHeight"]/
-                AbsoluteCurrentValue[Magnification]}],
-             PlotRangePadding->None],
-            StyleBox[
-             RowBox[{"GrayLevel", "[", "0", "]"}], NumberMarks -> False]],
-           Appearance->None,
-           BaseStyle->{},
-           BaselinePosition->Baseline,
-           ButtonFunction:>With[{Typeset`box$ = EvaluationBox[]}, 
-             If[
-              Not[
-               AbsoluteCurrentValue["Deployed"]], 
-              SelectionMove[Typeset`box$, All, Expression]; 
-              FrontEnd`Private`$ColorSelectorInitialAlpha = 1; 
-              FrontEnd`Private`$ColorSelectorInitialColor = GrayLevel[0]; 
-              FrontEnd`Private`$ColorSelectorUseMakeBoxes = True; 
-              MathLink`CallFrontEnd[
-                FrontEnd`AttachCell[Typeset`box$, 
-                 FrontEndResource["GrayLevelColorValueSelector"], {
-                 0, {Left, Bottom}}, {Left, Top}, 
-                 "ClosingActions" -> {
-                  "SelectionDeparture", "ParentChanged", "EvaluatorQuit"}]]]],
-           DefaultBaseStyle->{},
-           Evaluator->Automatic,
-           Method->"Preemptive"],
-          GrayLevel[0],
-          Editable->False,
-          Selectable->False], ",", "1", ",", "0.0025`", ",", 
-         RowBox[{"2", " ", "\[Pi]"}], ",", 
-         RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}], ",", 
-     RowBox[{"{", 
-      RowBox[{
-       RowBox[{"{", 
-        RowBox[{".5", ",", ".5"}], "}"}], ",", "1"}], "}"}]}], "]"}], "//", 
-   "toGL"}], "//", "gr2"}]], "Input",
- CellChangeTimes->{{3.7408153972158165`*^9, 3.740815483050457*^9}, {
-  3.740815534362215*^9, 3.7408155388661084`*^9}},
- CellLabel->"In[96]:=",ExpressionUUID->"20679236-e999-432f-ab39-ec8aa1c88777"],
+   RowBox[{"Nest", "[", 
+    RowBox[{"sym4rot", ",", "dpoly3", ",", "3"}], "]"}], "//", "toGL"}], "//",
+   "gr2"}]], "Input",
+ CellChangeTimes->{{3.7409009201276145`*^9, 3.7409009773371506`*^9}, {
+  3.7409010172014437`*^9, 3.7409010178010745`*^9}, {3.7409016350347075`*^9, 
+  3.7409016570750494`*^9}},
+ CellLabel->
+  "In[178]:=",ExpressionUUID->"b02e216d-f32e-47b5-87a4-953c86bed965"],
 
 Cell[BoxData[
  GraphicsBox[
-  {RGBColor[0, 1, 1], Opacity[1], 
-   {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-     NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-    PolygonBox[{{-0.5, -0.5}, {1.5, -0.5}, {1.5, 1.5}, {-0.5, 1.5}}]}},
+  GeometricTransformationBox[{
+    GeometricTransformationBox[{GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -1.5}, {-0.5, -1.1666666666666665`}, {-0.7, \
+-1.1}, {-0.8333333333333333, -1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, -0.5}, {-1.5, -0.8333333333333334}, {-1.3, \
+-0.8999999999999999}, {-1.1666666666666667`, -0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.16666666666666652`, -0.5}, {
+            0.10000000000000009`, -0.7}, {0.5, -0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -1.5}, {-0.16666666666666652`, -1.5}, \
+{-0.10000000000000009`, -1.3}, {-0.5, -1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 
+            0.16666666666666652`}, {-0.30000000000000004`, 
+            0.10000000000000009`}, {-0.16666666666666674`, 0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.16666666666666652`}, {
+            0.30000000000000004`, -0.10000000000000009`}, {
+            0.16666666666666674`, -0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, -0.5}, {-1.1666666666666665`, -0.5}, {-1.1, \
+-0.30000000000000004`}, {-1.5, -0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.8333333333333334, 
+            0.5}, {-0.8999999999999999, 0.30000000000000004`}, {-0.5, 
+            0.16666666666666674`}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}], 
+      GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.1666666666666665`, -0.5}, {
+            1.1, -0.7}, {1.5, -0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -1.5}, {0.8333333333333335, -1.5}, {
+            0.8999999999999999, -1.3}, {0.5, -1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.16666666666666652`}, {0.7, 
+            0.10000000000000009`}, {0.8333333333333333, 0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.5, -0.16666666666666652`}, {
+            1.2999999999999998`, -0.10000000000000009`}, {
+            1.166666666666667, -0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.16666666666666652`, -0.5}, \
+{-0.10000000000000009`, -0.30000000000000004`}, {-0.5, \
+-0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.16666666666666652`, 0.5}, {
+            0.10000000000000009`, 0.30000000000000004`}, {0.5, 
+            0.16666666666666674`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -1.5}, {0.5, -1.1666666666666665`}, {
+            0.30000000000000004`, -1.1}, {0.16666666666666674`, -1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.5, -0.8333333333333334}, \
+{-0.30000000000000004`, -0.8999999999999999}, {-0.16666666666666674`, \
+-0.5}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.1666666666666665`}, {0.7, 1.1}, {
+            0.8333333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.8333333333333335}, {
+            1.2999999999999998`, 0.8999999999999999}, {1.166666666666667, 
+            0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.16666666666666652`, 
+            0.5}, {-0.10000000000000009`, 0.7}, {-0.5, 
+            0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.16666666666666652`, 1.5}, {
+            0.10000000000000009`, 1.2999999999999998`}, {0.5, 
+            1.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.16666666666666652`}, {
+            0.30000000000000004`, -0.10000000000000009`}, {
+            0.16666666666666674`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 
+            0.16666666666666652`}, {-0.30000000000000004`, 
+            0.10000000000000009`}, {-0.16666666666666674`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.1666666666666665`, 0.5}, {1.1, 
+            0.30000000000000004`}, {1.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.8333333333333335, -0.5}, {
+            0.8999999999999999, -0.30000000000000004`}, {
+            0.5, -0.16666666666666674`}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, 
+        Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 0.5}, {-1.1666666666666665`, 0.5}, {-1.1, 
+            0.7}, {-1.5, 0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.8333333333333334, 
+            1.5}, {-0.8999999999999999, 1.2999999999999998`}, {-0.5, 
+            1.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.5, -0.16666666666666652`}, {-0.7, \
+-0.10000000000000009`}, {-0.8333333333333333, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 0.5}, {-1.5, 0.16666666666666652`}, {-1.3, 
+            0.10000000000000009`}, {-1.1666666666666667`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.16666666666666652`, 0.5}, {
+            0.10000000000000009`, 0.30000000000000004`}, {0.5, 
+            0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.16666666666666652`, -0.5}, \
+{-0.10000000000000009`, -0.30000000000000004`}, {-0.5, \
+-0.16666666666666674`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.5, 
+            1.1666666666666665`}, {-0.30000000000000004`, 
+            1.1}, {-0.16666666666666674`, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.8333333333333335}, {
+            0.30000000000000004`, 0.8999999999999999}, {0.16666666666666674`, 
+            0.5}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 
+      0.5}}, Center}], 
+    GeometricTransformationBox[{GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, -0.5}, {2.1666666666666665`, -0.5}, {
+            2.1, -0.7}, {2.5, -0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -1.5}, {1.8333333333333335`, -1.5}, {
+            1.9, -1.3}, {1.5, -1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.16666666666666652`}, {
+            1.7000000000000002`, 0.10000000000000009`}, {1.833333333333333, 
+            0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, -0.5}, {2.5, -0.16666666666666652`}, {
+            2.3, -0.10000000000000009`}, {2.166666666666667, -0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.8333333333333335, -0.5}, {
+            0.8999999999999999, -0.30000000000000004`}, {
+            0.5, -0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.1666666666666665`, 0.5}, {1.1, 
+            0.30000000000000004`}, {1.5, 0.16666666666666674`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -1.5}, {1.5, -1.1666666666666665`}, {
+            1.3, -1.1}, {1.1666666666666667`, -1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.8333333333333334}, {
+            0.7, -0.8999999999999999}, {0.8333333333333333, -0.5}}]}}}}, {{{
+        0.5, 0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.5, 1.1666666666666665`}, {
+            1.7000000000000002`, 1.1}, {1.833333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 0.5}, {2.5, 0.8333333333333335}, {2.3, 
+            0.8999999999999999}, {2.166666666666667, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.8333333333333335, 0.5}, {
+            0.8999999999999999, 0.7}, {0.5, 0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.1666666666666665`, 1.5}, {1.1, 
+            1.2999999999999998`}, {1.5, 1.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.5, -0.16666666666666652`}, {
+            1.3, -0.10000000000000009`}, {1.1666666666666667`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.16666666666666652`}, {0.7, 
+            0.10000000000000009`}, {0.8333333333333333, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 0.5}, {2.1666666666666665`, 0.5}, {2.1, 
+            0.30000000000000004`}, {2.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.8333333333333335`, -0.5}, {
+            1.9, -0.30000000000000004`}, {
+            1.5, -0.16666666666666674`}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, 
+        Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.16666666666666652`, 
+            0.5}, {-0.10000000000000009`, 0.7}, {-0.5, 
+            0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.16666666666666652`, 1.5}, {
+            0.10000000000000009`, 1.2999999999999998`}, {0.5, 
+            1.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.16666666666666652`}, {
+            0.30000000000000004`, -0.10000000000000009`}, {
+            0.16666666666666674`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 
+            0.16666666666666652`}, {-0.2999999999999998, 
+            0.10000000000000009`}, {-0.16666666666666696`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.1666666666666665`, 0.5}, {1.1, 
+            0.30000000000000004`}, {1.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.8333333333333335, -0.5}, {
+            0.8999999999999999, -0.30000000000000004`}, {
+            0.5, -0.16666666666666674`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.1666666666666665`}, {0.7, 1.1}, {
+            0.8333333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.8333333333333335}, {1.3, 
+            0.8999999999999999}, {1.1666666666666667`, 0.5}}]}}}}, {{{0.5, 
+        0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -1.5}, {0.5, -1.1666666666666665`}, {
+            0.30000000000000004`, -1.1}, {0.16666666666666674`, -1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.5, -0.8333333333333334}, \
+{-0.2999999999999998, -0.8999999999999999}, {-0.16666666666666696`, \
+-0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.1666666666666665`, -0.5}, {
+            1.1, -0.7}, {1.5, -0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -1.5}, {0.8333333333333335, -1.5}, {
+            0.8999999999999999, -1.3}, {0.5, -1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.16666666666666652`}, {0.7, 
+            0.10000000000000009`}, {0.8333333333333333, 0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.5, -0.16666666666666652`}, {
+            1.3, -0.10000000000000009`}, {1.1666666666666667`, -0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.16666666666666652`, -0.5}, \
+{-0.10000000000000009`, -0.30000000000000004`}, {-0.5, \
+-0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.16666666666666652`, 0.5}, {
+            0.10000000000000009`, 0.30000000000000004`}, {0.5, 
+            0.16666666666666674`}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, 
+        Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}], 
+    GeometricTransformationBox[{GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 2.5}, {1.5, 2.1666666666666665`}, {
+            1.7000000000000002`, 2.1}, {1.833333333333333, 2.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 1.5}, {2.5, 1.8333333333333335`}, {2.3, 1.9}, {
+            2.166666666666667, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.8333333333333335, 1.5}, {
+            0.8999999999999999, 1.7000000000000002`}, {0.5, 
+            1.833333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 2.5}, {1.1666666666666665`, 2.5}, {1.1, 2.3}, {
+            1.5, 2.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.8333333333333335}, {1.3, 
+            0.8999999999999999}, {1.1666666666666667`, 0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.1666666666666665`}, {0.7, 1.1}, {
+            0.8333333333333333, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 1.5}, {2.1666666666666665`, 1.5}, {2.1, 1.3}, {
+            2.5, 1.1666666666666667`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.8333333333333335`, 0.5}, {1.9, 0.7}, {
+            1.5, 0.8333333333333333}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}],
+       GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.16666666666666652`, 
+            1.5}, {-0.10000000000000009`, 1.7000000000000002`}, {-0.5, 
+            1.833333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 2.5}, {0.16666666666666652`, 2.5}, {
+            0.10000000000000009`, 2.3}, {0.5, 2.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.8333333333333335}, {
+            0.30000000000000004`, 0.8999999999999999}, {0.16666666666666674`, 
+            0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.5, 
+            1.1666666666666665`}, {-0.2999999999999998, 
+            1.1}, {-0.16666666666666696`, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.1666666666666665`, 1.5}, {1.1, 1.3}, {
+            1.5, 1.1666666666666667`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.8333333333333335, 0.5}, {
+            0.8999999999999999, 0.7}, {0.5, 0.8333333333333333}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 2.5}, {0.5, 2.1666666666666665`}, {0.7, 2.1}, {
+            0.8333333333333333, 2.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.5, 1.8333333333333335`}, {1.3, 1.9}, {
+            1.1666666666666667`, 1.5}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, 
+        Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.16666666666666652`}, {
+            0.30000000000000004`, -0.10000000000000009`}, {
+            0.16666666666666674`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 
+            0.16666666666666652`}, {-0.2999999999999998, 
+            0.10000000000000009`}, {-0.16666666666666696`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.1666666666666665`, 0.5}, {1.1, 
+            0.30000000000000004`}, {1.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.8333333333333335, -0.5}, {
+            0.8999999999999999, -0.2999999999999998}, {
+            0.5, -0.16666666666666696`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.1666666666666665`}, {0.7, 1.1}, {
+            0.8333333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.8333333333333335}, {1.3, 
+            0.8999999999999999}, {1.1666666666666667`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.16666666666666652`, 
+            0.5}, {-0.10000000000000009`, 0.7}, {-0.5, 
+            0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.16666666666666652`, 1.5}, {
+            0.10000000000000009`, 1.3}, {0.5, 1.1666666666666667`}}]}}}}, {{{
+        0.5, 0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 0.5}, {2.1666666666666665`, 0.5}, {2.1, 
+            0.30000000000000004`}, {2.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.8333333333333335`, -0.5}, {
+            1.9, -0.2999999999999998}, {1.5, -0.16666666666666696`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.5, 1.1666666666666665`}, {
+            1.7000000000000002`, 1.1}, {1.833333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{2.5, 0.5}, {2.5, 0.8333333333333335}, {2.3, 
+            0.8999999999999999}, {2.166666666666667, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.8333333333333335, 0.5}, {
+            0.8999999999999999, 0.7}, {0.5, 0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.1666666666666665`, 1.5}, {1.1, 1.3}, {
+            1.5, 1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, -0.5}, {1.5, -0.16666666666666652`}, {
+            1.3, -0.10000000000000009`}, {1.1666666666666667`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.16666666666666652`}, {0.7, 
+            0.10000000000000009`}, {0.8333333333333333, 0.5}}]}}}}, {{{0.5, 
+        0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}], 
+    GeometricTransformationBox[{GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 1.5}, {-1.1666666666666665`, 1.5}, {-1.1, 
+            1.7000000000000002`}, {-1.5, 1.833333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 2.5}, {-0.8333333333333334, 
+            2.5}, {-0.8999999999999999, 2.3}, {-0.5, 2.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 0.8333333333333335}, {-0.7, 
+            0.8999999999999999}, {-0.8333333333333333, 0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 1.5}, {-1.5, 1.1666666666666665`}, {-1.3, 
+            1.1}, {-1.1666666666666667`, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.16666666666666652`, 1.5}, {
+            0.10000000000000009`, 1.3}, {0.5, 1.1666666666666667`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.16666666666666652`, 
+            0.5}, {-0.10000000000000009`, 0.7}, {-0.5, 
+            0.8333333333333333}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 2.5}, {-0.5, 
+            2.1666666666666665`}, {-0.30000000000000004`, 
+            2.1}, {-0.16666666666666674`, 2.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.8333333333333335`}, {
+            0.30000000000000004`, 1.9}, {0.16666666666666674`, 1.5}}]}}}}, {{{
+        0.5, 0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.5, -0.16666666666666652`}, {-0.7, \
+-0.10000000000000009`}, {-0.8333333333333333, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 0.5}, {-1.5, 0.16666666666666652`}, {-1.3, 
+            0.10000000000000009`}, {-1.1666666666666667`, 0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.16666666666666652`, 0.5}, {
+            0.10000000000000009`, 0.30000000000000004`}, {0.5, 
+            0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, -0.5}, {-0.16666666666666652`, -0.5}, \
+{-0.10000000000000009`, -0.2999999999999998}, {-0.5, \
+-0.16666666666666696`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.5, 
+            1.1666666666666665`}, {-0.30000000000000004`, 
+            1.1}, {-0.16666666666666674`, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.8333333333333335}, {
+            0.30000000000000004`, 0.8999999999999999}, {0.16666666666666674`, 
+            0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-1.5, 0.5}, {-1.1666666666666665`, 0.5}, {-1.1, 
+            0.7}, {-1.5, 0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.8333333333333334, 
+            1.5}, {-0.8999999999999999, 1.3}, {-0.5, 
+            1.1666666666666667`}}]}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}], 
+      GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.1666666666666665`, 0.5}, {1.1, 
+            0.30000000000000004`}, {1.5, 0.16666666666666674`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.8333333333333335, -0.5}, {
+            0.8999999999999999, -0.2999999999999998}, {
+            0.5, -0.16666666666666696`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.5, 1.1666666666666665`}, {0.7, 1.1}, {
+            0.8333333333333333, 1.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 0.5}, {1.5, 0.8333333333333335}, {
+            1.2999999999999998`, 0.8999999999999999}, {1.166666666666667, 
+            0.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.16666666666666652`, 
+            0.5}, {-0.10000000000000009`, 0.7}, {-0.5, 
+            0.8333333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 1.5}, {0.16666666666666652`, 1.5}, {
+            0.10000000000000009`, 1.3}, {0.5, 1.1666666666666667`}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, -0.5}, {0.5, -0.16666666666666652`}, {
+            0.30000000000000004`, -0.10000000000000009`}, {
+            0.16666666666666674`, -0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 0.5}, {-0.5, 
+            0.16666666666666652`}, {-0.30000000000000004`, 
+            0.10000000000000009`}, {-0.16666666666666674`, 0.5}}]}}}}, {{{0.5,
+         0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 2.5}, {0.5, 2.1666666666666665`}, {0.7, 2.1}, {
+            0.8333333333333333, 2.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.5, 1.8333333333333335`}, {
+            1.2999999999999998`, 1.9}, {1.166666666666667, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.16666666666666652`, 
+            1.5}, {-0.10000000000000009`, 1.7000000000000002`}, {-0.5, 
+            1.833333333333333}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 2.5}, {0.16666666666666652`, 2.5}, {
+            0.10000000000000009`, 2.3}, {0.5, 2.166666666666667}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.5, 0.8333333333333335}, {
+            0.30000000000000004`, 0.8999999999999999}, {0.16666666666666674`, 
+            0.5}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{-0.5, 1.5}, {-0.5, 
+            1.1666666666666665`}, {-0.30000000000000004`, 
+            1.1}, {-0.16666666666666674`, 1.5}}]}}}, {
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{1.5, 1.5}, {1.1666666666666665`, 1.5}, {1.1, 1.3}, {
+            1.5, 1.1666666666666667`}}]}}, 
+         {RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+          {EdgeForm[{RGBColor[1, 0.9500000000000001, 0], Opacity[1], 
+           Thickness[0.005], Dashing[
+            NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+           PolygonBox[{{0.5, 0.5}, {0.8333333333333335, 0.5}, {
+            0.8999999999999999, 0.7}, {0.5, 0.8333333333333333}}]}}}}, {{{0.5,
+         0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}]}, {{{
+    0.5, 0.}, {0., 0.5}}, Center}],
   Axes->True,
   AxesOrigin->{0, 0},
   Background->RGBColor[0.9, 0.9, 0.9],
-  GridLines->FrontEndValueCache[Geometry`grids, {{0., 1., {-0.5, 
-       Dashing[{Small, Small}]}, {0.5, 
-       Dashing[{Small, Small}]}, {1.5, 
-       Dashing[{Small, Small}]}}, {0., 1., {-0.5, 
-       Dashing[{Small, Small}]}, {0.5, 
-       Dashing[{Small, Small}]}, {1.5, 
-       Dashing[{Small, Small}]}}}]]], "Output",
- CellChangeTimes->{{3.7408154161433306`*^9, 3.740815483895651*^9}, 
-   3.740815539405074*^9},
- CellLabel->"Out[96]=",ExpressionUUID->"5210656c-6280-409d-b17d-1e0a4321d249"]
+  GridLines->FrontEndValueCache[Geometry`grids, {{0., 1., {0.5, 
+       Dashing[{Small, Small}]}}, {0., 1., {0.5, 
+       Dashing[{Small, Small}]}}}],
+  ImageSize->{580., Automatic}]], "Output",
+ CellChangeTimes->{{3.7409009529312787`*^9, 3.740900981106814*^9}, 
+   3.740901019536995*^9, 3.7409015972121515`*^9, {3.740901630754363*^9, 
+   3.7409016586390777`*^9}},
+ CellLabel->
+  "Out[178]=",ExpressionUUID->"f943397b-bbc8-4156-a8d5-e4e5fb7eac0f"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1153, 951},
-WindowMargins->{{Automatic, 232}, {0, Automatic}},
+WindowSize->{1153, 941},
+WindowMargins->{{Automatic, 37}, {22, Automatic}},
 FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
 StyleDefinitions->"Default.nb"
 ]
@@ -6518,77 +6746,62 @@ Cell[782, 27, 281, 5, 67, "Section",ExpressionUUID->"6ea0af11-cb43-4422-b1b2-400
 Cell[CellGroupData[{
 Cell[1088, 36, 308, 5, 53, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
 Cell[CellGroupData[{
-Cell[1421, 45, 3399, 86, 126, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
-Cell[4823, 133, 29505, 509, 70, "Output",ExpressionUUID->"845a9244-09a7-4885-a58f-b58d8569e24e"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[34377, 648, 259, 4, 37, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
-Cell[CellGroupData[{
-Cell[34661, 656, 398, 10, 28, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
-Cell[35062, 668, 500, 11, 384, "Output",ExpressionUUID->"94aeca36-681e-42ad-ac2e-1b0aadca97ab"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[35599, 684, 3395, 89, 162, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
-Cell[38997, 775, 8378, 143, 376, "Output",ExpressionUUID->"c31e119d-c26c-4f5c-8d67-992cd36d2bcf"]
-}, Open  ]]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[47436, 925, 327, 5, 53, "Section",ExpressionUUID->"6dbd4496-a7cd-46b5-a045-f4e4dbd67245"],
-Cell[CellGroupData[{
-Cell[47788, 934, 4189, 109, 28, "Input",ExpressionUUID->"2f07161f-c58e-47c4-b54c-03403b371530"],
-Cell[51980, 1045, 541, 11, 375, "Output",ExpressionUUID->"4e1d2607-a753-4a93-b5af-d853f4a990b4"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[52558, 1061, 12293, 319, 219, "Input",ExpressionUUID->"e1f6d73a-4906-42c3-b0a0-a1c2d52e542b"],
-Cell[64854, 1382, 100244, 1654, 458, "Output",ExpressionUUID->"f64a2a15-a199-4e1e-b8b9-099aa094e884"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[165135, 3041, 9332, 238, 67, "Input",ExpressionUUID->"bb6175b3-ab39-4691-8a00-a58d3fec1fff"],
-Cell[174470, 3281, 94265, 1597, 377, "Output",ExpressionUUID->"eace220c-6c79-43c4-908e-e51218d5efd2"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[268784, 4884, 433, 7, 53, "Section",ExpressionUUID->"68155d31-c3c7-412c-8be3-108979424e7e"],
-Cell[269220, 4893, 537, 12, 28, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
-Cell[269760, 4907, 8816, 229, 48, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
-Cell[CellGroupData[{
-Cell[278601, 5140, 778, 17, 28, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
-Cell[279382, 5159, 20996, 353, 199, "Output",ExpressionUUID->"119bd60e-884b-4ef7-8105-24fef57e42ef"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[300427, 5518, 428, 7, 53, "Section",ExpressionUUID->"53aba776-1ac0-42ed-89bd-09a66c0e6ce8"],
-Cell[300858, 5527, 8816, 229, 48, "Input",ExpressionUUID->"ae46055d-b3f0-4c0c-8fcf-b3140b1b142e"],
-Cell[CellGroupData[{
-Cell[309699, 5760, 562, 16, 160, "Input",ExpressionUUID->"0d441538-3f92-4371-b638-be6d37aee017"],
-Cell[310264, 5778, 246, 3, 32, "Output",ExpressionUUID->"db04a433-6865-4115-a2ba-72a8d83ed12d"],
-Cell[310513, 5783, 245, 3, 32, "Output",ExpressionUUID->"85950c80-b970-4756-a82f-2291af827035"],
-Cell[310761, 5788, 246, 3, 32, "Output",ExpressionUUID->"2753702a-03e8-4e1a-83ec-a7f2e66fc043"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[311044, 5796, 5235, 139, 67, "Input",ExpressionUUID->"2db831a2-0c7c-4576-bb33-405e2b9c5de7"],
-Cell[316282, 5937, 1198, 23, 374, "Output",ExpressionUUID->"cc930b6a-95c3-4c2f-b220-f7fe8b7e0cb5"]
+Cell[1421, 45, 3399, 86, 124, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
+Cell[4823, 133, 29531, 510, 384, "Output",ExpressionUUID->"b4a25450-66d5-4989-b51d-9e3cea3cc06f"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[317529, 5966, 432, 7, 67, "Section",ExpressionUUID->"dd475282-747d-404c-9dd7-a9bd97609f06"],
+Cell[34403, 649, 259, 4, 53, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
 Cell[CellGroupData[{
-Cell[317986, 5977, 258, 5, 28, "Input",ExpressionUUID->"118be672-dd04-4cd2-893f-38295bc2a7f1"],
-Cell[318247, 5984, 1083, 22, 430, "Output",ExpressionUUID->"680a116d-9444-42ff-ad5c-fcb8ecb6dbea"]
+Cell[34687, 657, 398, 10, 28, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
+Cell[35088, 669, 526, 12, 384, "Output",ExpressionUUID->"2f88f86e-ebc0-4615-9e1c-97a3c35f8499"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[319367, 6011, 6209, 171, 147, "Input",ExpressionUUID->"f9fa1923-1797-402a-8f24-fc266365fe09"],
-Cell[325579, 6184, 950, 19, 297, "Output",ExpressionUUID->"27ca623d-d2c5-42fb-ab0e-f61c8207a240"]
+Cell[35651, 686, 3395, 89, 162, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
+Cell[39049, 777, 8403, 144, 376, "Output",ExpressionUUID->"a6640340-b1fc-404b-86a8-369fa45c00aa"]
+}, Open  ]]
+}, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[326566, 6208, 206, 3, 28, "Input",ExpressionUUID->"d9454627-5cb7-443c-ad10-ad5986472ae3"],
-Cell[326775, 6213, 4730, 130, 63, "Output",ExpressionUUID->"b24869d9-dd30-4dd3-9943-c0c5345596a8"]
+Cell[47513, 928, 327, 5, 67, "Section",ExpressionUUID->"6dbd4496-a7cd-46b5-a045-f4e4dbd67245"],
+Cell[CellGroupData[{
+Cell[47865, 937, 4189, 109, 28, "Input",ExpressionUUID->"2f07161f-c58e-47c4-b54c-03403b371530"],
+Cell[52057, 1048, 569, 12, 375, "Output",ExpressionUUID->"650764e2-5e1d-4124-9c60-373c78d9fa2d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[331542, 6348, 5038, 126, 28, "Input",ExpressionUUID->"20679236-e999-432f-ab39-ec8aa1c88777"],
-Cell[336583, 6476, 846, 18, 374, "Output",ExpressionUUID->"5210656c-6280-409d-b17d-1e0a4321d249"]
+Cell[52663, 1065, 12293, 319, 219, "Input",ExpressionUUID->"e1f6d73a-4906-42c3-b0a0-a1c2d52e542b"],
+Cell[64959, 1386, 100270, 1655, 458, "Output",ExpressionUUID->"540a1bd3-9157-4967-9ed0-dbe830ca04dd"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[165266, 3046, 9332, 238, 67, "Input",ExpressionUUID->"bb6175b3-ab39-4691-8a00-a58d3fec1fff"],
+Cell[174601, 3286, 94287, 1597, 377, "Output",ExpressionUUID->"cc86d299-88f4-47da-8a3f-71f3f2c936cb"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[268937, 4889, 532, 8, 67, "Section",ExpressionUUID->"68155d31-c3c7-412c-8be3-108979424e7e"],
+Cell[269472, 4899, 537, 12, 28, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
+Cell[270012, 4913, 8816, 229, 48, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
+Cell[CellGroupData[{
+Cell[278853, 5146, 778, 17, 28, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
+Cell[279634, 5165, 21020, 353, 199, "Output",ExpressionUUID->"b1cdf6e2-7073-4793-ae3f-b2950eedcf3f"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[300703, 5524, 494, 7, 67, "Section",ExpressionUUID->"dd475282-747d-404c-9dd7-a9bd97609f06"],
+Cell[301200, 5533, 308, 5, 53, "Subsection",ExpressionUUID->"8b8b196c-18ec-40c7-b816-5e41f6fd556d"],
+Cell[CellGroupData[{
+Cell[301533, 5542, 253, 4, 37, "Subsection",ExpressionUUID->"e67554e9-402e-4542-89d9-674ff27d10a6"],
+Cell[CellGroupData[{
+Cell[301811, 5550, 6923, 178, 184, "Input",ExpressionUUID->"8263054e-2505-4734-a7b1-a0739bba5fd0"],
+Cell[308737, 5730, 1506, 27, 264, "Output",ExpressionUUID->"aeabae31-61cd-4687-94cc-d548470acf7d"],
+Cell[310246, 5759, 1551, 27, 170, "Output",ExpressionUUID->"8d8f43ba-7a20-4398-b0ad-19872bca9f3d"],
+Cell[311800, 5788, 1501, 26, 175, "Output",ExpressionUUID->"e16ad0ea-6aef-4f9c-b89a-752241f952a6"],
+Cell[313304, 5816, 1921, 34, 408, "Output",ExpressionUUID->"bcf5ba84-e355-4e8a-901a-ea0b627ad6e7"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[315262, 5855, 419, 10, 28, "Input",ExpressionUUID->"b02e216d-f32e-47b5-87a4-953c86bed965"],
+Cell[315684, 5867, 52158, 854, 595, "Output",ExpressionUUID->"f943397b-bbc8-4156-a8d5-e4e5fb7eac0f"]
+}, Open  ]]
 }, Open  ]]
 }, Open  ]]
 }
