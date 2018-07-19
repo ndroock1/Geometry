@@ -434,4 +434,3 @@ colfig2Hypcoledges[data_]:=colfig2Coledges[data, 6]
 End[]
 
 EndPackage[]
-
