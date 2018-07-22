@@ -53,6 +53,22 @@ lattice[{{p_,q_},w_,h_}]:=Flatten[Table[i p + j q,{i,w},{j,h}],1]
 
 
 
+sym4rot[figke_] := Module[{rotp},
+  rotp = {1, 1};
+  tra3[Scale[{figke, rot3[figke, {\[Pi]/2, rotp}], 
+     rot3[figke, {\[Pi], rotp}], 
+     rot3[figke, {3 \[Pi] /2, rotp}]}, .5], {-.5, -.5}]
+  ]
+  
+sym4ref[figke_] := Module[{rotp},
+  rotp = {1, 1};
+  tra3[Scale[{figke, ref3[figke, {{1, 0}, rotp}], 
+     rot3[figke, {\[Pi], rotp}], 
+     ref3[figke, {{0, 1}, rotp}]}, .5], {-.5, -.5}]
+  ]
+
+
+
 (* GEOMETRIES *)
 pGon[n_Integer] := Module[{},Table[{Cos[(2 \[Pi] k)/n + \[Pi]/n], Sin[(2 \[Pi] k)/n + \[Pi]/n]},{k, 0, n - 1}]]
 
