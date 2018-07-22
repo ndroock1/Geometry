@@ -7,7 +7,6 @@ BeginPackage["Geometry`"]
 (* Exported symbols added here with SymbolName::usage *) 
 
 
-
 (* CONSTANTS *)
 FACE:={Cyan,1};
 EDGE:={Black,1,.0025,2\[Pi],2\[Pi]};
@@ -20,8 +19,6 @@ FILLEDCURVE:=5;
 HYPERBOLICLINE:=6
 
 
-
-
 (* DATA STRUCTURE *)
 pnt = {Repeated[Except[_Complex, _?NumericQ], {2}]};
 pts = {RepeatedNull[pnt]};
@@ -30,6 +27,8 @@ face = {_RGBColor | _GrayLevel, _?IntegerQ | _Real};
 edge = {_RGBColor | _GrayLevel, _?IntegerQ | _Real, _?IntegerQ | _Real, _?NumericQ, _?NumericQ};
 clr = {typ, face};
 edg = {{typ, face}, edge};
+
+
 
 
 
