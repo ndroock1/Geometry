@@ -173,6 +173,22 @@ pts2Circle[v : pntc] := Module[{p, q, r, centre, radius},
 ]
 
 
+ClearAll[lFun1]
+lFun1[point1 : pnt, point2 : pnt] := Module[{a, b},
+  {a, b} = 
+   LinearSolve[{{point1[[1]], 1}, {point2[[1]], 1}}, {point1[[2]], 
+     point2[[2]]}];
+  Print[a];
+  Print[b];
+  Function[x, a x + b]
+  ]
+lFun1[point1 : pnt, r_Real] := Module[{a, b},
+  {a, b} = {r, point1[[2]] - r point1[[1]]};
+  Print[a];
+  Print[b];
+  Function[x, r x + b]
+  ]
+
 
 (* MAP DATA TO GL *)
 toGL[data_] := 
