@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3559662,      67296]
-NotebookOptionsPosition[   3558062,      67258]
-NotebookOutlinePosition[   3558405,      67273]
-CellTagsIndexPosition[   3558362,      67270]
+NotebookDataLength[   3576244,      67708]
+NotebookOptionsPosition[   3574407,      67666]
+NotebookOutlinePosition[   3574750,      67681]
+CellTagsIndexPosition[   3574707,      67678]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -21,7 +21,7 @@ Notebook[{
 Cell[BoxData[
  RowBox[{"<<", "Geometry`"}]], "Input",
  CellChangeTimes->{{3.7396765043760834`*^9, 3.739676511602624*^9}},
- CellLabel->"In[14]:=",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+ CellLabel->"In[18]:=",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
 
 Cell[CellGroupData[{
 
@@ -81,10 +81,12 @@ Cell[BoxData[{
     RowBox[{"{", "\[IndentingNewLine]", 
      RowBox[{
      "pO", ",", "pP", ",", "pQ", ",", "pR", ",", "pS", ",", "pT", ",", "pU", 
-      ",", "\[IndentingNewLine]", "dPolyA", ",", " ", "dPolyB", ",", " ", 
-      "dPolyC", ",", " ", "dPolyD", ",", "\[IndentingNewLine]", "dpoly", ",", 
-      " ", "dpoly1", ",", "dpoly2", ",", "dpoly3"}], "\[IndentingNewLine]", 
-     "}"}], ",", "\[IndentingNewLine]", "\[IndentingNewLine]", 
+      ",", "pV", ",", "pW", ",", "\[IndentingNewLine]", "dPolyA", ",", " ", 
+      "dPolyB", ",", " ", "dPolyC", ",", " ", "dPolyD", ",", 
+      "\[IndentingNewLine]", "dpoly", ",", " ", "dpoly1", ",", " ", "dpoly2", 
+      ",", " ", "dpoly3", ",", "\[IndentingNewLine]", "dPolyShadeA", ",", " ",
+       "dPolyShadeB"}], "\n", "}"}], ",", "\[IndentingNewLine]", 
+    "\[IndentingNewLine]", 
     RowBox[{
      RowBox[{"pO", "=", 
       RowBox[{"{", 
@@ -126,7 +128,21 @@ Cell[BoxData[{
       RowBox[{"{", 
        RowBox[{
         RowBox[{"0.50", " ", "var"}], ",", "0.50"}], "}"}]}], ";", 
-     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pV", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"0.5", 
+         FractionBox[
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", "1"}], "+", "var"}], ")"}], 
+          RowBox[{"(", 
+           RowBox[{"1", "+", "var"}], ")"}]]}], ",", "0.5"}], "}"}]}], ";", 
+     "\[IndentingNewLine]", 
+     RowBox[{"pW", "=", 
+      RowBox[{"{", 
+       RowBox[{"0", ",", "0.5"}], "}"}]}], ";", "\n", "\n", 
      RowBox[{"dPolyA", "=", 
       RowBox[{"{", 
        RowBox[{
@@ -289,12 +305,45 @@ Cell[BoxData[{
         RowBox[{"{", 
          RowBox[{"colc", ",", "1", ",", "0.005`", ",", 
           RowBox[{"2", " ", "\[Pi]"}], ",", 
+          RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], ";", "\n", "\n", 
+     RowBox[{"dPolyShadeA", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", 
+            RowBox[{"{", 
+             RowBox[{"pO", ",", " ", "pS", ",", " ", "pR", ",", "pU"}], 
+             "}"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"Gray", ",", "1"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"colc", ",", "1", ",", "0.005`", ",", 
+          RowBox[{"2", " ", "\[Pi]"}], ",", 
+          RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], ";", "\n", 
+     RowBox[{"dPolyShadeB", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"1", ",", 
+            RowBox[{"{", 
+             RowBox[{"pO", ",", " ", "pV", ",", " ", "pW"}], "}"}]}], "}"}], 
+          ",", 
+          RowBox[{"{", 
+           RowBox[{"Gray", ",", "1"}], "}"}]}], "}"}], ",", 
+        RowBox[{"{", 
+         RowBox[{"colc", ",", "1", ",", "0.005`", ",", 
+          RowBox[{"2", " ", "\[Pi]"}], ",", 
           RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], ";", 
-     "\[IndentingNewLine]", "\[IndentingNewLine]", 
+     "\[IndentingNewLine]", "\n", 
      RowBox[{"dpoly", "=", 
       RowBox[{"{", 
-       RowBox[{"dPolyA", ",", "dPolyB", ",", "dPolyC", ",", "dPolyD"}], 
-       "}"}]}], ";", "\[IndentingNewLine]", 
+       RowBox[{
+       "dPolyA", ",", "dPolyB", ",", "dPolyC", ",", "dPolyD", ",", " ", 
+        "dPolyShadeA"}], "}"}]}], ";", "\[IndentingNewLine]", 
      RowBox[{"dpoly1", "=", 
       RowBox[{"rot3", "[", 
        RowBox[{"dpoly", ",", 
@@ -352,17 +401,19 @@ Cell[BoxData[{
       RowBox[{"sym4rot", ",", "dpoly3", ",", "2"}], "]"}]}]}], 
    "\[IndentingNewLine]", "]"}]}]}], "Code",
  CellChangeTimes->CompressedData["
-1:eJwdzUsowwEABvC1IacJm4NizdCGLYe1R5hXmseBKPKWR5ksEVpp0mqMZtth
-TXFQa1NzIY+tpXYYUnawrWWWbBgZc8C4uPD/dvj61ddXH3N4qn2MTCKR8onA
-HeqhPBSJ15Iu+HPw6DV3Aa6UVClhR19oBbLFKh00C05v7wibdrkRWOeUR6Fe
-3xKHNDWLHiZMl/v40CCrZkQJFRn9TEh1ppRCjX+WD43PqVZYQB7agZ8ZVhd0
-HAfdsHLk0f5EaGvmeiA7zL6CRn8gCAcCVtEL/rTcetgroEihn9rVBGdat6Zi
-hD3uoAIWnnmUMNC4oYaxbsk6PJAUG5I7ybjqjbAs0bYGeT9eE1QMrVqg93XZ
-B9nmyxuoq2BE4aB4OqmDydrMuo/Xag+c21DDeXHBRc57Uh7t253svfZzOGHJ
-fYA176YYbLXNfMET3mQC7luLfqHso/0P8ss9lGzCzNGlNHjNaciB9D1hHhRJ
-O0egUFUwD/8BmJwWQg==
+1:eJwdzVtI2mEABXApN3rS1rKHwkqt0JZSIF22sppEtR6MBl23KdVgVhKTHEIU
+IXQbeSmiwQabiAb1ss20cEEPVgwmLBXJpLKLiyyDtlwvvdR3/g+HHxwOHE5n
+f9PrBBqNlksC5xlLqtBBrJr2U6yBjrP0QTieXzEEn78IjUN+mc4ALcXru/vE
++kXhAXzqUkWg0dgQg6mjPFaYmKTyiaFJWZkVIWqZLzmQ4aI/ghP+ATGcPbln
+g9wExTz8x7StwRVn0A3Lu46X/xAXngk9kB/mb8FZfyAIXwVspaf4mxJKYUdx
+Yi30M1rqoVr2qT9KbHcHtTBnwzMEA3UfRmG0TaKHdkmeidpJ3ujOiQXxxvdQ
+dO2dg1rFpBV6z8Z8kG/5tQMNT7IiUF72lnKFw/uYchirnrK7vsAJwekaHBZc
+UIpS/7up3ru8CXus6Uew6mIuCmUL6iu4KuqLw2+23Buo/Nt0C8WFnsSHxAfd
+I/fhtqAmDbK+lrBhaW1zFyzRcd9BZZHvqoXYK9ektBKdZnYmvAwMZMP87enH
+sM6gkUJus9UFF2e6f0CGXnELxyzH9Dai4/PvZGjaMKfBvYzvGVAevqG8A6da
+Uzk=
   "],
- CellLabel->"In[15]:=",ExpressionUUID->"003bff03-28e3-4c33-8c93-9e258f75e76d"]
+ CellLabel->"In[40]:=",ExpressionUUID->"003bff03-28e3-4c33-8c93-9e258f75e76d"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -402,14 +453,17 @@ Cell[BoxData[
    3.7412754373634152`*^9, 3.7412754509769993`*^9}, {3.741357326240288*^9, 
    3.7413573486674895`*^9}, {3.74135821094068*^9, 3.7413582322280936`*^9}, 
    3.741358603661915*^9},
- CellLabel->"In[18]:=",ExpressionUUID->"b9769710-f377-400a-9719-fb4744f9158a"],
+ CellLabel->"In[43]:=",ExpressionUUID->"b9769710-f377-400a-9719-fb4744f9158a"],
 
 Cell[BoxData[
  TagBox[
   StyleBox[
-   DynamicModuleBox[{Geometry`a$$ = 0.5, $CellContext`cola$$ = RGBColor[
-    1, 0, 0], $CellContext`colb$$ = RGBColor[1, 1, 0], $CellContext`colc$$ = 
-    RGBColor[0, 0, 1], Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+   DynamicModuleBox[{Geometry`a$$ = 0.7000000000000001, $CellContext`cola$$ = 
+    RGBColor[0.9677271686884871, 0.9677271686884871, 
+     0.9677271686884871], $CellContext`colb$$ = RGBColor[
+    0.1250019073777371, 1., 0.9830624856946669], $CellContext`colc$$ = 
+    RGBColor[0.3225757228961624, 0.3225757228961624, 0.3225757228961624], 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
     Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
     1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{{
        Hold[Geometry`a$$], 0.5}, 0.05, 0.95, 0.05}, {
@@ -420,7 +474,7 @@ Cell[BoxData[
       Hold[$CellContext`colc$$], 
       RGBColor[0, 0, 1]}}, Typeset`size$$ = {360., {177., 182.}}, 
     Typeset`update$$ = 0, Typeset`initDone$$, Typeset`skipInitDone$$ = True, 
-    Geometry`a$3589$$ = 0}, 
+    Geometry`a$22314$$ = 0}, 
     DynamicBox[Manipulate`ManipulateBoxes[
      1, StandardForm, 
       "Variables" :> {
@@ -428,7 +482,7 @@ Cell[BoxData[
         RGBColor[1, 0, 0], $CellContext`colb$$ = 
         RGBColor[1, 1, 0], $CellContext`colc$$ = RGBColor[0, 0, 1]}, 
       "ControllerVariables" :> {
-        Hold[Geometry`a$$, Geometry`a$3589$$, 0]}, 
+        Hold[Geometry`a$$, Geometry`a$22314$$, 0]}, 
       "OtherVariables" :> {
        Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
         Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
@@ -462,8 +516,8 @@ $CellContext`colc$$]]],
    3.7412754522258415`*^9, 3.7413571733019*^9, 3.74135735017784*^9, 
    3.7413579905215187`*^9, 3.741358234572251*^9, 3.7413582703027077`*^9, 
    3.7414173874129763`*^9, 3.741421575614522*^9, 3.7414909106731215`*^9, 
-   3.7414911660265455`*^9},
- CellLabel->"Out[18]=",ExpressionUUID->"5c251525-d51f-419e-a13c-f8d597d868ad"]
+   3.7414911660265455`*^9, 3.741501676297778*^9},
+ CellLabel->"Out[43]=",ExpressionUUID->"125098ef-48a8-4c07-861e-e84b21e938f4"]
 }, Open  ]]
 }, Open  ]],
 
@@ -16998,738 +17052,8 @@ Cell[BoxData[
                    PolygonBox[{{-0.19999999999999996`, 
                     1.4}, {-0.33333333333333326`, 1.}}]}}}}}, {{{0.5, 0.}, {
                0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}]}, {{{
-           0.5, 0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, Center}],
-       ImageCache->GraphicsData["CompressedBitmap", "\<\
-eJzEfQe4lcXRPx+3cSmCJWo0JiYxMTH2go3YFbvYIrGCFY0oUaJYUURRUQgo
-oIIUqdJ771VAei/3XEERrIANhXPe/e9v3p19Z/fdc4Tk+57/fR4Ur+fszs7O
-7s78pl3VuHmTe5o2bn7/XY2PrP9I42ZN7r/r0SMvefgR/aui/6lSpcpo/WfM
-kVXwd6X/av4xuopSCv9T/quI/lV04k9ZRX/DnwPi39XJReqOb3bHvzsw/t31
-3+1WZ/yYdT73p905dfkP7ufwPfxefu7IPTmF78vP4Xuhz/111x7nc/gd6KH/
-qhqTXjUh8+tNO5XK7FBVSuifRWrSgjWq98BhCp8opn8WqY2bt6oX2nWhTxSb
-z1XsoO/J70at23dRX3293flupx79aUx8oob57lt9h6n5S9c4n5syc54aMmle
-ao5KMwf/bumm7epFPU+kMC99N/f4c20sLfy5SkEf/w7jDx45zpl3xfpK1eHd
-/vSJmvHnaDzzoz8R/1PPR/POX7eVP0ff26B5I8cbNGKcXUdJgJYi8089jnqj
-e3/nuz/s2kU8xCdK48813/FjIl7/40je8M++10PuVNlkiSXE6l/9+kgmP6Jd
-T4ZX+9WuAxYaMoqTbdypIv3vmOKS6KobGqouXXvwMHvEMFGz5i2i+//ZQqym
-GF/lVeb0H2Y4KFmxytno6PyLL7UMN1/PVsQUYIhIfP3Vzj2iBjc2dHg0YfI0
-ddJpZ4h9FbPvdGbvN3qaOll/VH79k0+3Eg/WbNvFs+cED3KWB0U0C2aTxDe8
-rZE9CXLt5g+2gjdYz0Azbfl0Kwuq+v0f/6R6DB4nv57LJGtPiC9Rj7VsEzW+
-p0loB1SPPv2j8y66VMp2RJzfqXDcjYCYfxUPgpxUxJzN2hnKiZiZc+axmNCP
-Jla1f6OLOuI3vwX39YyxLDKLzDD8bx5K7yftqyCWfiZNmaauuPpaddDBh0h2
-ZbHWyniYqlh0VbMUHJw6Bxyo2rRtrzZWVPLZw53iblppVlCSNayLEu5H2Lxz
-zr8IG2g3r9E9TaLH4quCh4mMwGYrk0VJEfrFIYeCEJVwv5hECDw65NDDsJlV
-EyliUcBoVeUwejNzjeLNtBfKwMHD1DkXXBwdd/KpQWoyyY4xeyA6mBWzayp4
-JJwwX6YzCXt2f7QzpqbIHO4//OkYVf+Kq1m4ncON46Y3PiXgepxvK2PxcqSr
-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
-uj1i7CT1t3hMyzHgDuaucuwGIUBlVsnW61Fv9+qvRk+crrq91w+WhbjgShLO
-kLjxtQFyhd8nGjRqPI1kPObxJHWklEoLUDLfYvWSOzfd0uj4XORee0WElE50
-rxPia99RU4VVk0LXra2x1KCsJ9c9U5WUlER3aHV74oLVrLBDav70l+NZyOIZ
-DnTkTMga/X30rCXqzvubqVr71Va/PeoPasrCNbQW+BgO+9WvGbmy9mlZsqPR
-3NWfQMjYXwMVOZq/dov687HHq/Ly6qrhHfewJW0fvNguSdzFV13XUAhibvnH
-O4C7OgzSspsbN2+FmL6aFSiG6373hz/BfoMKHk1csIoZAhih/pXX8sdLk2cv
-dgCCOlBZXr0GAa2vdu4etXy5PZmCGNKAUzEOIJYOekCXXbqmOZqsWZdn6fS2
-GqDFR7SsKNU7/yIBuP+ohwsD7kXSj2O5NGjCHNWl9xBxhF0xgui079ZXzVyW
-8X09rmJTFHXpMzQ72ZHSmikZgty079pP3ffwY46/JxP7GKWbDeKEi6KPvote
-fvNdiBOxsmrUfdBY83zYO1F6Ia687iZ8BIMwYo797tRrsFr72Y+FkO9cn5FT
-oncHjlGJyJWSrLR/p4/C3glvjnk0Us4fPYXq/N7gXGKxVSO8GRRpyqQ3RzkH
-zvHMROPmLlevvNkds7MAacJAoCC43HEDSh78vfF9UTtNNDw2ZnEBHL4oi8Vp
-asX2/6zLRj6+uBIgCebpM76hqGJ7BJYhZESVlpWR0HR+bwh+n0QepTw7dDmY
-R4/dTDTDoorPI/g1au+/vxWaeWs/TR6+GjlvF+zh6D96OgnSQQcfHP3md0eB
-PxYr03dQpDU9oePXCHlqo6Wbdli+QjnDLmqZtTAAHkq9beImTnl86WUzvmYc
-HeO1oa8ee8LJpHRi53sNneCZHSkBI5LMQ8feH5BDZAEgMgIGsgstjfwR2Khu
-A0fT3LX22y867qRTCWVltM28eiA9a9HzkI8wvlrhu2JO6Zcgd+NtjbF5CeYZ
-e9L0hkgwLr/A1XYETr4/kCh2AbCiot/Q6KFHW6gGN9wkEPaCHiKrV7HiZG73
-iC+ffsMnqOfbtKUN0lchuw885DoJ3gnq+TXp8T373AuiO7SK91jLl5xLAGal
-mdqFF0vklnliUYMCBB5/uqXq2mcwKSKsA+Hz4IZ+w7yggdpyPCdeyHzeuUH0
-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
-AX9mfps9pc+mmZKNfb4fRR/6P9Nq38s=\
-\>"]]},
+           0.5, 0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 0.5}}, 
+         Center}]]},
      {
       GraphicsBox[
        GeometricTransformationBox[{
@@ -67254,6 +66578,1090 @@ AX9mfps9pc+mmZKNfb4fRR/6P9Nq38s=\
 3a036d81dcc2"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["DEMO", "Section",
+ CellChangeTimes->{{3.741498812981484*^9, 3.7414988152534637`*^9}, {
+  3.74149967567618*^9, 
+  3.7414996759807053`*^9}},ExpressionUUID->"b9d69922-664f-4590-b7f3-\
+53eea48cee98"],
+
+Cell[BoxData[
+ GraphicsBox[GeometricTransformationBox[{GeometricTransformationBox[{{{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., -1.}, {
+           0., -0.6666666666666666}, {-0.19999999999999996`, \
+-0.6000000000000001}, {-0.33333333333333326`, -1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., -0.6666666666666666}, {0., 
+           0.}, {-1., -1.}, {-0.33333333333333326`, -1.}, \
+{-0.19999999999999996`, -0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, -0.5}, {0., -0.6666666666666666}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.19999999999999996`, -0.6000000000000001}, \
+{-0.33333333333333326`, -1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., -1.}, {-0.33333333333333326`, -1.}, \
+{-0.19999999999999996`, -0.6000000000000001}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 
+           0.}, {-1., -0.33333333333333337`}, {-0.8, -0.3999999999999999}, \
+{-0.6666666666666667, 0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., -0.33333333333333337`}, {-1., -1.}, {0., 
+           0.}, {-0.6666666666666667, 0.}, {-0.8, -0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, -0.5}, {-1., -0.33333333333333337`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.8, -0.3999999999999999}, {-0.6666666666666667, 
+           0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {-0.6666666666666667, 
+           0.}, {-0.8, -0.3999999999999999}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {0.6666666666666665, 0.}, {
+           0.6000000000000001, -0.19999999999999996`}, {
+           1., -0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6666666666666665, 0.}, {0., 0.}, {1., -1.}, {
+           1., -0.33333333333333326`}, {
+           0.6000000000000001, -0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, -0.5}, {0.6666666666666665, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6000000000000001, -0.19999999999999996`}, {
+           1., -0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., -1.}, {1., -0.33333333333333326`}, {
+           0.6000000000000001, -0.19999999999999996`}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., -1.}, {0.3333333333333335, -1.}, {
+           0.3999999999999999, -0.8}, {0., -0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3333333333333335, -1.}, {1., -1.}, {0., 0.}, {
+           0., -0.6666666666666667}, {0.3999999999999999, -0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, -0.5}, {0.3333333333333335, -1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3999999999999999, -0.8}, {
+           0., -0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0., -0.6666666666666667}, {
+           0.3999999999999999, -0.8}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0., 0.6666666666666665}, {
+           0.19999999999999996`, 0.6000000000000001}, {0.33333333333333326`, 
+           1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.6666666666666665}, {0., 0.}, {1., 1.}, {
+           0.33333333333333326`, 1.}, {0.19999999999999996`, 
+           0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0., 0.6666666666666665}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.19999999999999996`, 0.6000000000000001}, {
+           0.33333333333333326`, 1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {0.33333333333333326`, 1.}, {
+           0.19999999999999996`, 0.6000000000000001}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1., 0.3333333333333335}, {0.8, 
+           0.3999999999999999}, {0.6666666666666667, 0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.3333333333333335}, {1., 1.}, {0., 0.}, {
+           0.6666666666666667, 0.}, {0.8, 0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {1., 0.3333333333333335}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.8, 0.3999999999999999}, {0.6666666666666667, 0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0.6666666666666667, 0.}, {0.8, 
+           0.3999999999999999}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 0.}, {-0.6666666666666666, 
+           0.}, {-0.6000000000000001, 0.19999999999999996`}, {-1., 
+           0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.6666666666666666, 0.}, {0., 0.}, {-1., 1.}, {-1., 
+           0.33333333333333326`}, {-0.6000000000000001, 
+           0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 0.5}, {-0.6666666666666666, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.6000000000000001, 0.19999999999999996`}, {-1., 
+           0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 1.}, {-1., 
+           0.33333333333333326`}, {-0.6000000000000001, 
+           0.19999999999999996`}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {-0.33333333333333337`, 
+           1.}, {-0.3999999999999999, 0.8}, {0., 0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.33333333333333337`, 1.}, {-1., 1.}, {0., 0.}, {0., 
+           0.6666666666666667}, {-0.3999999999999999, 0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 0.5}, {-0.33333333333333337`, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.3999999999999999, 0.8}, {0., 
+           0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0., 
+           0.6666666666666667}, {-0.3999999999999999, 0.8}}]}}}}}, {{{0.5, 
+      0.}, {0., 0.5}}, Center}], GeometricTransformationBox[{{{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 0.}, {1.6666666666666665`, 0.}, {
+           1.6, -0.19999999999999996`}, {2., -0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.6666666666666665`, 0.}, {1., 0.}, {2., -1.}, {
+           2., -0.33333333333333326`}, {1.6, -0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, -0.5}, {1.6666666666666665`, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.6, -0.19999999999999996`}, {
+           2., -0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., -1.}, {2., -0.33333333333333326`}, {
+           1.6, -0.19999999999999996`}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., -1.}, {1.3333333333333335`, -1.}, {1.4, -0.8}, {
+           1., -0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.3333333333333335`, -1.}, {2., -1.}, {1., 0.}, {
+           1., -0.6666666666666667}, {1.4, -0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, -0.5}, {1.3333333333333335`, -1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.4, -0.8}, {1., -0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1., -0.6666666666666667}, {
+           1.4, -0.8}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {1., 0.6666666666666665}, {1.2, 
+           0.6000000000000001}, {1.3333333333333333`, 1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.6666666666666665}, {1., 0.}, {2., 1.}, {
+           1.3333333333333333`, 1.}, {1.2, 0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 0.5}, {1., 0.6666666666666665}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.2, 0.6000000000000001}, {1.3333333333333333`, 
+           1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 1.}, {1.3333333333333333`, 1.}, {1.2, 
+           0.6000000000000001}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 0.}, {2., 0.3333333333333335}, {
+           1.7999999999999998`, 0.3999999999999999}, {1.666666666666667, 
+           0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 0.3333333333333335}, {2., 1.}, {1., 0.}, {
+           1.666666666666667, 0.}, {1.7999999999999998`, 
+           0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 0.5}, {2., 0.3333333333333335}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.7999999999999998`, 0.3999999999999999}, {
+           1.666666666666667, 0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1.666666666666667, 0.}, {1.7999999999999998`,
+            0.3999999999999999}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0.3333333333333335, 0.}, {0.3999999999999999,
+            0.19999999999999996`}, {0., 0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3333333333333335, 0.}, {1., 0.}, {0., 1.}, {0., 
+           0.33333333333333326`}, {0.3999999999999999, 
+           0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0.3333333333333335, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3999999999999999, 0.19999999999999996`}, {0., 
+           0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0., 0.33333333333333326`}, {
+           0.3999999999999999, 0.19999999999999996`}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {0.6666666666666665, 1.}, {0.6000000000000001,
+            0.8}, {1., 0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6666666666666665, 1.}, {0., 1.}, {1., 0.}, {1., 
+           0.6666666666666667}, {0.6000000000000001, 0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0.6666666666666665, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6000000000000001, 0.8}, {1., 0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1., 0.6666666666666667}, {0.6000000000000001,
+            0.8}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., -1.}, {1., -0.6666666666666666}, {
+           0.8, -0.6000000000000001}, {0.6666666666666667, -1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., -0.6666666666666666}, {1., 0.}, {0., -1.}, {
+           0.6666666666666667, -1.}, {0.8, -0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, -0.5}, {1., -0.6666666666666666}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.8, -0.6000000000000001}, {
+           0.6666666666666667, -1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., -1.}, {0.6666666666666667, -1.}, {
+           0.8, -0.6000000000000001}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0., -0.33333333333333337`}, {
+           0.19999999999999996`, -0.3999999999999999}, {0.33333333333333326`, 
+           0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., -0.33333333333333337`}, {0., -1.}, {1., 0.}, {
+           0.33333333333333326`, 0.}, {
+           0.19999999999999996`, -0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, -0.5}, {0., -0.33333333333333337`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.19999999999999996`, -0.3999999999999999}, {
+           0.33333333333333326`, 0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {0.33333333333333326`, 0.}, {
+           0.19999999999999996`, -0.3999999999999999}}]}}}}}, {{{0.5, 0.}, {
+      0., 0.5}}, Center}], GeometricTransformationBox[{{{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 2.}, {1., 1.6666666666666665`}, {1.2, 1.6}, {
+           1.3333333333333333`, 2.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.6666666666666665`}, {1., 1.}, {2., 2.}, {
+           1.3333333333333333`, 2.}, {1.2, 1.6}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 1.5}, {1., 1.6666666666666665`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.2, 1.6}, {1.3333333333333333`, 2.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 2.}, {1.3333333333333333`, 2.}, {1.2, 1.6}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 1.}, {2., 1.3333333333333335`}, {
+           1.7999999999999998`, 1.4}, {1.666666666666667, 1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 1.3333333333333335`}, {2., 2.}, {1., 1.}, {
+           1.666666666666667, 1.}, {1.7999999999999998`, 1.4}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 1.5}, {2., 1.3333333333333335`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.7999999999999998`, 1.4}, {1.666666666666667, 1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {1.666666666666667, 1.}, {1.7999999999999998`,
+            1.4}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0.3333333333333335, 1.}, {0.3999999999999999,
+            1.2}, {0., 1.3333333333333333`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3333333333333335, 1.}, {1., 1.}, {0., 2.}, {0., 
+           1.3333333333333333`}, {0.3999999999999999, 1.2}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 1.5}, {0.3333333333333335, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3999999999999999, 1.2}, {0., 
+           1.3333333333333333`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 2.}, {0., 1.3333333333333333`}, {
+           0.3999999999999999, 1.2}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 2.}, {0.6666666666666665, 2.}, {0.6000000000000001,
+            1.7999999999999998`}, {1., 1.666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6666666666666665, 2.}, {0., 2.}, {1., 1.}, {1., 
+           1.666666666666667}, {0.6000000000000001, 1.7999999999999998`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 1.5}, {0.6666666666666665, 2.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6000000000000001, 1.7999999999999998`}, {1., 
+           1.666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {1., 1.666666666666667}, {0.6000000000000001, 
+           1.7999999999999998`}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1., 0.3333333333333335}, {0.8, 
+           0.3999999999999999}, {0.6666666666666667, 0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.3333333333333335}, {1., 1.}, {0., 0.}, {
+           0.6666666666666667, 0.}, {0.8, 0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {1., 0.3333333333333335}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.8, 0.3999999999999999}, {0.6666666666666667, 0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0.6666666666666667, 0.}, {0.8, 
+           0.3999999999999999}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0., 0.6666666666666665}, {
+           0.19999999999999996`, 0.6000000000000001}, {0.33333333333333326`, 
+           1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.6666666666666665}, {0., 0.}, {1., 1.}, {
+           0.33333333333333326`, 1.}, {0.19999999999999996`, 
+           0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0., 0.6666666666666665}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.19999999999999996`, 0.6000000000000001}, {
+           0.33333333333333326`, 1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {0.33333333333333326`, 1.}, {
+           0.19999999999999996`, 0.6000000000000001}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 1.}, {1.6666666666666665`, 1.}, {1.6, 0.8}, {2., 
+           0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.6666666666666665`, 1.}, {1., 1.}, {2., 0.}, {2., 
+           0.6666666666666667}, {1.6, 0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 0.5}, {1.6666666666666665`, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.6, 0.8}, {2., 0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{2., 0.}, {2., 0.6666666666666667}, {1.6, 0.8}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1.3333333333333335`, 0.}, {1.4, 
+           0.19999999999999996`}, {1., 0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.3333333333333335`, 0.}, {2., 0.}, {1., 1.}, {1., 
+           0.33333333333333326`}, {1.4, 0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.5, 0.5}, {1.3333333333333335`, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1.4, 0.19999999999999996`}, {1., 
+           0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {1., 0.33333333333333326`}, {1.4, 
+           0.19999999999999996`}}]}}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}], 
+    GeometricTransformationBox[{{{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 1.}, {-0.6666666666666666, 
+           1.}, {-0.6000000000000001, 1.2}, {-1., 1.3333333333333333`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.6666666666666666, 1.}, {0., 1.}, {-1., 2.}, {-1., 
+           1.3333333333333333`}, {-0.6000000000000001, 1.2}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 1.5}, {-0.6666666666666666, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.6000000000000001, 1.2}, {-1., 
+           1.3333333333333333`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 2.}, {-1., 
+           1.3333333333333333`}, {-0.6000000000000001, 1.2}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 2.}, {-0.33333333333333337`, 
+           2.}, {-0.3999999999999999, 1.7999999999999998`}, {0., 
+           1.666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.33333333333333337`, 2.}, {-1., 2.}, {0., 1.}, {0., 
+           1.666666666666667}, {-0.3999999999999999, 1.7999999999999998`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 1.5}, {-0.33333333333333337`, 2.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.3999999999999999, 1.7999999999999998`}, {0., 
+           1.666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0., 1.666666666666667}, {-0.3999999999999999,
+            1.7999999999999998`}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0., 
+           0.3333333333333335}, {-0.19999999999999996`, 
+           0.3999999999999999}, {-0.33333333333333326`, 0.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.3333333333333335}, {0., 1.}, {-1., 
+           0.}, {-0.33333333333333326`, 0.}, {-0.19999999999999996`, 
+           0.3999999999999999}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 0.5}, {0., 0.3333333333333335}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.19999999999999996`, 
+           0.3999999999999999}, {-0.33333333333333326`, 0.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 0.}, {-0.33333333333333326`, 
+           0.}, {-0.19999999999999996`, 0.3999999999999999}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 1.}, {-1., 0.6666666666666665}, {-0.8, 
+           0.6000000000000001}, {-0.6666666666666667, 1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-1., 0.6666666666666665}, {-1., 0.}, {0., 
+           1.}, {-0.6666666666666667, 1.}, {-0.8, 0.6000000000000001}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.5, 0.5}, {-1., 0.6666666666666665}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{-0.8, 0.6000000000000001}, {-0.6666666666666667, 
+           1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {-0.6666666666666667, 1.}, {-0.8, 
+           0.6000000000000001}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {0.6666666666666665, 1.}, {0.6000000000000001,
+            0.8}, {1., 0.6666666666666667}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6666666666666665, 1.}, {0., 1.}, {1., 0.}, {1., 
+           0.6666666666666667}, {0.6000000000000001, 0.8}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0.6666666666666665, 1.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.6000000000000001, 0.8}, {1., 0.6666666666666667}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 0.}, {1., 0.6666666666666667}, {0.6000000000000001,
+            0.8}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 0.}, {0.3333333333333335, 0.}, {0.3999999999999999,
+            0.19999999999999996`}, {0., 0.33333333333333326`}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3333333333333335, 0.}, {1., 0.}, {0., 1.}, {0., 
+           0.33333333333333326`}, {0.3999999999999999, 
+           0.19999999999999996`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 0.5}, {0.3333333333333335, 0.}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.3999999999999999, 0.19999999999999996`}, {0., 
+           0.33333333333333326`}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0., 0.33333333333333326`}, {
+           0.3999999999999999, 0.19999999999999996`}}]}}}}, {{
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 2.}, {0., 1.6666666666666665`}, {
+           0.19999999999999996`, 1.6}, {0.33333333333333326`, 2.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.6666666666666665`}, {0., 1.}, {1., 2.}, {
+           0.33333333333333326`, 2.}, {0.19999999999999996`, 1.6}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 1.5}, {0., 1.6666666666666665`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.19999999999999996`, 1.6}, {0.33333333333333326`, 
+           2.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 2.}, {0.33333333333333326`, 2.}, {
+           0.19999999999999996`, 1.6}}]}}}, {
+        {RGBColor[1, 1, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[1, 1, 0], Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.}, {1., 1.3333333333333335`}, {0.8, 1.4}, {
+           0.6666666666666667, 1.}}]}}, 
+        {RGBColor[0.9806363012130922, 0.9806363012130922, 0.9806363012130922],
+          Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.9806363012130922, 0.9806363012130922, 0.9806363012130922], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{1., 1.3333333333333335`}, {1., 2.}, {0., 1.}, {
+           0.6666666666666667, 1.}, {0.8, 1.4}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.5, 1.5}, {1., 1.3333333333333335`}}]}}, 
+        {RGBColor[0, 0.9500000000000001, 0], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0.8, 1.4}, {0.6666666666666667, 1.}}]}}, 
+        {GrayLevel[0.5], Opacity[1], 
+         {EdgeForm[{RGBColor[
+          0.03869687953002213, 0.03869687953002213, 0.03869687953002213], 
+          Opacity[1], Thickness[0.005], 
+          Dashing[{6.283185307179586, 6.283185307179586}]}], 
+          PolygonBox[{{0., 1.}, {0.6666666666666667, 1.}, {0.8, 
+           1.4}}]}}}}}, {{{0.5, 0.}, {0., 0.5}}, Center}]}, {{{0.5, 0.}, {0., 
+    0.5}}, Center}],
+  ImageSize->{678., Automatic}]], "Input",ExpressionUUID->"b038cdd7-74f2-4501-\
+8870-9684d208ee70"]
 }, Open  ]]
 },
 WindowSize->{1368, 877},
@@ -67281,22 +67689,26 @@ Cell[1822, 48, 218, 4, 44, "Subsubsection",ExpressionUUID->"16fb9e59-533f-436d-a
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[2077, 57, 156, 3, 53, "Subsection",ExpressionUUID->"cd9aee06-7572-4a13-99da-59f6fdacd871"],
-Cell[2236, 62, 11817, 302, 649, "Code",ExpressionUUID->"003bff03-28e3-4c33-8c93-9e258f75e76d"]
+Cell[2236, 62, 13600, 353, 788, "Code",ExpressionUUID->"003bff03-28e3-4c33-8c93-9e258f75e76d"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[14090, 369, 262, 4, 53, "Subsection",ExpressionUUID->"7c00f65c-88f3-4ccc-911b-894b2b6d96c5"],
+Cell[15873, 420, 262, 4, 53, "Subsection",ExpressionUUID->"7c00f65c-88f3-4ccc-911b-894b2b6d96c5"],
 Cell[CellGroupData[{
-Cell[14377, 377, 1222, 27, 48, "Input",ExpressionUUID->"b9769710-f377-400a-9719-fb4744f9158a"],
-Cell[15602, 406, 2890, 59, 441, "Output",ExpressionUUID->"5c251525-d51f-419e-a13c-f8d597d868ad"]
+Cell[16160, 428, 1222, 27, 48, "Input",ExpressionUUID->"b9769710-f377-400a-9719-fb4744f9158a"],
+Cell[17385, 457, 3082, 62, 441, "Output",ExpressionUUID->"125098ef-48a8-4c07-861e-e84b21e938f4"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[18541, 471, 265, 4, 53, "Subsection",ExpressionUUID->"5aa33513-68c1-42f6-9bbd-9b3530b9f350"],
+Cell[20516, 525, 265, 4, 53, "Subsection",ExpressionUUID->"5aa33513-68c1-42f6-9bbd-9b3530b9f350"],
 Cell[CellGroupData[{
-Cell[18831, 479, 1003, 26, 48, "Input",ExpressionUUID->"12608264-9833-4ef4-b391-680f1dfac544"],
-Cell[19837, 507, 3538185, 66746, 768, "Output",ExpressionUUID->"0eb95149-8731-4256-896b-3a036d81dcc2"]
+Cell[20806, 533, 1003, 26, 48, "Input",ExpressionUUID->"12608264-9833-4ef4-b391-680f1dfac544"],
+Cell[21812, 561, 3493690, 66016, 768, "Output",ExpressionUUID->"0eb95149-8731-4256-896b-3a036d81dcc2"]
 }, Open  ]]
 }, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3515563, 66584, 201, 4, 67, "Section",ExpressionUUID->"b9d69922-664f-4590-b7f3-53eea48cee98"],
+Cell[3515767, 66590, 58624, 1073, 690, "Input",ExpressionUUID->"b038cdd7-74f2-4501-8870-9684d208ee70"]
 }, Open  ]]
 }
 ]
