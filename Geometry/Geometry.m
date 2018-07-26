@@ -276,19 +276,7 @@ chairTiling[fig_] := Module[
 chair := {{{1, {{0, 0}, {2, 0}, {2, 1}, {1, 1}, {1, 2}, {0, 2}}}, {Cyan, 1}}, {Black, 1, .005, 2 \[Pi], 2 \[Pi]}}
 showChair[n_] := toGL[Nest[chairTiling, chair, n]]
 
-bladeTiling[fig_] := Module[
-	{nPos0, nPos, out},
-  	nPos0 = {Max[Cases[fig, pnt, Infinity][[All, 1]]], Max[Cases[fig, pnt, Infinity][[All, 2]]]/2};
-  	nPos = {Max[Cases[fig, pnt, Infinity][[All, 1]]], Max[Cases[fig, pnt, Infinity][[All, 1]]]};
-  	out = {
-    	fig,
-    	tra3[fig, nPos],
-    	ref3[{tra3[fig, nPos]}, {{0, 1}, {1, 1}}],
-    	ref3[ref3[tra3[fig, nPos], {{0, 1}, {1, 1}}], {{1, 1}, {1, 0}}]
-	}
-]
-blade := {{{1, {{0, 0}, {1, 0}, {1, 2}, {0, 1}}}, {Cyan, 1}}, {Black, 1, .005, 2 \[Pi], 2 \[Pi]}}
-showBlade[n_] := Nest[bladeTiling, blade, n]
+
 
 
 (* GUI-APPS *)

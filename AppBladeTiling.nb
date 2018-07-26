@@ -1,0 +1,274 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10708,        266]
+NotebookOptionsPosition[      9711,        239]
+NotebookOutlinePosition[     10054,        254]
+CellTagsIndexPosition[     10011,        251]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"<<", "Geometry`"}]], "Input",
+ CellChangeTimes->{{3.7396765043760834`*^9, 3.739676511602624*^9}},
+ CellLabel->"In[14]:=",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+
+Cell[CellGroupData[{
+
+Cell["AppBladeTiling", "Section",
+ CellChangeTimes->{{3.741590468482168*^9, 
+  3.741590472638137*^9}},ExpressionUUID->"16c3c174-cb24-4a72-90c6-\
+2ffc4f51de4e"],
+
+Cell[CellGroupData[{
+
+Cell["Code", "Subsection",
+ CellChangeTimes->{{3.741590483779359*^9, 
+  3.7415904843418307`*^9}},ExpressionUUID->"4afffc67-4b39-4dc7-a271-\
+dcc8f412e122"],
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"bladeTiling", "[", "fig_", "]"}], ":=", 
+  RowBox[{"Module", "[", "\n", "\t", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"nPos0", ",", "nPos", ",", "out"}], "}"}], ",", "\n", "\t", 
+    RowBox[{
+     RowBox[{"nPos0", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Max", "[", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"fig", ",", "pnt", ",", "Infinity"}], "]"}], "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], "]"}], ",", 
+        RowBox[{
+         RowBox[{"Max", "[", 
+          RowBox[{
+           RowBox[{"Cases", "[", 
+            RowBox[{"fig", ",", "pnt", ",", "Infinity"}], "]"}], "[", 
+           RowBox[{"[", 
+            RowBox[{"All", ",", "2"}], "]"}], "]"}], "]"}], "/", "2"}]}], 
+       "}"}]}], ";", "\[IndentingNewLine]", "\t", 
+     RowBox[{"nPos", "=", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Max", "[", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"fig", ",", "pnt", ",", "Infinity"}], "]"}], "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], "]"}], ",", 
+        RowBox[{"Max", "[", 
+         RowBox[{
+          RowBox[{"Cases", "[", 
+           RowBox[{"fig", ",", "pnt", ",", "Infinity"}], "]"}], "[", 
+          RowBox[{"[", 
+           RowBox[{"All", ",", "1"}], "]"}], "]"}], "]"}]}], "}"}]}], ";", 
+     "\[IndentingNewLine]", "\t", 
+     RowBox[{"out", "=", 
+      RowBox[{"{", 
+       RowBox[{"fig", ",", 
+        RowBox[{"tra3", "[", 
+         RowBox[{"fig", ",", "nPos"}], "]"}], ",", 
+        RowBox[{"ref3", "[", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"tra3", "[", 
+            RowBox[{"fig", ",", "nPos"}], "]"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"0", ",", "1"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1"}], "}"}]}], "}"}]}], "]"}], ",", 
+        RowBox[{"ref3", "[", 
+         RowBox[{
+          RowBox[{"ref3", "[", 
+           RowBox[{
+            RowBox[{"tra3", "[", 
+             RowBox[{"fig", ",", "nPos"}], "]"}], ",", 
+            RowBox[{"{", 
+             RowBox[{
+              RowBox[{"{", 
+               RowBox[{"0", ",", "1"}], "}"}], ",", 
+              RowBox[{"{", 
+               RowBox[{"1", ",", "1"}], "}"}]}], "}"}]}], "]"}], ",", 
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", "1"}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"1", ",", "0"}], "}"}]}], "}"}]}], "]"}]}], "}"}]}]}]}], 
+   "\n", "]"}]}], "\n", 
+ RowBox[{"blade", ":=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"1", ",", 
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{"0", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "0"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"1", ",", "2"}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], "}"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"LightBlue", ",", ".25"}], "}"}]}], "}"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"Black", ",", "1", ",", ".0025", ",", 
+      RowBox[{"2", " ", "\[Pi]"}], ",", 
+      RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\n", 
+ RowBox[{
+  RowBox[{"showBlade", "[", "n_", "]"}], ":=", 
+  RowBox[{"Nest", "[", 
+   RowBox[{"bladeTiling", ",", "blade", ",", "n"}], "]"}]}]}], "Code",
+ CellChangeTimes->{{3.741590513717205*^9, 3.741590513717205*^9}, {
+   3.741590795955584*^9, 3.741590955919376*^9}, 3.741591000865498*^9},
+ CellLabel->"In[57]:=",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["GUI", "Subsection",
+ CellChangeTimes->{{3.741590555921914*^9, 
+  3.7415905564823093`*^9}},ExpressionUUID->"83baf212-6fbf-4841-8d92-\
+1d0ff6105d16"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"showBlade", "[", "2", "]"}], "//", "toGL"}], "//", 
+  "gr"}]], "Input",
+ CellChangeTimes->{{3.7415905584379463`*^9, 3.741590573890408*^9}, {
+  3.7415907735254955`*^9, 3.7415907739942045`*^9}, {3.7415908693540616`*^9, 
+  3.7415908694410086`*^9}, {3.7415909633617573`*^9, 3.741590965839222*^9}, {
+  3.741591040968624*^9, 3.741591060775341*^9}},
+ CellLabel->"In[63]:=",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
+
+Cell[BoxData[
+ GraphicsBox[{{
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{0, 0}, {1, 0}, {1, 2}, {0, 1}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{1, 1}, {2, 1}, {2, 3}, {1, 2}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{1, 1}, {2, 1}, {2, -1}, {1, 0}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{0, 0}, {0, -1}, {2, -1}, {1, 0}}]}}}, {
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, 2}, {3, 2}, {3, 4}, {2, 3}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{3, 3}, {4, 3}, {4, 5}, {3, 4}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{3, 3}, {4, 3}, {4, 1}, {3, 2}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, 2}, {2, 1}, {4, 1}, {3, 2}}]}}}, {
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, 0}, {3, 0}, {3, -2}, {2, -1}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{3, -1}, {4, -1}, {4, -3}, {3, -2}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{3, -1}, {4, -1}, {4, 1}, {3, 0}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, 0}, {2, 1}, {4, 1}, {3, 0}}]}}}, {
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{1, -1}, {1, -2}, {3, -2}, {2, -1}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, -2}, {2, -3}, {4, -3}, {3, -2}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{2, -2}, {2, -3}, {0, -3}, {1, -2}}]}}, 
+    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
+     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[{{1, -1}, {0, -1}, {0, -3}, {1, -2}}]}}}}]], "Output",
+ CellChangeTimes->{3.7415936501089025`*^9},
+ CellLabel->"Out[63]=",ExpressionUUID->"e273c6a6-a35e-4bb6-bcc4-a48a68edbd64"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1482, 922},
+WindowMargins->{{Automatic, 13}, {11, Automatic}},
+FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 200, 3, 28, "Input",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+Cell[CellGroupData[{
+Cell[783, 27, 159, 3, 67, "Section",ExpressionUUID->"16c3c174-cb24-4a72-90c6-2ffc4f51de4e"],
+Cell[CellGroupData[{
+Cell[967, 34, 154, 3, 53, "Subsection",ExpressionUUID->"4afffc67-4b39-4dc7-a271-dcc8f412e122"],
+Cell[1124, 39, 3759, 105, 177, "Code",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[4920, 149, 153, 3, 53, "Subsection",ExpressionUUID->"83baf212-6fbf-4841-8d92-1d0ff6105d16"],
+Cell[CellGroupData[{
+Cell[5098, 156, 468, 9, 28, "Input",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
+Cell[5569, 167, 4102, 67, 482, "Output",ExpressionUUID->"e273c6a6-a35e-4bb6-bcc4-a48a68edbd64"]
+}, Open  ]]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
