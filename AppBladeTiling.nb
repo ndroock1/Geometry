@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     10708,        266]
-NotebookOptionsPosition[      9711,        239]
-NotebookOutlinePosition[     10054,        254]
-CellTagsIndexPosition[     10011,        251]
+NotebookDataLength[     10482,        283]
+NotebookOptionsPosition[      9483,        256]
+NotebookOutlinePosition[      9826,        271]
+CellTagsIndexPosition[      9783,        268]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -137,12 +137,14 @@ Cell[BoxData[{
       RowBox[{"2", " ", "\[Pi]"}], ",", 
       RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\n", 
  RowBox[{
-  RowBox[{"showBlade", "[", "n_", "]"}], ":=", 
+  RowBox[{"showBlade", "[", 
+   RowBox[{"fig_", ",", " ", "n_"}], "]"}], ":=", 
   RowBox[{"Nest", "[", 
-   RowBox[{"bladeTiling", ",", "blade", ",", "n"}], "]"}]}]}], "Code",
+   RowBox[{"bladeTiling", ",", "fig", ",", "n"}], "]"}]}]}], "Code",
  CellChangeTimes->{{3.741590513717205*^9, 3.741590513717205*^9}, {
-   3.741590795955584*^9, 3.741590955919376*^9}, 3.741591000865498*^9},
- CellLabel->"In[57]:=",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
+   3.741590795955584*^9, 3.741590955919376*^9}, 3.741591000865498*^9, {
+   3.741678389477456*^9, 3.741678416672708*^9}},
+ CellLabel->"In[19]:=",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -156,83 +158,98 @@ Cell[CellGroupData[{
 
 Cell[BoxData[
  RowBox[{
-  RowBox[{
-   RowBox[{"showBlade", "[", "2", "]"}], "//", "toGL"}], "//", 
-  "gr"}]], "Input",
+  RowBox[{"Manipulate", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{
+      RowBox[{"showBlade", "[", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{
+          RowBox[{"{", 
+           RowBox[{
+            RowBox[{"{", 
+             RowBox[{"1", ",", 
+              RowBox[{"{", 
+               RowBox[{
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "0"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"1", ",", "0"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"1", ",", "2"}], "}"}], ",", 
+                RowBox[{"{", 
+                 RowBox[{"0", ",", "1"}], "}"}]}], "}"}]}], "}"}], ",", 
+            RowBox[{"{", 
+             RowBox[{"colA", ",", ".25"}], "}"}]}], "}"}], ",", 
+          RowBox[{"{", 
+           RowBox[{"Black", ",", "1", ",", ".0025", ",", 
+            RowBox[{"2", " ", "\[Pi]"}], ",", 
+            RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}], ",", " ", "n"}], 
+       "]"}], "//", "toGL"}], "//", "gr"}], ",", 
+    RowBox[{"{", 
+     RowBox[{"colA", ",", "LightBlue"}], "}"}], ",", " ", 
+    RowBox[{"{", 
+     RowBox[{
+      RowBox[{"{", 
+       RowBox[{"n", ",", "2"}], "}"}], ",", "0", ",", "5", ",", "1"}], 
+     "}"}]}], "]"}], "\[IndentingNewLine]"}]], "Input",
  CellChangeTimes->{{3.7415905584379463`*^9, 3.741590573890408*^9}, {
   3.7415907735254955`*^9, 3.7415907739942045`*^9}, {3.7415908693540616`*^9, 
   3.7415908694410086`*^9}, {3.7415909633617573`*^9, 3.741590965839222*^9}, {
-  3.741591040968624*^9, 3.741591060775341*^9}},
- CellLabel->"In[63]:=",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
+  3.741591040968624*^9, 3.741591060775341*^9}, {3.741678447168194*^9, 
+  3.7416785281217384`*^9}, {3.741678559704493*^9, 3.7416785600002947`*^9}, {
+  3.741678600045357*^9, 3.741678600708914*^9}, {3.7416787713346863`*^9, 
+  3.7416788269003115`*^9}, {3.7416790966632023`*^9, 3.741679098588911*^9}},
+ CellLabel->"In[56]:=",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
 
 Cell[BoxData[
- GraphicsBox[{{
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{0, 0}, {1, 0}, {1, 2}, {0, 1}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{1, 1}, {2, 1}, {2, 3}, {1, 2}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{1, 1}, {2, 1}, {2, -1}, {1, 0}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{0, 0}, {0, -1}, {2, -1}, {1, 0}}]}}}, {
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, 2}, {3, 2}, {3, 4}, {2, 3}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{3, 3}, {4, 3}, {4, 5}, {3, 4}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{3, 3}, {4, 3}, {4, 1}, {3, 2}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, 2}, {2, 1}, {4, 1}, {3, 2}}]}}}, {
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, 0}, {3, 0}, {3, -2}, {2, -1}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{3, -1}, {4, -1}, {4, -3}, {3, -2}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{3, -1}, {4, -1}, {4, 1}, {3, 0}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, 0}, {2, 1}, {4, 1}, {3, 0}}]}}}, {
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{1, -1}, {1, -2}, {3, -2}, {2, -1}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, -2}, {2, -3}, {4, -3}, {3, -2}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{2, -2}, {2, -3}, {0, -3}, {1, -2}}]}}, 
-    {RGBColor[0.87, 0.94, 1], Opacity[0.25], 
-     {EdgeForm[{GrayLevel[0], Opacity[1], Thickness[0.0025], Dashing[
-       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-      PolygonBox[{{1, -1}, {0, -1}, {0, -3}, {1, -2}}]}}}}]], "Output",
- CellChangeTimes->{3.7415936501089025`*^9},
- CellLabel->"Out[63]=",ExpressionUUID->"e273c6a6-a35e-4bb6-bcc4-a48a68edbd64"]
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`colA$$ = RGBColor[
+    0.8645151445792325, 0.8645151445792325, 0.8645151445792325], 
+    Geometry`n$$ = 3, Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`colA$$], 
+      RGBColor[0.87, 0.94, 1]}, {{
+       Hold[Geometry`n$$], 2}, 0, 5, 1}}, Typeset`size$$ = {
+    221., {213., 219.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, Geometry`n$187182$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`colA$$ = RGBColor[0.87, 0.94, 1], 
+        Geometry`n$$ = 2}, "ControllerVariables" :> {
+        Hold[Geometry`n$$, Geometry`n$187182$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Geometry`gr[
+        Geometry`toGL[
+         $CellContext`showBlade[{{{
+            1, {{0, 0}, {1, 0}, {1, 2}, {0, 1}}}, {$CellContext`colA$$, 
+             0.25}}, {Black, 1, 0.0025, 2 Pi, 2 Pi}}, Geometry`n$$]]], 
+      "Specifications" :> {{$CellContext`colA$$, 
+         RGBColor[0.87, 0.94, 1]}, {{Geometry`n$$, 2}, 0, 5, 1}}, 
+      "Options" :> {}, "DefaultOptions" :> {}],
+     ImageSizeCache->{273., {290., 296.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Manipulate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.7415936501089025`*^9, 3.741678361180489*^9, {3.7416784222919245`*^9, 
+   3.74167845134838*^9}, {3.7416784940886307`*^9, 3.741678563843708*^9}, {
+   3.7416786014394217`*^9, 3.741678606050319*^9}, 3.7416787756088133`*^9, 
+   3.7416788324325886`*^9, {3.7416791023154*^9, 3.7416791096334777`*^9}},
+ CellLabel->"Out[56]=",ExpressionUUID->"511894ec-f35e-4eca-9481-a40161e223e0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -258,13 +275,13 @@ Cell[CellGroupData[{
 Cell[783, 27, 159, 3, 67, "Section",ExpressionUUID->"16c3c174-cb24-4a72-90c6-2ffc4f51de4e"],
 Cell[CellGroupData[{
 Cell[967, 34, 154, 3, 53, "Subsection",ExpressionUUID->"4afffc67-4b39-4dc7-a271-dcc8f412e122"],
-Cell[1124, 39, 3759, 105, 177, "Code",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
+Cell[1124, 39, 3839, 107, 177, "Code",ExpressionUUID->"1ab51cc1-8ecd-4078-ba03-a8d552875168"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[4920, 149, 153, 3, 53, "Subsection",ExpressionUUID->"83baf212-6fbf-4841-8d92-1d0ff6105d16"],
+Cell[5000, 151, 153, 3, 53, "Subsection",ExpressionUUID->"83baf212-6fbf-4841-8d92-1d0ff6105d16"],
 Cell[CellGroupData[{
-Cell[5098, 156, 468, 9, 28, "Input",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
-Cell[5569, 167, 4102, 67, 482, "Output",ExpressionUUID->"e273c6a6-a35e-4bb6-bcc4-a48a68edbd64"]
+Cell[5178, 158, 1896, 45, 48, "Input",ExpressionUUID->"7c13c2ff-64c1-4b06-b424-1f35508596fa"],
+Cell[7077, 205, 2366, 46, 662, "Output",ExpressionUUID->"511894ec-f35e-4eca-9481-a40161e223e0"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
