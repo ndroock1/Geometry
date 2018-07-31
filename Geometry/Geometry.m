@@ -66,11 +66,12 @@ sym4ref[figke_] := Module[{rotp},
      ref3[figke, {{0, 1}, rotp}]}, .5], {-.5, -.5}]
   ]
 
-sym4ovr[figke_] := Module[{rotp, temp},
-  rotp = {0.5,0.5};
-  temp={figke,rot3[figke,{\[Pi],rotp}]};
-  sym4rot[temp]
-  ]
+sym4ovr[figke_] := Module[{rotp},
+  rotp = {1, 1};
+  tra3[Scale[
+    {figke, ref3[figke, {{1, 0}, rotp}], tra3[figke, {1, 1}], 
+     ref3[tra3[figke, {1, 1}], {{1, 0}, rotp}]},
+    .5], {-.5, -.5}]]
 
 
 
