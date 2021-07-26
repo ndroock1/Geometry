@@ -30,9 +30,6 @@ clr = {typ, face};
 edg = {{typ, face}, edge};
 
 
-
-
-
 (* GEOMETRIC TRANSFORMATIONS *)
 tra3[figs_,t_]:=figs/.f:pnt:> TranslationTransform[t][f]
 rot3[figs_,{a_,p_}]:=figs/.f:pnt:> RotationTransform[a,p][f]
