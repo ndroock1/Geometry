@@ -20,7 +20,6 @@ HYPERBOLICLINE:=6
 kanweg:=999
 
 
-
 (* DATA STRUCTURE *)
 pnt = {Repeated[Except[_Complex, _?NumericQ], {2}]};
 pts = {RepeatedNull[pnt]};

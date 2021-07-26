@@ -10,18 +10,296 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2407402,      41363]
-NotebookOptionsPosition[   2404079,      41298]
-NotebookOutlinePosition[   2404423,      41313]
-CellTagsIndexPosition[   2404380,      41310]
+NotebookDataLength[   2330678,      40156]
+NotebookOptionsPosition[   2325640,      40071]
+NotebookOutlinePosition[   2326043,      40087]
+CellTagsIndexPosition[   2326000,      40084]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"AppendTo", "[", 
+   RowBox[{
+   "$Path", ",", 
+    "\"\<C:\\\\Users\\\\Nilo\\\\__DATA\\\\Mega\\\\DATA\\\\eclipse-workspace\\\
+\\Geometry\>\""}], "]"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"<<", "Geometry`"}]}], "Input",
+ CellChangeTimes->{{3.7396765043760834`*^9, 3.739676511602624*^9}, {
+  3.835962766762082*^9, 3.835962779154239*^9}},
+ CellLabel->
+  "In[119]:=",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+
 Cell[BoxData[
- RowBox[{"<<", "Geometry`"}]], "Input",
- CellChangeTimes->{{3.7396765043760834`*^9, 3.739676511602624*^9}},
- CellLabel->"In[9]:=",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+ TemplateBox[{
+  "t", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"t\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 20, 25438058595244215453, "Local", 
+   "Geometry`t"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780293336*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"7e721d60-14ee-4a73-9f0e-c0892e1c1979"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "f", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"f\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 21, 25438058595244215453, "Local", 
+   "Geometry`f"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.8359627803505564`*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"93610a95-fcd8-4f21-96c8-edbce09d7b8d"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "a", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"a\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 22, 25438058595244215453, "Local", 
+   "Geometry`a"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780362714*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"e4dcf890-0b94-4a4c-82d9-f87c622ad602"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "v", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"v\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 23, 25438058595244215453, "Local", 
+   "Geometry`v"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780408259*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"b8d135d2-d1be-4051-9c17-1089c6cf7378"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "s", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"s\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 24, 25438058595244215453, "Local", 
+   "Geometry`s"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.8359627804171343`*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"f02bb51e-a80b-4acc-8a9b-3e94f2acbbfa"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "x", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"x\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 25, 25438058595244215453, "Local", 
+   "Geometry`x"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780426123*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"3474896a-b212-406b-83e5-bdbfe594c313"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "y", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"y\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\", \\\",\\\", \\\"\
+\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 26, 25438058595244215453, "Local", 
+   "Geometry`y"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780478642*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"3b919207-0613-4b7c-8933-7ea3e421161c"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "q", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"q\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 27, 25438058595244215453, "Local", 
+   "Geometry`q"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.83596278049047*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"56f37f4b-3207-49f4-ac24-3d39e9f9db90"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "w", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"w\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 28, 25438058595244215453, "Local", 
+   "Geometry`w"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.83596278049946*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"39177f96-edc0-4cd2-9ba7-f1d3e2b724f7"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "n", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"n\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\"}], \
+\\\"}\\\"}]\\); definitions in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\
+\\\\\\\"\\\"}]\\) may shadow or be shadowed by other definitions.\"", 2, 120, 
+   29, 25438058595244215453, "Local", "Geometry`n"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780509455*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"9253988d-8bc8-4777-8984-a96a947e701f"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "r", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"r\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 30, 25438058595244215453, "Local", 
+   "Geometry`r"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780565965*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"14e50832-0f1c-47f5-a023-9ddeefc6adc5"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "q$", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"q$\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 31, 25438058595244215453, "Local", 
+   "Geometry`q$"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780577655*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"cb67e7ab-d67c-4794-ba1a-14f63b2f668e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "x$", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"x$\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"Global`\\\\\\\"\\\"}], \\\"}\\\"}]\\); \
+definitions in context \
+\\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\\\\\\\"\\\"}]\\) may shadow or be \
+shadowed by other definitions.\"", 2, 120, 32, 25438058595244215453, "Local", 
+   "Geometry`x$"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.8359627805861607`*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"1187334e-05bd-4007-94d7-b11b36b2f4ff"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "out", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"out\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\"}], \
+\\\"}\\\"}]\\); definitions in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\
+\\\\\\\"\\\"}]\\) may shadow or be shadowed by other definitions.\"", 2, 120, 
+   33, 25438058595244215453, "Local", "Geometry`out"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.8359627805951552`*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"412356d9-db79-4752-8d80-d8b837b13a29"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "out$", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"out$\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\"}], \
+\\\"}\\\"}]\\); definitions in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\
+\\\\\\\"\\\"}]\\) may shadow or be shadowed by other definitions.\"", 2, 120, 
+   34, 25438058595244215453, "Local", "Geometry`out$"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962780653124*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"6effd71a-0239-420f-80da-50b273ba0abe"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "tf", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"tf\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\"}], \
+\\\"}\\\"}]\\); definitions in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\
+\\\\\\\"\\\"}]\\) may shadow or be shadowed by other definitions.\"", 2, 120, 
+   35, 25438058595244215453, "Local", "Geometry`tf"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962783102103*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"c4bd4989-57da-41d4-b4bb-a42b4a7df73e"],
+
+Cell[BoxData[
+ TemplateBox[{
+  "mf", "shdw", 
+   "\"Symbol \\!\\(\\*RowBox[{\\\"\\\\\\\"mf\\\\\\\"\\\"}]\\) appears in \
+multiple contexts \\!\\(\\*RowBox[{\\\"{\\\", RowBox[{\\\"\\\\\\\"Geometry`\\\
+\\\\\"\\\", \\\",\\\", \\\"\\\\\\\"NumberTheory`\\\\\\\"\\\"}], \
+\\\"}\\\"}]\\); definitions in context \\!\\(\\*RowBox[{\\\"\\\\\\\"Geometry`\
+\\\\\\\"\\\"}]\\) may shadow or be shadowed by other definitions.\"", 2, 120, 
+   36, 25438058595244215453, "Local", "Geometry`mf"},
+  "MessageTemplate2"]], "Message", "MSG",
+ CellChangeTimes->{3.8359627323020325`*^9, 3.835962783171672*^9},
+ CellLabel->
+  "During evaluation of \
+In[119]:=",ExpressionUUID->"a09a2764-731e-42f4-b5ec-f255cee299ad"]
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -103,2042 +381,535 @@ Cell[BoxData[{
        RowBox[{"newGeo", "[", 
         RowBox[{"10", ",", 
          RowBox[{"RGBColor", "[", 
-          RowBox[{"1", ",", ".05", ",", ".95", ",", ".1"}], "]"}]}], "]"}], 
+          RowBox[{"1", ",", ".85", ",", ".95", ",", ".1"}], "]"}]}], "]"}], 
        "[", 
        RowBox[{"[", "1", "]"}], "]"}], ",", 
       RowBox[{"{", 
        RowBox[{"1", ",", "1"}], "}"}]}], "]"}], ",", 
     RowBox[{"{", 
-     RowBox[{"Blue", ",", "1", ",", ".005", ",", 
+     RowBox[{"Red", ",", "1", ",", ".005", ",", 
       RowBox[{"2", " ", "\[Pi]"}], ",", 
       RowBox[{"2", " ", "\[Pi]"}]}], "}"}]}], "}"}]}], "\[IndentingNewLine]", 
  RowBox[{
   RowBox[{
    RowBox[{"Nest", "[", 
-    RowBox[{"teil", ",", "dpoly", ",", "3"}], "]"}], "//", "toGL"}], "//", 
+    RowBox[{"teil", ",", "dpoly", ",", "2"}], "]"}], "//", "toGL"}], "//", 
   "gr1"}]}], "Input",
- CellChangeTimes->{{3.7402973569157877`*^9, 3.740297509403341*^9}, {
-  3.740297582930704*^9, 3.740297584935232*^9}, {3.740299614630862*^9, 
-  3.740299716006755*^9}, {3.740300251045304*^9, 3.7403003137719154`*^9}, {
-  3.7403003791470814`*^9, 3.7403003794595985`*^9}, {3.7403004278658967`*^9, 
-  3.7403004281158857`*^9}, {3.7403005748424206`*^9, 3.7403005925445995`*^9}, {
-  3.7403006912834096`*^9, 3.7403007116199636`*^9}, {3.7403019291612234`*^9, 
-  3.7403019584007893`*^9}, {3.7403020046643047`*^9, 3.7403020049299192`*^9}, {
-  3.740302486213146*^9, 3.740302541571331*^9}, {3.740316287693457*^9, 
-  3.740316382849605*^9}, {3.740316444939915*^9, 3.740316489158801*^9}, {
-  3.7403166380184035`*^9, 3.7403166464200954`*^9}, {3.740372871406948*^9, 
-  3.7403730392726088`*^9}, {3.7403731048658237`*^9, 3.7403731436477194`*^9}, {
-  3.740379131189694*^9, 3.740379615685994*^9}, {3.8005993871490726`*^9, 
-  3.8005993882655935`*^9}},
- CellLabel->"In[16]:=",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
+ CellChangeTimes->CompressedData["
+1:eJxTTMoPSmViYGAQAWIQreQ3V5D33mtH7RdrVEB0yIm7uiA6562sHohmM7ii
+zQekw8wbLEC0YnFiNYju2GzRDKKfbEnpBtEcW/PAdO7W6olg9VubwbTM11uL
+QXRMruAyEL1RMHMTiN537fMWMK2h6ssPpF0unwkA0X8cp4aB6GcH54JpiUvH
+JoHoCI9NM0H0WYNv/mJA+rv+7WgQfVJ4XjKIfiaimgmiD087UA2icwrP1oDo
+HaxvPxgCabOdL1iNgPSVLdJ8IFpu1xchEP1TMO2/CZBe9fmrtSmQNjmaki0Y
++MZxX30HmL69nnlHy5Q3jl+SecH0hoNpe0D0klOz94NoAMrVqLk=
+  "],
+ CellLabel->
+  "In[137]:=",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
 
 Cell[BoxData[
- GraphicsBox[{{{
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
-          2}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+ GraphicsBox[{{
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
            Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
-          0}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
+         2}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
+         0}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
+         1.9510565162951536`, 1.3090169943749475`}, {1.5877852522924731`, 
+         1.8090169943749475`}, {1, 2}, {0.41221474770752686`, 
+         1.8090169943749475`}, {0.04894348370484647, 1.3090169943749475`}, {
+         0.04894348370484647, 0.6909830056250525}, {0.41221474770752686`, 
+         0.19098300562505255`}, {1, 0}, {1.5877852522924731`, 
+         0.19098300562505255`}, {1.9510565162951536`, 
+         0.6909830056250525}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          1.9510565162951536`, 1.3090169943749475`}, {1.5877852522924731`, 
-          1.8090169943749475`}, {1, 2}, {0.41221474770752686`, 
-          1.8090169943749475`}, {0.04894348370484647, 1.3090169943749475`}, {
-          0.04894348370484647, 0.6909830056250525}, {0.41221474770752686`, 
-          0.19098300562505255`}, {1, 0}, {1.5877852522924731`, 
-          0.19098300562505255`}, {1.9510565162951536`, 
-          0.6909830056250525}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {2, 1}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {4, 1}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{2.6909830056250525`, 1.9510565162951536`}, {
-          2.1909830056250525`, 1.5877852522924731`}, {2, 1}, {
-          2.1909830056250525`, 0.41221474770752686`}, {2.6909830056250525`, 
-          0.04894348370484647}, {3.3090169943749475`, 0.04894348370484647}, {
-          3.8090169943749475`, 0.41221474770752686`}, {4, 1}, {
-          3.8090169943749475`, 1.5877852522924731`}, {3.3090169943749475`, 
-          1.9510565162951536`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
-          2}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
-          4}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          2.0489434837048464`, 2.6909830056250525`}, {2.4122147477075266`, 
-          2.1909830056250525`}, {3, 2}, {3.5877852522924734`, 
-          2.1909830056250525`}, {3.9510565162951536`, 2.6909830056250525`}, {
-          3.9510565162951536`, 3.3090169943749475`}, {3.5877852522924734`, 
-          3.8090169943749475`}, {3, 4}, {2.4122147477075266`, 
-          3.8090169943749475`}, {2.0489434837048464`, 
-          3.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {2, 3}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {0, 3}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{1.3090169943749475`, 2.0489434837048464`}, {
-          1.8090169943749475`, 2.4122147477075266`}, {2, 3}, {
-          1.8090169943749475`, 3.5877852522924734`}, {1.3090169943749475`, 
-          3.9510565162951536`}, {0.6909830056250525, 3.9510565162951536`}, {
-          0.19098300562505255`, 3.5877852522924734`}, {0, 3}, {
-          0.19098300562505255`, 2.4122147477075266`}, {0.6909830056250525, 
-          2.0489434837048464`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {6, 1}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {8, 1}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{6.6909830056250525`, 1.9510565162951536`}, {
-          6.1909830056250525`, 1.5877852522924731`}, {6, 1}, {
-          6.1909830056250525`, 0.41221474770752686`}, {6.6909830056250525`, 
-          0.04894348370484647}, {7.3090169943749475`, 0.04894348370484647}, {
-          7.8090169943749475`, 0.41221474770752686`}, {8, 1}, {
-          7.8090169943749475`, 1.5877852522924731`}, {7.3090169943749475`, 
-          1.9510565162951536`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
-          2}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
-          4}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          6.048943483704846, 2.6909830056250525`}, {6.412214747707527, 
-          2.1909830056250525`}, {7, 2}, {7.587785252292473, 
-          2.1909830056250525`}, {7.951056516295154, 2.6909830056250525`}, {
-          7.951056516295154, 3.3090169943749475`}, {7.587785252292473, 
-          3.8090169943749475`}, {7, 4}, {6.412214747707527, 
-          3.8090169943749475`}, {6.048943483704846, 3.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {6, 3}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {4, 3}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{5.3090169943749475`, 2.0489434837048464`}, {
-          5.8090169943749475`, 2.4122147477075266`}, {6, 3}, {
-          5.8090169943749475`, 3.5877852522924734`}, {5.3090169943749475`, 
-          3.9510565162951536`}, {4.6909830056250525`, 3.9510565162951536`}, {
-          4.1909830056250525`, 3.5877852522924734`}, {4, 3}, {
-          4.1909830056250525`, 2.4122147477075266`}, {4.6909830056250525`, 
-          2.0489434837048464`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
-          2}, {
-          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
-          0}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          5.951056516295154, 1.3090169943749475`}, {5.587785252292473, 
-          1.8090169943749475`}, {5, 2}, {4.412214747707527, 
-          1.8090169943749475`}, {4.048943483704846, 1.3090169943749475`}, {
-          4.048943483704846, 0.6909830056250525}, {4.412214747707527, 
-          0.19098300562505255`}, {5, 0}, {5.587785252292473, 
-          0.19098300562505255`}, {5.951056516295154, 
-          0.6909830056250525}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
-          6}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
-          8}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          6.048943483704846, 6.6909830056250525`}, {6.412214747707527, 
-          6.1909830056250525`}, {7, 6}, {7.587785252292473, 
-          6.1909830056250525`}, {7.951056516295154, 6.6909830056250525`}, {
-          7.951056516295154, 7.3090169943749475`}, {7.587785252292473, 
-          7.8090169943749475`}, {7, 8}, {6.412214747707527, 
-          7.8090169943749475`}, {6.048943483704846, 7.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {6, 7}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {4, 7}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{5.3090169943749475`, 6.048943483704846}, {
-          5.8090169943749475`, 6.412214747707527}, {6, 7}, {
-          5.8090169943749475`, 7.587785252292473}, {5.3090169943749475`, 
-          7.951056516295154}, {4.6909830056250525`, 7.951056516295154}, {
-          4.1909830056250525`, 7.587785252292473}, {4, 7}, {
-          4.1909830056250525`, 6.412214747707527}, {4.6909830056250525`, 
-          6.048943483704846}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
-          6}, {5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
-          4}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          5.951056516295154, 5.3090169943749475`}, {5.587785252292473, 
-          5.8090169943749475`}, {5, 6}, {4.412214747707527, 
-          5.8090169943749475`}, {4.048943483704846, 5.3090169943749475`}, {
-          4.048943483704846, 4.6909830056250525`}, {4.412214747707527, 
-          4.1909830056250525`}, {5, 4}, {5.587785252292473, 
-          4.1909830056250525`}, {5.951056516295154, 4.6909830056250525`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {6, 5}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {8, 5}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{6.6909830056250525`, 5.951056516295154}, {
-          6.1909830056250525`, 5.587785252292473}, {6, 5}, {
-          6.1909830056250525`, 4.412214747707527}, {6.6909830056250525`, 
-          4.048943483704846}, {7.3090169943749475`, 4.048943483704846}, {
-          7.8090169943749475`, 4.412214747707527}, {8, 5}, {
-          7.8090169943749475`, 5.587785252292473}, {7.3090169943749475`, 
-          5.951056516295154}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {2, 7}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {0, 7}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{1.3090169943749475`, 6.048943483704846}, {
-          1.8090169943749475`, 6.412214747707527}, {2, 7}, {
-          1.8090169943749475`, 7.587785252292473}, {1.3090169943749475`, 
-          7.951056516295154}, {0.6909830056250525, 7.951056516295154}, {
-          0.19098300562505255`, 7.587785252292473}, {0, 7}, {
-          0.19098300562505255`, 6.412214747707527}, {0.6909830056250525, 
-          6.048943483704846}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
-          6}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {2, 1}, {
+         3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
-          4}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          1.9510565162951536`, 5.3090169943749475`}, {1.5877852522924731`, 
-          5.8090169943749475`}, {1, 6}, {0.41221474770752686`, 
-          5.8090169943749475`}, {0.04894348370484647, 5.3090169943749475`}, {
-          0.04894348370484647, 4.6909830056250525`}, {0.41221474770752686`, 
-          4.1909830056250525`}, {1, 4}, {1.5877852522924731`, 
-          4.1909830056250525`}, {1.9510565162951536`, 
-          4.6909830056250525`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {2, 5}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {4, 5}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{2.6909830056250525`, 5.951056516295154}, {
-          2.1909830056250525`, 5.587785252292473}, {2, 5}, {
-          2.1909830056250525`, 4.412214747707527}, {2.6909830056250525`, 
-          4.048943483704846}, {3.3090169943749475`, 4.048943483704846}, {
-          3.8090169943749475`, 4.412214747707527}, {4, 5}, {
-          3.8090169943749475`, 5.587785252292473}, {3.3090169943749475`, 
-          5.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
-          6}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
-          8}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          2.0489434837048464`, 6.6909830056250525`}, {2.4122147477075266`, 
-          6.1909830056250525`}, {3, 6}, {3.5877852522924734`, 
-          6.1909830056250525`}, {3.9510565162951536`, 6.6909830056250525`}, {
-          3.9510565162951536`, 7.3090169943749475`}, {3.5877852522924734`, 
-          7.8090169943749475`}, {3, 8}, {2.4122147477075266`, 
-          7.8090169943749475`}, {2.0489434837048464`, 
-          7.3090169943749475`}}]]}}}}, {{
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {14, 1}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {16, 1}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{14.690983005625053`, 1.9510565162951536`}, {
-          14.190983005625053`, 1.5877852522924731`}, {14, 1}, {
-          14.190983005625053`, 0.41221474770752686`}, {14.690983005625053`, 
-          0.04894348370484647}, {15.309016994374947`, 0.04894348370484647}, {
-          15.809016994374947`, 0.41221474770752686`}, {16, 1}, {
-          15.809016994374947`, 1.5877852522924731`}, {15.309016994374947`, 
-          1.9510565162951536`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {15, 
-          2}, {15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {15, 
-          4}, {15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          14.048943483704846`, 2.6909830056250525`}, {14.412214747707527`, 
-          2.1909830056250525`}, {15, 2}, {15.587785252292473`, 
-          2.1909830056250525`}, {15.951056516295154`, 2.6909830056250525`}, {
-          15.951056516295154`, 3.3090169943749475`}, {15.587785252292473`, 
-          3.8090169943749475`}, {15, 4}, {14.412214747707527`, 
-          3.8090169943749475`}, {14.048943483704846`, 
-          3.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {14, 3}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {12, 3}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{13.309016994374947`, 2.0489434837048464`}, {
-          13.809016994374947`, 2.4122147477075266`}, {14, 3}, {
-          13.809016994374947`, 3.5877852522924734`}, {13.309016994374947`, 
-          3.9510565162951536`}, {12.690983005625053`, 3.9510565162951536`}, {
-          12.190983005625053`, 3.5877852522924734`}, {12, 3}, {
-          12.190983005625053`, 2.4122147477075266`}, {12.690983005625053`, 
-          2.0489434837048464`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {13, 
-          2}, {13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {13, 
-          0}, {13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          13.951056516295154`, 1.3090169943749475`}, {13.587785252292473`, 
-          1.8090169943749475`}, {13, 2}, {12.412214747707527`, 
-          1.8090169943749475`}, {12.048943483704846`, 1.3090169943749475`}, {
-          12.048943483704846`, 0.6909830056250525}, {12.412214747707527`, 
-          0.19098300562505255`}, {13, 0}, {13.587785252292473`, 
-          0.19098300562505255`}, {13.951056516295154`, 
-          0.6909830056250525}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {15, 
-          6}, {15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {15, 
-          8}, {15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          14.048943483704846`, 6.6909830056250525`}, {14.412214747707527`, 
-          6.1909830056250525`}, {15, 6}, {15.587785252292473`, 
-          6.1909830056250525`}, {15.951056516295154`, 6.6909830056250525`}, {
-          15.951056516295154`, 7.3090169943749475`}, {15.587785252292473`, 
-          7.8090169943749475`}, {15, 8}, {14.412214747707527`, 
-          7.8090169943749475`}, {14.048943483704846`, 
-          7.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {14, 7}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {12, 7}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{13.309016994374947`, 6.048943483704846}, {
-          13.809016994374947`, 6.412214747707527}, {14, 7}, {
-          13.809016994374947`, 7.587785252292473}, {13.309016994374947`, 
-          7.951056516295154}, {12.690983005625053`, 7.951056516295154}, {
-          12.190983005625053`, 7.587785252292473}, {12, 7}, {
-          12.190983005625053`, 6.412214747707527}, {12.690983005625053`, 
-          6.048943483704846}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {13, 
-          6}, {13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {13, 
-          4}, {13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          13.951056516295154`, 5.3090169943749475`}, {13.587785252292473`, 
-          5.8090169943749475`}, {13, 6}, {12.412214747707527`, 
-          5.8090169943749475`}, {12.048943483704846`, 5.3090169943749475`}, {
-          12.048943483704846`, 4.6909830056250525`}, {12.412214747707527`, 
-          4.1909830056250525`}, {13, 4}, {13.587785252292473`, 
-          4.1909830056250525`}, {13.951056516295154`, 
-          4.6909830056250525`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {14, 5}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {16, 5}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{14.690983005625053`, 5.951056516295154}, {
-          14.190983005625053`, 5.587785252292473}, {14, 5}, {
-          14.190983005625053`, 4.412214747707527}, {14.690983005625053`, 
-          4.048943483704846}, {15.309016994374947`, 4.048943483704846}, {
-          15.809016994374947`, 4.412214747707527}, {16, 5}, {
-          15.809016994374947`, 5.587785252292473}, {15.309016994374947`, 
-          5.951056516295154}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {10, 7}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {8, 7}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{9.309016994374947, 6.048943483704846}, {
-          9.809016994374947, 6.412214747707527}, {10, 7}, {9.809016994374947, 
-          7.587785252292473}, {9.309016994374947, 7.951056516295154}, {
-          8.690983005625053, 7.951056516295154}, {8.190983005625053, 
-          7.587785252292473}, {8, 7}, {8.190983005625053, 
-          6.412214747707527}, {8.690983005625053, 6.048943483704846}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {9, 
-          6}, {9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {9, 
-          4}, {
-          9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          9.951056516295154, 5.3090169943749475`}, {9.587785252292473, 
-          5.8090169943749475`}, {9, 6}, {8.412214747707527, 
-          5.8090169943749475`}, {8.048943483704846, 5.3090169943749475`}, {
-          8.048943483704846, 4.6909830056250525`}, {8.412214747707527, 
-          4.1909830056250525`}, {9, 4}, {9.587785252292473, 
-          4.1909830056250525`}, {9.951056516295154, 4.6909830056250525`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {10, 5}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {12, 5}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{10.690983005625053`, 5.951056516295154}, {
-          10.190983005625053`, 5.587785252292473}, {10, 5}, {
-          10.190983005625053`, 4.412214747707527}, {10.690983005625053`, 
-          4.048943483704846}, {11.309016994374947`, 4.048943483704846}, {
-          11.809016994374947`, 4.412214747707527}, {12, 5}, {
-          11.809016994374947`, 5.587785252292473}, {11.309016994374947`, 
-          5.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {11, 
-          6}, {11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {11, 
-          8}, {11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          10.048943483704846`, 6.6909830056250525`}, {10.412214747707527`, 
-          6.1909830056250525`}, {11, 6}, {11.587785252292473`, 
-          6.1909830056250525`}, {11.951056516295154`, 6.6909830056250525`}, {
-          11.951056516295154`, 7.3090169943749475`}, {11.587785252292473`, 
-          7.8090169943749475`}, {11, 8}, {10.412214747707527`, 
-          7.8090169943749475`}, {10.048943483704846`, 
-          7.3090169943749475`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {9, 
-          2}, {9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {9, 
-          0}, {9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          9.951056516295154, 1.3090169943749475`}, {9.587785252292473, 
-          1.8090169943749475`}, {9, 2}, {8.412214747707527, 
-          1.8090169943749475`}, {8.048943483704846, 1.3090169943749475`}, {
-          8.048943483704846, 0.6909830056250525}, {8.412214747707527, 
-          0.19098300562505255`}, {9, 0}, {9.587785252292473, 
-          0.19098300562505255`}, {9.951056516295154, 0.6909830056250525}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {10, 1}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {12, 1}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{10.690983005625053`, 1.9510565162951536`}, {
-          10.190983005625053`, 1.5877852522924731`}, {10, 1}, {
-          10.190983005625053`, 0.41221474770752686`}, {10.690983005625053`, 
-          0.04894348370484647}, {11.309016994374947`, 0.04894348370484647}, {
-          11.809016994374947`, 0.41221474770752686`}, {12, 1}, {
-          11.809016994374947`, 1.5877852522924731`}, {11.309016994374947`, 
-          1.9510565162951536`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {11, 
-          2}, {11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {11, 
-          4}, {11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          10.048943483704846`, 2.6909830056250525`}, {10.412214747707527`, 
-          2.1909830056250525`}, {11, 2}, {11.587785252292473`, 
-          2.1909830056250525`}, {11.951056516295154`, 2.6909830056250525`}, {
-          11.951056516295154`, 3.3090169943749475`}, {11.587785252292473`, 
-          3.8090169943749475`}, {11, 4}, {10.412214747707527`, 
-          3.8090169943749475`}, {10.048943483704846`, 
-          3.3090169943749475`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {10, 3}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {8, 3}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{9.309016994374947, 2.0489434837048464`}, {
-          9.809016994374947, 2.4122147477075266`}, {10, 3}, {
-          9.809016994374947, 3.5877852522924734`}, {9.309016994374947, 
-          3.9510565162951536`}, {8.690983005625053, 3.9510565162951536`}, {
-          8.190983005625053, 3.5877852522924734`}, {8, 3}, {8.190983005625053,
-           2.4122147477075266`}, {8.690983005625053, 
-          2.0489434837048464`}}]]}}}}, {{
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {15, 
-          14}, {15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {15, 
-          16}, {15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          14.048943483704846`, 14.690983005625053`}, {14.412214747707527`, 
-          14.190983005625053`}, {15, 14}, {15.587785252292473`, 
-          14.190983005625053`}, {15.951056516295154`, 14.690983005625053`}, {
-          15.951056516295154`, 15.309016994374947`}, {15.587785252292473`, 
-          15.809016994374947`}, {15, 16}, {14.412214747707527`, 
-          15.809016994374947`}, {14.048943483704846`, 
-          15.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {14, 15}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {12, 15}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{13.309016994374947`, 14.048943483704846`}, {
-          13.809016994374947`, 14.412214747707527`}, {14, 15}, {
-          13.809016994374947`, 15.587785252292473`}, {13.309016994374947`, 
-          15.951056516295154`}, {12.690983005625053`, 15.951056516295154`}, {
-          12.190983005625053`, 15.587785252292473`}, {12, 15}, {
-          12.190983005625053`, 14.412214747707527`}, {12.690983005625053`, 
-          14.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {13, 
-          14}, {13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {13, 
-          12}, {13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          13.951056516295154`, 13.309016994374947`}, {13.587785252292473`, 
-          13.809016994374947`}, {13, 14}, {12.412214747707527`, 
-          13.809016994374947`}, {12.048943483704846`, 13.309016994374947`}, {
-          12.048943483704846`, 12.690983005625053`}, {12.412214747707527`, 
-          12.190983005625053`}, {13, 12}, {13.587785252292473`, 
-          12.190983005625053`}, {13.951056516295154`, 
-          12.690983005625053`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {14, 13}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {16, 13}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{14.690983005625053`, 13.951056516295154`}, {
-          14.190983005625053`, 13.587785252292473`}, {14, 13}, {
-          14.190983005625053`, 12.412214747707527`}, {14.690983005625053`, 
-          12.048943483704846`}, {15.309016994374947`, 12.048943483704846`}, {
-          15.809016994374947`, 12.412214747707527`}, {16, 13}, {
-          15.809016994374947`, 13.587785252292473`}, {15.309016994374947`, 
-          13.951056516295154`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {10, 15}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {8, 15}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{9.309016994374947, 14.048943483704846`}, {
-          9.809016994374947, 14.412214747707527`}, {10, 15}, {
-          9.809016994374947, 15.587785252292473`}, {9.309016994374947, 
-          15.951056516295154`}, {8.690983005625053, 15.951056516295154`}, {
-          8.190983005625053, 15.587785252292473`}, {8, 15}, {
-          8.190983005625053, 14.412214747707527`}, {8.690983005625053, 
-          14.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {9, 
-          14}, {9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {9, 
-          12}, {9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          9.951056516295154, 13.309016994374947`}, {9.587785252292473, 
-          13.809016994374947`}, {9, 14}, {8.412214747707527, 
-          13.809016994374947`}, {8.048943483704846, 13.309016994374947`}, {
-          8.048943483704846, 12.690983005625053`}, {8.412214747707527, 
-          12.190983005625053`}, {9, 12}, {9.587785252292473, 
-          12.190983005625053`}, {9.951056516295154, 12.690983005625053`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {10, 13}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {12, 13}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{10.690983005625053`, 13.951056516295154`}, {
-          10.190983005625053`, 13.587785252292473`}, {10, 13}, {
-          10.190983005625053`, 12.412214747707527`}, {10.690983005625053`, 
-          12.048943483704846`}, {11.309016994374947`, 12.048943483704846`}, {
-          11.809016994374947`, 12.412214747707527`}, {12, 13}, {
-          11.809016994374947`, 13.587785252292473`}, {11.309016994374947`, 
-          13.951056516295154`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {11, 
-          14}, {11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {11, 
-          16}, {11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          10.048943483704846`, 14.690983005625053`}, {10.412214747707527`, 
-          14.190983005625053`}, {11, 14}, {11.587785252292473`, 
-          14.190983005625053`}, {11.951056516295154`, 14.690983005625053`}, {
-          11.951056516295154`, 15.309016994374947`}, {11.587785252292473`, 
-          15.809016994374947`}, {11, 16}, {10.412214747707527`, 
-          15.809016994374947`}, {10.048943483704846`, 
-          15.309016994374947`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {9, 
-          10}, {9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {9, 
-          8}, {9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          9.951056516295154, 9.309016994374947}, {9.587785252292473, 
-          9.809016994374947}, {9, 10}, {8.412214747707527, 
-          9.809016994374947}, {8.048943483704846, 9.309016994374947}, {
-          8.048943483704846, 8.690983005625053}, {8.412214747707527, 
-          8.190983005625053}, {9, 8}, {9.587785252292473, 
-          8.190983005625053}, {9.951056516295154, 8.690983005625053}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {10, 9}, {
-          11 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {12, 9}, {
-          11 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          11 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{10.690983005625053`, 9.951056516295154}, {
-          10.190983005625053`, 9.587785252292473}, {10, 9}, {
-          10.190983005625053`, 8.412214747707527}, {10.690983005625053`, 
-          8.048943483704846}, {11.309016994374947`, 8.048943483704846}, {
-          11.809016994374947`, 8.412214747707527}, {12, 9}, {
-          11.809016994374947`, 9.587785252292473}, {11.309016994374947`, 
-          9.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {11, 
-          10}, {11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {11, 
-          12}, {11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          10.048943483704846`, 10.690983005625053`}, {10.412214747707527`, 
-          10.190983005625053`}, {11, 10}, {11.587785252292473`, 
-          10.190983005625053`}, {11.951056516295154`, 10.690983005625053`}, {
-          11.951056516295154`, 11.309016994374947`}, {11.587785252292473`, 
-          11.809016994374947`}, {11, 12}, {10.412214747707527`, 
-          11.809016994374947`}, {10.048943483704846`, 
-          11.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {10, 11}, {
-          9 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {8, 11}, {
-          9 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          9 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{9.309016994374947, 10.048943483704846`}, {
-          9.809016994374947, 10.412214747707527`}, {10, 11}, {
-          9.809016994374947, 11.587785252292473`}, {9.309016994374947, 
-          11.951056516295154`}, {8.690983005625053, 11.951056516295154`}, {
-          8.190983005625053, 11.587785252292473`}, {8, 11}, {
-          8.190983005625053, 10.412214747707527`}, {8.690983005625053, 
-          10.048943483704846`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {14, 9}, {
-          15 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {16, 9}, {
-          15 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          15 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{14.690983005625053`, 9.951056516295154}, {
-          14.190983005625053`, 9.587785252292473}, {14, 9}, {
-          14.190983005625053`, 8.412214747707527}, {14.690983005625053`, 
-          8.048943483704846}, {15.309016994374947`, 8.048943483704846}, {
-          15.809016994374947`, 8.412214747707527}, {16, 9}, {
-          15.809016994374947`, 9.587785252292473}, {15.309016994374947`, 
-          9.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {15, 
-          10}, {15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {15, 
-          12}, {15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          14.048943483704846`, 10.690983005625053`}, {14.412214747707527`, 
-          10.190983005625053`}, {15, 10}, {15.587785252292473`, 
-          10.190983005625053`}, {15.951056516295154`, 10.690983005625053`}, {
-          15.951056516295154`, 11.309016994374947`}, {15.587785252292473`, 
-          11.809016994374947`}, {15, 12}, {14.412214747707527`, 
-          11.809016994374947`}, {14.048943483704846`, 
-          11.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {14, 11}, {
-          13 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {12, 11}, {
-          13 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          13 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{13.309016994374947`, 10.048943483704846`}, {
-          13.809016994374947`, 10.412214747707527`}, {14, 11}, {
-          13.809016994374947`, 11.587785252292473`}, {13.309016994374947`, 
-          11.951056516295154`}, {12.690983005625053`, 11.951056516295154`}, {
-          12.190983005625053`, 11.587785252292473`}, {12, 11}, {
-          12.190983005625053`, 10.412214747707527`}, {12.690983005625053`, 
-          10.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {13, 
-          10}, {13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {13, 
-          8}, {13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          13.951056516295154`, 9.309016994374947}, {13.587785252292473`, 
-          9.809016994374947}, {13, 10}, {12.412214747707527`, 
-          9.809016994374947}, {12.048943483704846`, 9.309016994374947}, {
-          12.048943483704846`, 8.690983005625053}, {12.412214747707527`, 
-          8.190983005625053}, {13, 8}, {13.587785252292473`, 
-          8.190983005625053}, {13.951056516295154`, 
-          8.690983005625053}}]]}}}}, {{
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {2, 15}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {0, 15}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{1.3090169943749475`, 14.048943483704846`}, {
-          1.8090169943749475`, 14.412214747707527`}, {2, 15}, {
-          1.8090169943749475`, 15.587785252292473`}, {1.3090169943749475`, 
-          15.951056516295154`}, {0.6909830056250525, 15.951056516295154`}, {
-          0.19098300562505255`, 15.587785252292473`}, {0, 15}, {
-          0.19098300562505255`, 14.412214747707527`}, {0.6909830056250525, 
-          14.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {4, 1}, {
+         3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
-          14}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
-          12}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {
+         3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          1.9510565162951536`, 13.309016994374947`}, {1.5877852522924731`, 
-          13.809016994374947`}, {1, 14}, {0.41221474770752686`, 
-          13.809016994374947`}, {0.04894348370484647, 13.309016994374947`}, {
-          0.04894348370484647, 12.690983005625053`}, {0.41221474770752686`, 
-          12.190983005625053`}, {1, 12}, {1.5877852522924731`, 
-          12.190983005625053`}, {1.9510565162951536`, 
-          12.690983005625053`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {2, 13}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {4, 13}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{2.6909830056250525`, 13.951056516295154`}, {
-          2.1909830056250525`, 13.587785252292473`}, {2, 13}, {
-          2.1909830056250525`, 12.412214747707527`}, {2.6909830056250525`, 
-          12.048943483704846`}, {3.3090169943749475`, 12.048943483704846`}, {
-          3.8090169943749475`, 12.412214747707527`}, {4, 13}, {
-          3.8090169943749475`, 13.587785252292473`}, {3.3090169943749475`, 
-          13.951056516295154`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
+           Rational[1, 2]}}, {{2.6909830056250525`, 1.9510565162951536`}, {
+         2.1909830056250525`, 1.5877852522924731`}, {2, 1}, {
+         2.1909830056250525`, 0.41221474770752686`}, {2.6909830056250525`, 
+         0.04894348370484647}, {3.3090169943749475`, 0.04894348370484647}, {
+         3.8090169943749475`, 0.41221474770752686`}, {4, 1}, {
+         3.8090169943749475`, 1.5877852522924731`}, {3.3090169943749475`, 
+         1.9510565162951536`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
+         2}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
+         4}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
+         2.0489434837048464`, 2.6909830056250525`}, {2.4122147477075266`, 
+         2.1909830056250525`}, {3, 2}, {3.5877852522924734`, 
+         2.1909830056250525`}, {3.9510565162951536`, 2.6909830056250525`}, {
+         3.9510565162951536`, 3.3090169943749475`}, {3.5877852522924734`, 
+         3.8090169943749475`}, {3, 4}, {2.4122147477075266`, 
+         3.8090169943749475`}, {2.0489434837048464`, 
+         3.3090169943749475`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
-          14}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {2, 3}, {
+         1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
-          16}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {
+         1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {0, 3}, {
+         1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          2.0489434837048464`, 14.690983005625053`}, {2.4122147477075266`, 
-          14.190983005625053`}, {3, 14}, {3.5877852522924734`, 
-          14.190983005625053`}, {3.9510565162951536`, 14.690983005625053`}, {
-          3.9510565162951536`, 15.309016994374947`}, {3.5877852522924734`, 
-          15.809016994374947`}, {3, 16}, {2.4122147477075266`, 
-          15.809016994374947`}, {2.0489434837048464`, 
-          15.309016994374947`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
+          Rational[1, 2]}}, {{1.3090169943749475`, 2.0489434837048464`}, {
+         1.8090169943749475`, 2.4122147477075266`}, {2, 3}, {
+         1.8090169943749475`, 3.5877852522924734`}, {1.3090169943749475`, 
+         3.9510565162951536`}, {0.6909830056250525, 3.9510565162951536`}, {
+         0.19098300562505255`, 3.5877852522924734`}, {0, 3}, {
+         0.19098300562505255`, 2.4122147477075266`}, {0.6909830056250525, 
+         2.0489434837048464`}}]]}}}, {
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
-          10}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {6, 1}, {
+         7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
-          8}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {8, 1}, {
+         7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          1.9510565162951536`, 9.309016994374947}, {1.5877852522924731`, 
-          9.809016994374947}, {1, 10}, {0.41221474770752686`, 
-          9.809016994374947}, {0.04894348370484647, 9.309016994374947}, {
-          0.04894348370484647, 8.690983005625053}, {0.41221474770752686`, 
-          8.190983005625053}, {1, 8}, {1.5877852522924731`, 
-          8.190983005625053}, {1.9510565162951536`, 8.690983005625053}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {2, 9}, {
-          3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {4, 9}, {
-          3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{2.6909830056250525`, 9.951056516295154}, {
-          2.1909830056250525`, 9.587785252292473}, {2, 9}, {
-          2.1909830056250525`, 8.412214747707527}, {2.6909830056250525`, 
-          8.048943483704846}, {3.3090169943749475`, 8.048943483704846}, {
-          3.8090169943749475`, 8.412214747707527}, {4, 9}, {
-          3.8090169943749475`, 9.587785252292473}, {3.3090169943749475`, 
-          9.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
+           Rational[1, 2]}}, {{6.6909830056250525`, 1.9510565162951536`}, {
+         6.1909830056250525`, 1.5877852522924731`}, {6, 1}, {
+         6.1909830056250525`, 0.41221474770752686`}, {6.6909830056250525`, 
+         0.04894348370484647}, {7.3090169943749475`, 0.04894348370484647}, {
+         7.8090169943749475`, 0.41221474770752686`}, {8, 1}, {
+         7.8090169943749475`, 1.5877852522924731`}, {7.3090169943749475`, 
+         1.9510565162951536`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
+         2}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
+         4}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 3 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
+         6.048943483704846, 2.6909830056250525`}, {6.412214747707527, 
+         2.1909830056250525`}, {7, 2}, {7.587785252292473, 
+         2.1909830056250525`}, {7.951056516295154, 2.6909830056250525`}, {
+         7.951056516295154, 3.3090169943749475`}, {7.587785252292473, 
+         3.8090169943749475`}, {7, 4}, {6.412214747707527, 
+         3.8090169943749475`}, {6.048943483704846, 3.3090169943749475`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
-          10}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {6, 3}, {
+         5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
-          12}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {
+         5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {4, 3}, {
+         5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          2.0489434837048464`, 10.690983005625053`}, {2.4122147477075266`, 
-          10.190983005625053`}, {3, 10}, {3.5877852522924734`, 
-          10.190983005625053`}, {3.9510565162951536`, 10.690983005625053`}, {
-          3.9510565162951536`, 11.309016994374947`}, {3.5877852522924734`, 
-          11.809016994374947`}, {3, 12}, {2.4122147477075266`, 
-          11.809016994374947`}, {2.0489434837048464`, 
-          11.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {2, 11}, {
-          1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {0, 11}, {
-          1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{1.3090169943749475`, 10.048943483704846`}, {
-          1.8090169943749475`, 10.412214747707527`}, {2, 11}, {
-          1.8090169943749475`, 11.587785252292473`}, {1.3090169943749475`, 
-          11.951056516295154`}, {0.6909830056250525, 11.951056516295154`}, {
-          0.19098300562505255`, 11.587785252292473`}, {0, 11}, {
-          0.19098300562505255`, 10.412214747707527`}, {0.6909830056250525, 
-          10.048943483704846`}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {6, 9}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {8, 9}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           9 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{6.6909830056250525`, 9.951056516295154}, {
-          6.1909830056250525`, 9.587785252292473}, {6, 9}, {
-          6.1909830056250525`, 8.412214747707527}, {6.6909830056250525`, 
-          8.048943483704846}, {7.3090169943749475`, 8.048943483704846}, {
-          7.8090169943749475`, 8.412214747707527}, {8, 9}, {
-          7.8090169943749475`, 9.587785252292473}, {7.3090169943749475`, 
-          9.951056516295154}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
+          Rational[1, 2]}}, {{5.3090169943749475`, 2.0489434837048464`}, {
+         5.8090169943749475`, 2.4122147477075266`}, {6, 3}, {
+         5.8090169943749475`, 3.5877852522924734`}, {5.3090169943749475`, 
+         3.9510565162951536`}, {4.6909830056250525`, 3.9510565162951536`}, {
+         4.1909830056250525`, 3.5877852522924734`}, {4, 3}, {
+         4.1909830056250525`, 2.4122147477075266`}, {4.6909830056250525`, 
+         2.0489434837048464`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
+         2}, {
+         5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
+         0}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 1 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
+         5.951056516295154, 1.3090169943749475`}, {5.587785252292473, 
+         1.8090169943749475`}, {5, 2}, {4.412214747707527, 
+         1.8090169943749475`}, {4.048943483704846, 1.3090169943749475`}, {
+         4.048943483704846, 0.6909830056250525}, {4.412214747707527, 
+         0.19098300562505255`}, {5, 0}, {5.587785252292473, 
+         0.19098300562505255`}, {5.951056516295154, 
+         0.6909830056250525}}]]}}}, {
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
+         6}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
+         8}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
+         6.048943483704846, 6.6909830056250525`}, {6.412214747707527, 
+         6.1909830056250525`}, {7, 6}, {7.587785252292473, 
+         6.1909830056250525`}, {7.951056516295154, 6.6909830056250525`}, {
+         7.951056516295154, 7.3090169943749475`}, {7.587785252292473, 
+         7.8090169943749475`}, {7, 8}, {6.412214747707527, 
+         7.8090169943749475`}, {6.048943483704846, 7.3090169943749475`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
-          10}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {6, 7}, {
+         5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
           7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
-          12}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 11 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          6.048943483704846, 10.690983005625053`}, {6.412214747707527, 
-          10.190983005625053`}, {7, 10}, {7.587785252292473, 
-          10.190983005625053`}, {7.951056516295154, 10.690983005625053`}, {
-          7.951056516295154, 11.309016994374947`}, {7.587785252292473, 
-          11.809016994374947`}, {7, 12}, {6.412214747707527, 
-          11.809016994374947`}, {6.048943483704846, 11.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {6, 11}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {4, 11}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+         5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           11 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{5.3090169943749475`, 10.048943483704846`}, {
-          5.8090169943749475`, 10.412214747707527`}, {6, 11}, {
-          5.8090169943749475`, 11.587785252292473`}, {5.3090169943749475`, 
-          11.951056516295154`}, {4.6909830056250525`, 11.951056516295154`}, {
-          4.1909830056250525`, 11.587785252292473`}, {4, 11}, {
-          4.1909830056250525`, 10.412214747707527`}, {4.6909830056250525`, 
-          10.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
-          10}, {5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
-          8}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 9 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          5.951056516295154, 9.309016994374947}, {5.587785252292473, 
-          9.809016994374947}, {5, 10}, {4.412214747707527, 
-          9.809016994374947}, {4.048943483704846, 9.309016994374947}, {
-          4.048943483704846, 8.690983005625053}, {4.412214747707527, 
-          8.190983005625053}, {5, 8}, {5.587785252292473, 
-          8.190983005625053}, {5.951056516295154, 8.690983005625053}}]]}}}, {
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {4, 7}, {
+         5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {7, 
-          14}, {7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {7, 
-          16}, {7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 15 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
-          6.048943483704846, 14.690983005625053`}, {6.412214747707527, 
-          14.190983005625053`}, {7, 14}, {7.587785252292473, 
-          14.190983005625053`}, {7.951056516295154, 14.690983005625053`}, {
-          7.951056516295154, 15.309016994374947`}, {7.587785252292473, 
-          15.809016994374947`}, {7, 16}, {6.412214747707527, 
-          15.809016994374947`}, {6.048943483704846, 15.309016994374947`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {6, 15}, {
-          5 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {4, 15}, {
-          5 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {
-          5 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           15 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}}, {{5.3090169943749475`, 14.048943483704846`}, {
-          5.8090169943749475`, 14.412214747707527`}, {6, 15}, {
-          5.8090169943749475`, 15.587785252292473`}, {5.3090169943749475`, 
-          15.951056516295154`}, {4.6909830056250525`, 15.951056516295154`}, {
-          4.1909830056250525`, 15.587785252292473`}, {4, 15}, {
-          4.1909830056250525`, 14.412214747707527`}, {4.6909830056250525`, 
-          14.048943483704846`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
+          Rational[1, 2]}}, {{5.3090169943749475`, 6.048943483704846}, {
+         5.8090169943749475`, 6.412214747707527}, {6, 7}, {
+         5.8090169943749475`, 7.587785252292473}, {5.3090169943749475`, 
+         7.951056516295154}, {4.6909830056250525`, 7.951056516295154}, {
+         4.1909830056250525`, 7.587785252292473}, {4, 7}, {
+         4.1909830056250525`, 6.412214747707527}, {4.6909830056250525`, 
+         6.048943483704846}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
+         6}, {5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
+         4}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
+         5.951056516295154, 5.3090169943749475`}, {5.587785252292473, 
+         5.8090169943749475`}, {5, 6}, {4.412214747707527, 
+         5.8090169943749475`}, {4.048943483704846, 5.3090169943749475`}, {
+         4.048943483704846, 4.6909830056250525`}, {4.412214747707527, 
+         4.1909830056250525`}, {5, 4}, {5.587785252292473, 
+         4.1909830056250525`}, {5.951056516295154, 4.6909830056250525`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {5, 
-          14}, {5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
-          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+           Rational[1, 2]}, {6, 5}, {
+         7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
           5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {5, 
-          12}, {5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {8, 5}, {
+         7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
           5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2], 13 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
-          5.951056516295154, 13.309016994374947`}, {5.587785252292473, 
-          13.809016994374947`}, {5, 14}, {4.412214747707527, 
-          13.809016994374947`}, {4.048943483704846, 13.309016994374947`}, {
-          4.048943483704846, 12.690983005625053`}, {4.412214747707527, 
-          12.190983005625053`}, {5, 12}, {5.587785252292473, 
-          12.190983005625053`}, {5.951056516295154, 12.690983005625053`}}]]}}, 
-     {RGBColor[1, 0.05, 0.95], Opacity[1], 
-      {EdgeForm[{RGBColor[0, 0, 1], Opacity[1], Thickness[0.005], Dashing[
-        NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
-       PolygonBox[
-        NCache[{{
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {6, 13}, {
-          7 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}}, {{6.6909830056250525`, 5.951056516295154}, {
+         6.1909830056250525`, 5.587785252292473}, {6, 5}, {
+         6.1909830056250525`, 4.412214747707527}, {6.6909830056250525`, 
+         4.048943483704846}, {7.3090169943749475`, 4.048943483704846}, {
+         7.8090169943749475`, 4.412214747707527}, {8, 5}, {
+         7.8090169943749475`, 5.587785252292473}, {7.3090169943749475`, 
+         5.951056516295154}}]]}}}, {
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {2, 7}, {
+         1 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         1 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+         1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
            Rational[1, 2]}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-           Rational[1, 2]}, {8, 13}, {
-          7 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}, {
-          7 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
-           13 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
-            Rational[1, 2]}}, {{6.6909830056250525`, 13.951056516295154`}, {
-          6.1909830056250525`, 13.587785252292473`}, {6, 13}, {
-          6.1909830056250525`, 12.412214747707527`}, {6.6909830056250525`, 
-          12.048943483704846`}, {7.3090169943749475`, 12.048943483704846`}, {
-          7.8090169943749475`, 12.412214747707527`}, {8, 13}, {
-          7.8090169943749475`, 13.587785252292473`}, {7.3090169943749475`, 
-          13.951056516295154`}}]]}}}}},
+         1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          7 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {0, 7}, {
+         1 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          7 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         1 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          7 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}}, {{1.3090169943749475`, 6.048943483704846}, {
+         1.8090169943749475`, 6.412214747707527}, {2, 7}, {
+         1.8090169943749475`, 7.587785252292473}, {1.3090169943749475`, 
+         7.951056516295154}, {0.6909830056250525, 7.951056516295154}, {
+         0.19098300562505255`, 7.587785252292473}, {0, 7}, {
+         0.19098300562505255`, 6.412214747707527}, {0.6909830056250525, 
+         6.048943483704846}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {1, 
+         6}, {1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         1 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {1, 
+         4}, {1 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         1 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 5 + Rational[1, 4] (1 - 5^Rational[1, 2])}}, {{
+         1.9510565162951536`, 5.3090169943749475`}, {1.5877852522924731`, 
+         5.8090169943749475`}, {1, 6}, {0.41221474770752686`, 
+         5.8090169943749475`}, {0.04894348370484647, 5.3090169943749475`}, {
+         0.04894348370484647, 4.6909830056250525`}, {0.41221474770752686`, 
+         4.1909830056250525`}, {1, 4}, {1.5877852522924731`, 
+         4.1909830056250525`}, {1.9510565162951536`, 
+         4.6909830056250525`}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {2, 5}, {
+         3 + Rational[1, 4] (-1 - 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (1 - 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {
+         3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          5 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2]}, {4, 5}, {
+         3 + Rational[1, 4] (1 + 5^Rational[1, 2]), 
+          5 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}, {
+         3 + Rational[1, 4] (-1 + 5^Rational[1, 2]), 
+          5 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2]}}, {{2.6909830056250525`, 5.951056516295154}, {
+         2.1909830056250525`, 5.587785252292473}, {2, 5}, {
+         2.1909830056250525`, 4.412214747707527}, {2.6909830056250525`, 
+         4.048943483704846}, {3.3090169943749475`, 4.048943483704846}, {
+         3.8090169943749475`, 4.412214747707527}, {4, 5}, {
+         3.8090169943749475`, 5.587785252292473}, {3.3090169943749475`, 
+         5.951056516295154}}]]}}, 
+    {RGBColor[1, 0.85, 0.95], Opacity[1], 
+     {EdgeForm[{RGBColor[1, 0, 0], Opacity[1], Thickness[0.005], Dashing[
+       NCache[{2 Pi, 2 Pi}, {6.283185307179586, 6.283185307179586}]]}], 
+      PolygonBox[
+       NCache[{{
+         3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {3, 
+         6}, {3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (-1 - 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (1 - 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}, {
+         3 + (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+           Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {3, 
+         8}, {3 - (Rational[5, 8] + Rational[-1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (1 + 5^Rational[1, 2])}, {
+         3 - (Rational[5, 8] + Rational[1, 8] 5^Rational[1, 2])^
+          Rational[1, 2], 7 + Rational[1, 4] (-1 + 5^Rational[1, 2])}}, {{
+         2.0489434837048464`, 6.6909830056250525`}, {2.4122147477075266`, 
+         6.1909830056250525`}, {3, 6}, {3.5877852522924734`, 
+         6.1909830056250525`}, {3.9510565162951536`, 6.6909830056250525`}, {
+         3.9510565162951536`, 7.3090169943749475`}, {3.5877852522924734`, 
+         7.8090169943749475`}, {3, 8}, {2.4122147477075266`, 
+         7.8090169943749475`}, {2.0489434837048464`, 
+         7.3090169943749475`}}]]}}}},
   Axes->True,
   AxesOrigin->{0, 0},
   GridLines->Automatic]], "Output",
@@ -2148,10 +919,12 @@ Cell[BoxData[
    3.7411612153086753`*^9, 3.7413563299750824`*^9, 3.741493570872909*^9, 
    3.7418887669993753`*^9, 3.741960980479488*^9, 3.742027529574788*^9, 
    3.7420301101050787`*^9, 3.7420494328938494`*^9, {3.800599380932665*^9, 
-   3.800599389751917*^9}},
- CellLabel->"Out[19]=",ExpressionUUID->"0c6bac15-ec07-4f7c-b895-ae6b30ed598e"]
+   3.800599389751917*^9}, {3.835962808659918*^9, 3.8359628185434318`*^9}, {
+   3.8359628545844684`*^9, 3.8359628780937276`*^9}},
+ CellLabel->
+  "Out[140]=",ExpressionUUID->"7a269fdd-a2ea-4576-b218-bb681f08c6ff"]
 }, Open  ]]
-}, Closed]],
+}, Open  ]],
 
 Cell[CellGroupData[{
 
@@ -41296,10 +40069,11 @@ c6b78e2bb34a"]
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1459, 893},
-WindowMargins->{{187, Automatic}, {33, Automatic}},
-FrontEndVersion->"11.3 for Microsoft Windows (64-bit) (March 6, 2018)",
-StyleDefinitions->"Default.nb"
+WindowSize->{1459, 844},
+WindowMargins->{{Automatic, 59}, {13, Automatic}},
+FrontEndVersion->"12.2 for Microsoft Windows (64-bit) (December 12, 2020)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"1fee70ae-61e6-4cd1-a95e-64f996d2eeb1"
 ]
 (* End of Notebook Content *)
 
@@ -41312,56 +40086,75 @@ CellTagsIndex->{}
 *)
 (*NotebookFileOutline
 Notebook[{
-Cell[558, 20, 199, 3, 28, "Input",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
 Cell[CellGroupData[{
-Cell[782, 27, 281, 5, 67, "Section",ExpressionUUID->"6ea0af11-cb43-4422-b1b2-4004736026ea"],
+Cell[580, 22, 459, 11, 48, "Input",ExpressionUUID->"8dbd67b1-45ef-4d4e-bde1-57097fe30645"],
+Cell[1042, 35, 684, 14, 23, "Message",ExpressionUUID->"7e721d60-14ee-4a73-9f0e-c0892e1c1979"],
+Cell[1729, 51, 686, 14, 23, "Message",ExpressionUUID->"93610a95-fcd8-4f21-96c8-edbce09d7b8d"],
+Cell[2418, 67, 684, 14, 23, "Message",ExpressionUUID->"e4dcf890-0b94-4a4c-82d9-f87c622ad602"],
+Cell[3105, 83, 684, 14, 23, "Message",ExpressionUUID->"b8d135d2-d1be-4051-9c17-1089c6cf7378"],
+Cell[3792, 99, 686, 14, 23, "Message",ExpressionUUID->"f02bb51e-a80b-4acc-8a9b-3e94f2acbbfa"],
+Cell[4481, 115, 684, 14, 23, "Message",ExpressionUUID->"3474896a-b212-406b-83e5-bdbfe594c313"],
+Cell[5168, 131, 734, 14, 23, "Message",ExpressionUUID->"3b919207-0613-4b7c-8933-7ea3e421161c"],
+Cell[5905, 147, 683, 14, 23, "Message",ExpressionUUID->"56f37f4b-3207-49f4-ac24-3d39e9f9db90"],
+Cell[6591, 163, 683, 14, 23, "Message",ExpressionUUID->"39177f96-edc0-4cd2-9ba7-f1d3e2b724f7"],
+Cell[7277, 179, 688, 13, 23, "Message",ExpressionUUID->"9253988d-8bc8-4777-8984-a96a947e701f"],
+Cell[7968, 194, 684, 14, 23, "Message",ExpressionUUID->"14e50832-0f1c-47f5-a023-9ddeefc6adc5"],
+Cell[8655, 210, 687, 14, 23, "Message",ExpressionUUID->"cb67e7ab-d67c-4794-ba1a-14f63b2f668e"],
+Cell[9345, 226, 689, 14, 23, "Message",ExpressionUUID->"1187334e-05bd-4007-94d7-b11b36b2f4ff"],
+Cell[10037, 242, 696, 13, 23, "Message",ExpressionUUID->"412356d9-db79-4752-8d80-d8b837b13a29"],
+Cell[10736, 257, 697, 13, 23, "Message",ExpressionUUID->"6effd71a-0239-420f-80da-50b273ba0abe"],
+Cell[11436, 272, 691, 13, 23, "Message",ExpressionUUID->"c4bd4989-57da-41d4-b4bb-a42b4a7df73e"],
+Cell[12130, 287, 691, 13, 23, "Message",ExpressionUUID->"a09a2764-731e-42f4-b5ec-f255cee299ad"]
+}, Open  ]],
 Cell[CellGroupData[{
-Cell[1088, 36, 308, 5, 53, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
+Cell[12858, 305, 281, 5, 67, "Section",ExpressionUUID->"6ea0af11-cb43-4422-b1b2-4004736026ea"],
 Cell[CellGroupData[{
-Cell[1421, 45, 3452, 87, 124, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
-Cell[4876, 134, 119924, 2017, 378, "Output",ExpressionUUID->"0c6bac15-ec07-4f7c-b895-ae6b30ed598e"]
+Cell[13164, 314, 308, 5, 53, "Subsection",ExpressionUUID->"8cdc8657-37ec-405f-856e-2136f9eabd0e"],
+Cell[CellGroupData[{
+Cell[13497, 323, 2930, 83, 124, "Input",ExpressionUUID->"1c47705b-eaf5-47bb-a1b4-3a0ec0b5f902"],
+Cell[16430, 408, 29931, 516, 405, "Output",ExpressionUUID->"7a269fdd-a2ea-4576-b218-bb681f08c6ff"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[46410, 930, 259, 4, 53, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
+Cell[CellGroupData[{
+Cell[46694, 938, 398, 10, 28, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
+Cell[47095, 950, 766, 15, 70, "Output",ExpressionUUID->"2334454a-c64d-4ade-9ec2-97c9ed2396c3"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[47898, 970, 3395, 89, 162, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
+Cell[51296, 1061, 8641, 147, 70, "Output",ExpressionUUID->"b29fe4cd-0d68-4780-936d-2400ca8f6fee"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[124849, 2157, 259, 4, 37, "Subsection",ExpressionUUID->"0785f1f7-5afb-4d64-a8ff-7e81f340441f"],
+Cell[59986, 1214, 359, 6, 37, "Subsection",ExpressionUUID->"c01ddf6f-d255-4ddf-a069-c6710134caf6"],
+Cell[60348, 1222, 843, 16, 28, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
 Cell[CellGroupData[{
-Cell[125133, 2165, 398, 10, 28, "Input",ExpressionUUID->"c1fd3b80-40c7-4986-8276-21c319ffefdc"],
-Cell[125534, 2177, 766, 15, 70, "Output",ExpressionUUID->"2334454a-c64d-4ade-9ec2-97c9ed2396c3"]
+Cell[61216, 1242, 13720, 352, 105, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
+Cell[74939, 1596, 5392, 95, 375, "Output",ExpressionUUID->"1d892982-06f8-4b85-a433-66cf4a4bbe29"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[126337, 2197, 3395, 89, 162, "Input",ExpressionUUID->"a11c9f5a-9458-4c8f-b2c8-77eba195dbfe"],
-Cell[129735, 2288, 8641, 147, 70, "Output",ExpressionUUID->"b29fe4cd-0d68-4780-936d-2400ca8f6fee"]
+Cell[80368, 1696, 904, 19, 28, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
+Cell[81275, 1717, 175416, 2940, 409, "Output",ExpressionUUID->"b9f40243-53e4-47a2-b123-56dc5b867eb1"]
 }, Open  ]]
 }, Closed]],
 Cell[CellGroupData[{
-Cell[138425, 2441, 359, 6, 37, "Subsection",ExpressionUUID->"c01ddf6f-d255-4ddf-a069-c6710134caf6"],
-Cell[138787, 2449, 843, 16, 28, "Input",ExpressionUUID->"4bd058c7-6b0e-4327-99ea-c05733338297"],
+Cell[256740, 4663, 475, 7, 37, "Subsection",ExpressionUUID->"b06914ce-9d74-4e63-b949-100071fc8b23"],
 Cell[CellGroupData[{
-Cell[139655, 2469, 13720, 352, 105, "Input",ExpressionUUID->"b0ff3792-c169-40d2-933d-6060a4f55a98"],
-Cell[153378, 2823, 5392, 95, 375, "Output",ExpressionUUID->"1d892982-06f8-4b85-a433-66cf4a4bbe29"]
+Cell[257240, 4674, 12748, 341, 143, "Input",ExpressionUUID->"01b4eb82-8284-40b5-9ad0-33205bbec7f5"],
+Cell[269991, 5017, 4283, 81, 375, "Output",ExpressionUUID->"d1fb0889-aadf-4ae2-b85d-ffd592482c84"]
 }, Open  ]],
+Cell[274289, 5101, 2344, 61, 200, "Input",ExpressionUUID->"59c3fbfc-0f5e-4c09-9feb-1f92b2424aa5"],
 Cell[CellGroupData[{
-Cell[158807, 2923, 904, 19, 28, "Input",ExpressionUUID->"9c2ce144-487a-42ee-be9d-16fe55238a49"],
-Cell[159714, 2944, 175416, 2940, 409, "Output",ExpressionUUID->"b9f40243-53e4-47a2-b123-56dc5b867eb1"]
-}, Open  ]]
-}, Closed]],
-Cell[CellGroupData[{
-Cell[335179, 5890, 475, 7, 37, "Subsection",ExpressionUUID->"b06914ce-9d74-4e63-b949-100071fc8b23"],
-Cell[CellGroupData[{
-Cell[335679, 5901, 12748, 341, 143, "Input",ExpressionUUID->"01b4eb82-8284-40b5-9ad0-33205bbec7f5"],
-Cell[348430, 6244, 4283, 81, 375, "Output",ExpressionUUID->"d1fb0889-aadf-4ae2-b85d-ffd592482c84"]
+Cell[276658, 5166, 1240, 28, 48, "Input",ExpressionUUID->"dd3bc250-4ea0-4b1d-926d-5a4b29b611cf"],
+Cell[277901, 5196, 1668970, 28281, 1039, "Output",ExpressionUUID->"af11ad1b-1622-4b0f-8de0-0bbaf1aed637"]
 }, Open  ]],
-Cell[352728, 6328, 2344, 61, 200, "Input",ExpressionUUID->"59c3fbfc-0f5e-4c09-9feb-1f92b2424aa5"],
+Cell[1946886, 33480, 10889, 201, 195, "Input",ExpressionUUID->"15f1954b-0bdc-4d5a-918a-49828895c13a"],
+Cell[1957778, 33683, 182515, 3149, 391, "Input",ExpressionUUID->"8c3b7670-6dd7-4d4b-a746-d04c6c4a5d13"],
+Cell[2140296, 36834, 182475, 3148, 390, "Input",ExpressionUUID->"2f365170-77ed-4c71-81bb-a88d100f50cb"],
 Cell[CellGroupData[{
-Cell[355097, 6393, 1240, 28, 48, "Input",ExpressionUUID->"dd3bc250-4ea0-4b1d-926d-5a4b29b611cf"],
-Cell[356340, 6423, 1668970, 28281, 1039, "Output",ExpressionUUID->"af11ad1b-1622-4b0f-8de0-0bbaf1aed637"]
-}, Open  ]],
-Cell[2025325, 34707, 10889, 201, 195, "Input",ExpressionUUID->"15f1954b-0bdc-4d5a-918a-49828895c13a"],
-Cell[2036217, 34910, 182515, 3149, 391, "Input",ExpressionUUID->"8c3b7670-6dd7-4d4b-a746-d04c6c4a5d13"],
-Cell[2218735, 38061, 182475, 3148, 390, "Input",ExpressionUUID->"2f365170-77ed-4c71-81bb-a88d100f50cb"],
-Cell[CellGroupData[{
-Cell[2401235, 41213, 213, 4, 28, "Input",ExpressionUUID->"91e705ba-4e76-4e62-aeac-160b2ca022ae"],
-Cell[2401451, 41219, 2588, 74, 520, "Output",ExpressionUUID->"10216388-8aee-4f17-9211-c6b78e2bb34a"]
+Cell[2322796, 39986, 213, 4, 28, "Input",ExpressionUUID->"91e705ba-4e76-4e62-aeac-160b2ca022ae"],
+Cell[2323012, 39992, 2588, 74, 520, "Output",ExpressionUUID->"10216388-8aee-4f17-9211-c6b78e2bb34a"]
 }, Open  ]]
 }, Closed]]
 }, Open  ]]
