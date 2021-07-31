@@ -23,6 +23,7 @@ kanweg:=999
 (* DATA STRUCTURE *)
 pnt = {Repeated[Except[_Complex, _?NumericQ], {2}]};
 pts = {RepeatedNull[pnt]};
+
 typ = {_?IntegerQ | _Real, {RepeatedNull[pnt]}};
 face = {_RGBColor | _GrayLevel, _?IntegerQ | _Real};
 edge = {_RGBColor | _GrayLevel, _?IntegerQ | _Real, _?IntegerQ | _Real, _?NumericQ, _?NumericQ};
