@@ -3,8 +3,21 @@
 (* Created by the Wolfram Workbench 03-Jul-2018 *)
 
 BeginPackage["Geometry`"]
-
 (* Exported symbols added here with SymbolName::usage *) 
+
+(*===WHAT IS THIS===???*)
+t::usage="Declaring y as an exported symbol in the X` context";
+f::usage="Declaring out as an exported symbol in the X` context";
+a::usage="Declaring out as an exported symbol in the X` context";
+p::usage="Declaring out as an exported symbol in the X` context";
+v::usage="Declaring out as an exported symbol in the X` context";
+y::usage="Declaring out as an exported symbol in the X` context";
+n::usage="Declaring out as an exported symbol in the X` context";
+tf::usage="Declaring out as an exported symbol in the X` context";
+mf::usage="Declaring out as an exported symbol in the X` context";
+y::usage="Declaring out as an exported symbol in the X` context";
+out::usage="Declaring out as an exported symbol in the X` context";
+out$::usage="Declaring out as an exported symbol in the X` context";
 
 
 (* CONSTANTS *)
