@@ -86,6 +86,7 @@ sym4ovr[figke_] := Module[{rotp},
     .5], {-.5, -.5}]]
 
 
+(* *)
 
 (* GEOMETRIES *)
 pGon[n_Integer] := Module[{},Table[{Cos[(2 \[Pi] k)/n + \[Pi]/n], Sin[(2 \[Pi] k)/n + \[Pi]/n]},{k, 0, n - 1}]]
