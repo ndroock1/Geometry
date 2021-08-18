@@ -1,6 +1,6 @@
 (* Wolfram Language Package *)
 
-(* Created by the Wolfram Workbench 03-Jul-2018 *)
+(* Created by the Wolfram Workbench 03/7-'18 *)
 
 BeginPackage["Geometry`"]
 (* Exported symbols added here with SymbolName::usage *) 
