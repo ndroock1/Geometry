@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2630825,      46392]
-NotebookOptionsPosition[   2619872,      46207]
-NotebookOutlinePosition[   2620272,      46223]
-CellTagsIndexPosition[   2620229,      46220]
+NotebookDataLength[   2728688,      48362]
+NotebookOptionsPosition[   2716729,      48162]
+NotebookOutlinePosition[   2717129,      48178]
+CellTagsIndexPosition[   2717086,      48175]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -45817,391 +45817,2346 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", 
+  RowBox[{"GraphicsRow", "[", 
+   RowBox[{"{", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"lines", "[", "32", "]"}], "//", "toGL"}], "//", "Graphics"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"lines", "[", "64", "]"}], "//", "toGL"}], "//", "Graphics"}], 
+     ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"lines", "[", "128", "]"}], "//", "toGL"}], "//", 
+      "Graphics"}]}], "\[IndentingNewLine]", "}"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.839846453143495*^9, 3.8398464972373476`*^9}, {
+  3.8398581412185183`*^9, 3.8398582457656593`*^9}, {3.839858286886453*^9, 
+  3.8398582950128345`*^9}},
+ CellLabel->
+  "In[539]:=",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
+
+Cell[BoxData[
+ GraphicsBox[{{}, {InsetBox[
+     GraphicsBox[{LineBox[{{0, 0}, {1, 0}}], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[{{0, 0}, {0, 1}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {-0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[{{0, 0}, {-1, 0}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, -0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0,
+           0}, {-0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[{{0, 0}, {0, -1}}], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, -0.19509032201612825`}}]]},
+      DisplayFunction->Identity,
+      ImagePadding->{{2.842170943040401*^-14, 1.}, {1., 0.}}], {107.50000000000001, -105.},
+      ImageScaled[{0.5, 0.5}], {200.00000000000003, 200.}], InsetBox[
+     GraphicsBox[{LineBox[{{0, 0}, {1, 0}}], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.9951847266721969, 0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.9569403357322088, 0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.881921264348355, 0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.773010453362737, 0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.6343932841636455, 0.773010453362737}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.47139673682599764`, 0.881921264348355}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.29028467725446233`, 0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.0980171403295606, 0.9951847266721969}}]], 
+       LineBox[{{0, 0}, {0, 1}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.0980171403295606, 0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.29028467725446233`, 0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.47139673682599764`, 0.881921264348355}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.6343932841636455, 0.773010453362737}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {-0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.773010453362737, 0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.881921264348355, 0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.9569403357322088, 0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.9951847266721969, 0.0980171403295606}}]], 
+       LineBox[{{0, 0}, {-1, 0}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.9951847266721969, -0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, -0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.9569403357322088, -0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.881921264348355, -0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.773010453362737, -0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0,
+           0}, {-0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.6343932841636455, -0.773010453362737}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.47139673682599764`, -0.881921264348355}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.29028467725446233`, -0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.0980171403295606, -0.9951847266721969}}]], 
+       LineBox[{{0, 0}, {0, -1}}], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.0980171403295606, -0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.29028467725446233`, -0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.47139673682599764`, -0.881921264348355}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.6343932841636455, -0.773010453362737}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.773010453362737, -0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.881921264348355, -0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.9569403357322088, -0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, -0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.9951847266721969, -0.0980171403295606}}]]},
+      DisplayFunction->Identity,
+      ImagePadding->{{2.842170943040401*^-14, 1.}, {1., 0.}}], {322.50000000000006, -105.},
+      ImageScaled[{0.5, 0.5}], {200.00000000000003, 200.}], InsetBox[
+     GraphicsBox[{LineBox[{{0, 0}, {1, 0}}], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 64] Pi], Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
+          0.9987954562051724, 0.049067674327418015`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.9951847266721969, 0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 64] Pi], Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
+          0.989176509964781, 0.14673047445536175`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 64] Pi], Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
+          0.970031253194544, 0.24298017990326387`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.9569403357322088, 0.29028467725446233`}}]], 
+       LineBox[
+        NCache[{{0, 0}, {
+          Cos[Rational[7, 64] Pi], Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
+          0.9415440651830208, 0.33688985339222005`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[9, 64] Pi], Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
+          0.9039892931234433, 0.4275550934302821}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.881921264348355, 0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[11, 64] Pi], Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
+          0.8577286100002721, 0.5141027441932217}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[13, 64] Pi], Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
+          0.8032075314806449, 0.5956993044924334}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.773010453362737, 0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[15, 64] Pi], Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
+          0.7409511253549592, 0.6715589548470183}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[15, 64] Pi], Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
+          0.6715589548470183, 0.7409511253549592}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.6343932841636455, 0.773010453362737}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[13, 64] Pi], Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
+          0.5956993044924334, 0.8032075314806449}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[11, 64] Pi], Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
+          0.5141027441932217, 0.8577286100002721}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.47139673682599764`, 0.881921264348355}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[9, 64] Pi], Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
+          0.4275550934302821, 0.9039892931234433}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 64] Pi], Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
+          0.33688985339222005`, 0.9415440651830208}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.29028467725446233`, 0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 64] Pi], Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
+          0.24298017990326387`, 0.970031253194544}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 64] Pi], Cos[Rational[3, 64] Pi]}}, {{0, 0}, {
+          0.14673047445536175`, 0.989176509964781}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.0980171403295606, 0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 64] Pi], Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
+          0.049067674327418015`, 0.9987954562051724}}]], 
+       LineBox[{{0, 0}, {0, 1}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 64] Pi], Cos[Rational[1, 64] Pi]}}, {{0, 
+          0}, {-0.049067674327418015`, 0.9987954562051724}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.0980171403295606, 0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 64] Pi], Cos[Rational[3, 64] Pi]}}, {{0, 
+          0}, {-0.14673047445536175`, 0.989176509964781}}]], 
+       LineBox[
+        NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, 0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 64] Pi], Cos[Rational[5, 64] Pi]}}, {{0, 
+          0}, {-0.24298017990326387`, 0.970031253194544}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.29028467725446233`, 0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 64] Pi], Cos[Rational[7, 64] Pi]}}, {{0, 
+          0}, {-0.33688985339222005`, 0.9415440651830208}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, 0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[9, 64] Pi], Cos[Rational[9, 64] Pi]}}, {{0, 
+          0}, {-0.4275550934302821, 0.9039892931234433}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.47139673682599764`, 0.881921264348355}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[11, 64] Pi], Cos[Rational[11, 64] Pi]}}, {{0, 
+          0}, {-0.5141027441932217, 0.8577286100002721}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, 0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[13, 64] Pi], Cos[Rational[13, 64] Pi]}}, {{0, 
+          0}, {-0.5956993044924334, 0.8032075314806449}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.6343932841636455, 0.773010453362737}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[15, 64] Pi], Cos[Rational[15, 64] Pi]}}, {{0, 
+          0}, {-0.6715589548470183, 0.7409511253549592}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
+          0}, {-0.7071067811865475, 0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[15, 64] Pi], Sin[Rational[15, 64] Pi]}}, {{0, 
+          0}, {-0.7409511253549592, 0.6715589548470183}}]], 
+       LineBox[
+        NCache[{{0, 
+          0}, {-Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.773010453362737, 0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[13, 64] Pi], Sin[Rational[13, 64] Pi]}}, {{0, 
+          0}, {-0.8032075314806449, 0.5956993044924334}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, 0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[11, 64] Pi], Sin[Rational[11, 64] Pi]}}, {{0, 
+          0}, {-0.8577286100002721, 0.5141027441932217}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.881921264348355, 0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[9, 64] Pi], Sin[Rational[9, 64] Pi]}}, {{0, 
+          0}, {-0.9039892931234433, 0.4275550934302821}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, 0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[7, 64] Pi], Sin[Rational[7, 64] Pi]}}, {{0, 
+          0}, {-0.9415440651830208, 0.33688985339222005`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.9569403357322088, 0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 64] Pi], Sin[Rational[5, 64] Pi]}}, {{0, 
+          0}, {-0.970031253194544, 0.24298017990326387`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, 0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 64] Pi], Sin[Rational[3, 64] Pi]}}, {{0, 
+          0}, {-0.989176509964781, 0.14673047445536175`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.9951847266721969, 0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 64] Pi], Sin[Rational[1, 64] Pi]}}, {{0, 
+          0}, {-0.9987954562051724, 0.049067674327418015`}}]], 
+       LineBox[{{0, 0}, {-1, 0}}], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 64] Pi], -Sin[Rational[1, 64] Pi]}}, {{0, 
+          0}, {-0.9987954562051724, -0.049067674327418015`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.9951847266721969, -0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 64] Pi], -Sin[Rational[3, 64] Pi]}}, {{0, 
+          0}, {-0.989176509964781, -0.14673047445536175`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.9807852804032304, -0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 64] Pi], -Sin[Rational[5, 64] Pi]}}, {{0, 
+          0}, {-0.970031253194544, -0.24298017990326387`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.9569403357322088, -0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[7, 64] Pi], -Sin[Rational[7, 64] Pi]}}, {{0, 
+          0}, {-0.9415440651830208, -0.33688985339222005`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[9, 64] Pi], -Sin[Rational[9, 64] Pi]}}, {{0, 
+          0}, {-0.9039892931234433, -0.4275550934302821}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.881921264348355, -0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[11, 64] Pi], -Sin[Rational[11, 64] Pi]}}, {{0, 
+          0}, {-0.8577286100002721, -0.5141027441932217}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[13, 64] Pi], -Sin[Rational[13, 64] Pi]}}, {{0, 
+          0}, {-0.8032075314806449, -0.5956993044924334}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.773010453362737, -0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Cos[Rational[15, 64] Pi], -Sin[Rational[15, 64] Pi]}}, {{0, 
+          0}, {-0.7409511253549592, -0.6715589548470183}}]], 
+       LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0,
+           0}, {-0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[15, 64] Pi], -Cos[Rational[15, 64] Pi]}}, {{0, 
+          0}, {-0.6715589548470183, -0.7409511253549592}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 
+          0}, {-0.6343932841636455, -0.773010453362737}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[13, 64] Pi], -Cos[Rational[13, 64] Pi]}}, {{0, 
+          0}, {-0.5956993044924334, -0.8032075314806449}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 
+          0}, {-0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[11, 64] Pi], -Cos[Rational[11, 64] Pi]}}, {{0, 
+          0}, {-0.5141027441932217, -0.8577286100002721}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 
+          0}, {-0.47139673682599764`, -0.881921264348355}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[9, 64] Pi], -Cos[Rational[9, 64] Pi]}}, {{0, 
+          0}, {-0.4275550934302821, -0.9039892931234433}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 
+          0}, {-0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[7, 64] Pi], -Cos[Rational[7, 64] Pi]}}, {{0, 
+          0}, {-0.33688985339222005`, -0.9415440651830208}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 
+          0}, {-0.29028467725446233`, -0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[5, 64] Pi], -Cos[Rational[5, 64] Pi]}}, {{0, 
+          0}, {-0.24298017990326387`, -0.970031253194544}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 
+          0}, {-0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[3, 64] Pi], -Cos[Rational[3, 64] Pi]}}, {{0, 
+          0}, {-0.14673047445536175`, -0.989176509964781}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 
+          0}, {-0.0980171403295606, -0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 
+          0}, {-Sin[Rational[1, 64] Pi], -Cos[Rational[1, 64] Pi]}}, {{0, 
+          0}, {-0.049067674327418015`, -0.9987954562051724}}]], 
+       LineBox[{{0, 0}, {0, -1}}], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 64] Pi], -Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
+          0.049067674327418015`, -0.9987954562051724}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.0980171403295606, -0.9951847266721969}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 64] Pi], -Cos[Rational[3, 64] Pi]}}, {{0, 0}, {
+          0.14673047445536175`, -0.989176509964781}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.19509032201612825`, -0.9807852804032304}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 64] Pi], -Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
+          0.24298017990326387`, -0.970031253194544}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.29028467725446233`, -0.9569403357322088}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 64] Pi], -Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
+          0.33688985339222005`, -0.9415440651830208}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.3826834323650898, -0.9238795325112867}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[9, 64] Pi], -Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
+          0.4275550934302821, -0.9039892931234433}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.47139673682599764`, -0.881921264348355}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[11, 64] Pi], -Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
+          0.5141027441932217, -0.8577286100002721}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.5555702330196022, -0.8314696123025452}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[13, 64] Pi], -Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
+          0.5956993044924334, -0.8032075314806449}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.6343932841636455, -0.773010453362737}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Sin[Rational[15, 64] Pi], -Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
+          0.6715589548470183, -0.7409511253549592}}]], 
+       LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0, 
+          0}, {0.7071067811865475, -0.7071067811865475}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[15, 64] Pi], -Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
+          0.7409511253549592, -0.6715589548470183}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+          0.773010453362737, -0.6343932841636455}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[13, 64] Pi], -Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
+          0.8032075314806449, -0.5956993044924334}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+          0.8314696123025452, -0.5555702330196022}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[11, 64] Pi], -Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
+          0.8577286100002721, -0.5141027441932217}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+          0.881921264348355, -0.47139673682599764`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[9, 64] Pi], -Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
+          0.9039892931234433, -0.4275550934302821}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+          0.9238795325112867, -0.3826834323650898}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[7, 64] Pi], -Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
+          0.9415440651830208, -0.33688985339222005`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+          0.9569403357322088, -0.29028467725446233`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[5, 64] Pi], -Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
+          0.970031253194544, -0.24298017990326387`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+          0.9807852804032304, -0.19509032201612825`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[3, 64] Pi], -Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
+          0.989176509964781, -0.14673047445536175`}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+          0.9951847266721969, -0.0980171403295606}}]], 
+       LineBox[NCache[{{0, 0}, {
+          Cos[Rational[1, 64] Pi], -Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
+          0.9987954562051724, -0.049067674327418015`}}]]},
+      DisplayFunction->Identity,
+      ImagePadding->{{2.842170943040401*^-14, 1.}, {1., 0.}}], {537.5000000000001, -105.},
+      ImageScaled[{0.5, 0.5}], {200.00000000000003, 200.}]}, {}},
+  ImageSize->{917., 307.},
+  PlotRange->{{0, 645.0000000000001}, {-210., 0}},
+  PlotRangePadding->{6, 5}]], "Output",
+ CellChangeTimes->{{3.8398464583657722`*^9, 3.8398464984660077`*^9}, {
+   3.8398581460797863`*^9, 3.8398581547263217`*^9}, {3.8398581918931265`*^9, 
+   3.8398582472214746`*^9}, 3.8398582971843996`*^9},
+ CellLabel->
+  "Out[539]=",ExpressionUUID->"ee5443fd-c99f-4111-a1a6-610a605f273f"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lines2", "[", "n_", "]"}], ":=", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}], ",", "#"}], "}"}], "]"}], "&"}], ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       FractionBox["k", "n"], 
+       RowBox[{"ReIm", "[", 
+        SuperscriptBox["\[ExponentialE]", 
+         FractionBox[
+          RowBox[{"k", " ", "2", " ", "Pi", " ", "I"}], "n"]], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", "0", ",", 
+        RowBox[{"n", "-", "1"}]}], "}"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.839858380820197*^9, 3.839858394627989*^9}, {
+  3.8398584428230267`*^9, 3.83985845995514*^9}},
+ CellLabel->
+  "In[544]:=",ExpressionUUID->"f27a1c16-d8d3-423e-bb11-b1ffbbea0ed5"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
  RowBox[{
   RowBox[{
-   RowBox[{"lines", "[", "128", "]"}], "//", "toGL"}], "//", 
+   RowBox[{"lines2", "[", "128", "]"}], "//", "toGL"}], "//", 
   "Graphics"}]], "Input",
- CellChangeTimes->{{3.839846453143495*^9, 3.8398464972373476`*^9}},
+ CellChangeTimes->{{3.8398584022120085`*^9, 3.8398584243124714`*^9}, {
+  3.8398584685314627`*^9, 3.8398584896268063`*^9}},
  CellLabel->
-  "In[531]:=",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
+  "In[548]:=",ExpressionUUID->"f2490a01-c284-483d-ba93-d9ef6fcc2849"],
+
+Cell[BoxData[
+ GraphicsBox[{LineBox[{{0, 0}, {0, 0}}], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 128] Cos[Rational[1, 64] Pi], Rational[1, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {0.007803089501602909, 
+      0.00038334120568295324`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 64] Cos[Rational[1, 32] Pi], Rational[1, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {0.015549761354253077`, 
+      0.0015315178176493844`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[3, 128] Cos[Rational[3, 64] Pi], Rational[3, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {0.023183824452299554`, 
+      0.003438995495047541}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 32] Cos[Rational[1, 16] Pi], Rational[1, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {0.03064954001260095, 
+      0.006096572563004008}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[5, 128] Cos[Rational[5, 64] Pi], Rational[5, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {0.03789184582791187, 
+      0.009491413277471245}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[3, 64] Cos[Rational[3, 32] Pi], Rational[3, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {0.04485657823744729, 
+      0.013607094246302923`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[7, 128] Cos[Rational[7, 64] Pi], Rational[7, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {0.05149069106469645, 
+      0.018423663857387033`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 16] Cos[Rational[1, 8] Pi], Rational[1, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {0.05774247078195542, 
+      0.02391771452281811}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[9, 128] Cos[Rational[9, 64] Pi], Rational[9, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {0.06356174717274211, 
+      0.03006246750681671}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[5, 64] Cos[Rational[5, 32] Pi], Rational[5, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {0.06890009877721524, 
+      0.03682787006453107}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[11, 128] Cos[Rational[11, 64] Pi], Rational[11, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {0.07371105242189839, 
+      0.04418070457910499}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[3, 32] Cos[Rational[3, 16] Pi], Rational[3, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {0.07795027615336361, 
+      0.052084709345587704`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[13, 128] Cos[Rational[13, 64] Pi], Rational[13, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {0.081575764916003, 
+      0.06050071061251276}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[7, 64] Cos[Rational[7, 32] Pi], Rational[7, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {0.08454801833654936, 
+      0.06938676545539872}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[15, 128] Cos[Rational[15, 64] Pi], Rational[15, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {0.08683021000253428, 
+      0.07869831502113496}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 8] 2^Rational[-1, 2], Rational[1, 8] 2^Rational[-1, 2]}}, {{
+      0, 0}, {0.08838834764831843, 0.08838834764831843}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[17, 128] Sin[Rational[15, 64] Pi], Rational[17, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {0.08919142369061962, 
+      0.09840757133620552}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[9, 64] Sin[Rational[7, 32] Pi], Rational[9, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {0.08921155558551265, 
+      0.10870459500413489`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[19, 128] Sin[Rational[13, 64] Pi], Rational[19, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {0.08842411551059558, 
+      0.11922611795415823`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[5, 32] Sin[Rational[3, 16] Pi], Rational[5, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {0.08680784890931284, 
+      0.1299171269222727}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[21, 128] Sin[Rational[11, 64] Pi], Rational[21, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {0.08434498146920043, 
+      0.14072110007816965`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[11, 64] Sin[Rational[5, 32] Pi], Rational[11, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {0.08102131414196835, 
+      0.15158021730987353`}}]], 
+   LineBox[
+    NCache[{{0, 0}, {
+      Rational[23, 128] Sin[Rational[9, 64] Pi], Rational[23, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {0.07682630585075381, 
+      0.16243557610811873`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[3, 16] Sin[Rational[1, 8] Pi], Rational[3, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {0.07175314356845433, 
+      0.17322741234586625`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[25, 128] Sin[Rational[7, 64] Pi], Rational[25, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {0.06579879949066798, 
+      0.18389532523105875`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[13, 64] Sin[Rational[3, 32] Pi], Rational[13, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {0.05896407506731266, 
+      0.19437850569560491`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[27, 128] Sin[Rational[5, 64] Pi], Rational[27, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {0.05125363169834472, 
+      0.2046159674707241}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[7, 32] Sin[Rational[1, 16] Pi], Rational[7, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {0.042676007941028056`, 
+      0.21454678008820666`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[29, 128] Sin[Rational[3, 64] Pi], Rational[29, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {0.0332436231187929, 
+      0.2241103030388957}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[15, 64] Sin[Rational[1, 32] Pi], Rational[15, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {0.022972767264740766`, 
+      0.23324642031379617`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[31, 128] Sin[Rational[1, 64] Pi], Rational[31, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {0.01188357737617155, 
+      0.2418957745496902}}]], 
+   LineBox[NCache[{{0, 0}, {0, Rational[1, 4]}}, {{0, 0}, {0, 0.25}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-33, 128] Sin[Rational[1, 64] Pi], Rational[33, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {-0.012650259787537458`, 
+      0.257501953552896}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-17, 64] Sin[Rational[1, 32] Pi], Rational[17, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {-0.026035802900039536`, 
+      0.2643459430223023}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-35, 128] Sin[Rational[3, 64] Pi], Rational[35, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {-0.040121614108887975`, 
+      0.27047795194349483`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-9, 32] Sin[Rational[1, 16] Pi], Rational[9, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {-0.05486915306703607, 
+      0.27584586011340856`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-37, 128] Sin[Rational[5, 64] Pi], Rational[37, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {-0.07023645825328721, 
+      0.28039965912654785`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-19, 64] Sin[Rational[3, 32] Pi], Rational[19, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {-0.0861782635599185, 
+      0.28409166217049947`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-39, 128] Sin[Rational[7, 64] Pi], Rational[39, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {-0.10264612720544204`, 
+      0.2868767073604517}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-5, 16] Sin[Rational[1, 8] Pi], Rational[5, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {-0.11958857261409056`, 
+      0.2887123539097771}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-41, 128] Sin[Rational[9, 64] Pi], Rational[41, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {-0.13695124086438723`, 
+      0.28955907045360296`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-21, 64] Sin[Rational[5, 32] Pi], Rational[21, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {-0.15467705427103048`, 
+      0.289380414864304}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-43, 128] Sin[Rational[11, 64] Pi], Rational[43, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {-0.1727063906274104, 
+      0.28814320492196643`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-11, 32] Sin[Rational[3, 16] Pi], Rational[11, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {-0.19097726760048825`, 
+      0.2858176792289999}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-45, 128] Sin[Rational[13, 64] Pi], Rational[45, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {-0.20942553673562112`, 
+      0.28237764778616425`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-23, 64] Sin[Rational[7, 32] Pi], Rational[23, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {-0.2279850864963101, 
+      0.2778006316772336}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-47, 128] Sin[Rational[15, 64] Pi], Rational[47, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {-0.24658805373288956`, 
+      0.2720679913412741}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-3, 8] 2^Rational[-1, 2], Rational[3, 8] 
+       2^Rational[-1, 2]}}, {{0, 0}, {-0.2651650429449553, 
+      0.2651650429449553}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-49, 128] Cos[Rational[15, 64] Pi], Rational[49, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {-0.28364535267494534`, 
+      0.2570811624023742}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-25, 64] Cos[Rational[7, 32] Pi], Rational[25, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {-0.30195720834481915`, 
+      0.247809876626424}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-51, 128] Cos[Rational[13, 64] Pi], Rational[51, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {-0.3200280008243195, 
+      0.2373489416337039}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-13, 32] Cos[Rational[3, 16] Pi], Rational[13, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {-0.337784529997909, 
+      0.22570040716421338`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-53, 128] Cos[Rational[11, 64] Pi], Rational[53, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {-0.35515325257823765`, 
+      0.21287066751750586`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-27, 64] Cos[Rational[5, 32] Pi], Rational[27, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {-0.37206053339696227`, 
+      0.19887049834846776`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-55, 128] Cos[Rational[9, 64] Pi], Rational[55, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {-0.38843289938897957`, 
+      0.18371507920832433`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-7, 16] Cos[Rational[1, 8] Pi], Rational[7, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {-0.40419729547368793`, 
+      0.1674240016597268}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-57, 128] Cos[Rational[7, 64] Pi], Rational[57, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {-0.41928134152681396`, 
+      0.150021262838723}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-29, 64] Cos[Rational[3, 32] Pi], Rational[29, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {-0.43361358962865715`, 
+      0.13153524438092826`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-59, 128] Cos[Rational[5, 64] Pi], Rational[59, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {-0.4471237807693601, 
+      0.11199867667416069`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-15, 32] Cos[Rational[1, 16] Pi], Rational[15, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {-0.45974310018901426`, 
+      0.09144858844506011}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-61, 128] Cos[Rational[3, 64] Pi], Rational[61, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {-0.47140443053009096`, 
+      0.06992624173263333}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-31, 64] Cos[Rational[1, 32] Pi], Rational[31, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {-0.4820426019818454, 
+      0.04747705234713092}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-63, 128] Cos[Rational[1, 64] Pi], Rational[63, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {-0.4915946386009833, 
+      0.024150495958026055`}}]], 
+   LineBox[NCache[{{0, 0}, {Rational[-1, 2], 0}}, {{0, 0}, {-0.5, 0}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-65, 128] Cos[Rational[1, 64] Pi], Rational[-65, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 
+      0}, {-0.5072008176041891, -0.02491717836939196}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-33, 64] Cos[Rational[1, 32] Pi], Rational[-33, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 
+      0}, {-0.5131421246903516, -0.050540087982429684`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-67, 128] Cos[Rational[3, 64] Pi], Rational[-67, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 
+      0}, {-0.5177720794346901, -0.07680423272272842}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-17, 32] Cos[Rational[1, 16] Pi], Rational[-17, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 
+      0}, {-0.5210421802142162, -0.10364173357106814`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-69, 128] Cos[Rational[5, 64] Pi], Rational[-69, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 
+      0}, {-0.5229074724251839, -0.13098150322910318`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-35, 64] Cos[Rational[3, 32] Pi], Rational[-35, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 
+      0}, {-0.5233267461035517, -0.15874943287353407`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-71, 128] Cos[Rational[7, 64] Pi], Rational[-71, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 
+      0}, {-0.5222627236562069, -0.18686859055349705`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-9, 16] Cos[Rational[1, 8] Pi], Rational[-9, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 
+      0}, {-0.5196822370375987, -0.215259430705363}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-73, 128] Cos[Rational[9, 64] Pi], Rational[-73, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 
+      0}, {-0.5155563937344638, -0.24384001422195775`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-37, 64] Cos[Rational[5, 32] Pi], Rational[-37, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 
+      0}, {-0.5098607309513927, -0.2725262384775299}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-75, 128] Cos[Rational[11, 64] Pi], Rational[-75, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 
+      0}, {-0.5025753574220344, -0.30123207667571583`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-19, 32] Cos[Rational[3, 16] Pi], Rational[-19, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 
+      0}, {-0.49368508230463626`, -0.3298698258553888}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-77, 128] Cos[Rational[13, 64] Pi], Rational[-77, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 
+      0}, {-0.48317953065632546`, -0.35835036285872945`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-39, 64] Cos[Rational[7, 32] Pi], Rational[-39, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 
+      0}, {-0.47105324501791784`, -0.3865834075372215}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-79, 128] Cos[Rational[15, 64] Pi], Rational[-79, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 
+      0}, {-0.4573057726800139, -0.4144777924446441}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-5, 8] 2^Rational[-1, 2], Rational[-5, 8] 
+       2^Rational[-1, 2]}}, {{0, 
+      0}, {-0.44194173824159216`, -0.44194173824159216`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-81, 128] Sin[Rational[15, 64] Pi], Rational[-81, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 
+      0}, {-0.4249709011141288, -0.46888313401368514`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-41, 64] Sin[Rational[7, 32] Pi], Rational[-41, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 
+      0}, {-0.4064081976673354, -0.49520982168550337`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-83, 128] Sin[Rational[13, 64] Pi], Rational[-83, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 
+      0}, {-0.38627376775681227`, -0.5208298836944807}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-21, 32] Sin[Rational[3, 16] Pi], Rational[-21, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 
+      0}, {-0.3645929654191139, -0.5456519330735453}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-85, 128] Sin[Rational[11, 64] Pi], Rational[-85, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 
+      0}, {-0.3413963535658113, -0.5695854050783057}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-43, 64] Sin[Rational[5, 32] Pi], Rational[-43, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 
+      0}, {-0.3167196825549672, -0.5925408494840511}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-87, 128] Sin[Rational[9, 64] Pi], Rational[-87, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 
+      0}, {-0.2906038525658948, -0.6144302226698404}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-11, 16] Sin[Rational[1, 8] Pi], Rational[-11, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 
+      0}, {-0.2630948597509992, -0.6351671786015096}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-89, 128] Sin[Rational[7, 64] Pi], Rational[-89, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 
+      0}, {-0.234243726186778, -0.6546673578225691}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-45, 64] Sin[Rational[3, 32] Pi], Rational[-45, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 
+      0}, {-0.20410641369454383`, -0.6728486735617093}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-91, 128] Sin[Rational[5, 64] Pi], Rational[-91, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 
+      0}, {-0.17274372164997664`, -0.6896315940679961}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-23, 32] Sin[Rational[1, 16] Pi], Rational[-23, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 
+      0}, {-0.14022116894909217`, -0.7049394202898218}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-93, 128] Sin[Rational[3, 64] Pi], Rational[-93, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 
+      0}, {-0.10660886034647377`, -0.7186985580212862}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-47, 64] Sin[Rational[1, 32] Pi], Rational[-47, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 
+      0}, {-0.07198133742952106, -0.7308387836498946}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-95, 128] Sin[Rational[1, 64] Pi], Rational[-95, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 
+      0}, {-0.03641741453988056, -0.7412935026522764}}]], 
+   LineBox[NCache[{{0, 0}, {0, Rational[-3, 4]}}, {{0, 0}, {0, -0.75}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[97, 128] Sin[Rational[1, 64] Pi], Rational[-97, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
+      0.03718409695124646, -0.7568996816554822}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[49, 64] Sin[Rational[1, 32] Pi], Rational[-49, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+      0.07504437306481984, -0.7619383063584008}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[99, 128] Sin[Rational[3, 64] Pi], Rational[-99, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {
+      0.11348685133656886`, -0.7650662069258853}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[25, 32] Sin[Rational[1, 16] Pi], Rational[-25, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+      0.1524143140751002, -0.7662385003150238}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[101, 128] Sin[Rational[5, 64] Pi], Rational[-101, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
+      0.19172654820491916`, -0.7654152857238199}}]], 
+   LineBox[
+    NCache[{{0, 0}, {
+      Rational[51, 64] Sin[Rational[3, 32] Pi], Rational[-51, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+      0.23132060218714967`, -0.7625618300366039}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[103, 128] Sin[Rational[7, 64] Pi], Rational[-103, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
+      0.2710910539015521, -0.757648739951962}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[13, 16] Sin[Rational[1, 8] Pi], Rational[-13, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+      0.3109302887966354, -0.7506521201654205}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[105, 128] Sin[Rational[9, 64] Pi], Rational[-105, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
+      0.3507287875795283, -0.7415537170153246}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[53, 64] Sin[Rational[5, 32] Pi], Rational[-53, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+      0.3903754226840293, -0.7303410470384816}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[107, 128] Sin[Rational[11, 64] Pi], Rational[-107, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
+      0.4297577627240212, -0.7170075099221025}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[27, 32] Sin[Rational[3, 16] Pi], Rational[-27, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+      0.46876238411028937`, -0.7015524853802726}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[109, 128] Sin[Rational[13, 64] Pi], Rational[-109, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
+      0.5072751889818378, -0.6839814135264867}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[55, 64] Sin[Rational[7, 32] Pi], Rational[-55, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+      0.5451817285781329, -0.6643058583586021}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[111, 128] Sin[Rational[15, 64] Pi], Rational[-111, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
+      0.5823675311563987, -0.6425435540187537}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[7, 8] 2^Rational[-1, 2], Rational[-7, 8] 
+       2^Rational[-1, 2]}}, {{0, 0}, {
+      0.618718433538229, -0.618718433538229}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[113, 128] Cos[Rational[15, 64] Pi], Rational[-113, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
+      0.6541209153524249, -0.5928606398258833}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[57, 64] Cos[Rational[7, 32] Pi], Rational[-57, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+      0.6884624350261876, -0.5650065187082468}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[115, 128] Cos[Rational[13, 64] Pi], Rational[-115, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
+      0.7216317665646419, -0.5351985938799206}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[29, 32] Cos[Rational[3, 16] Pi], Rational[-29, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+      0.7535193361491817, -0.5034855236740144}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[117, 128] Cos[Rational[11, 64] Pi], Rational[-117, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
+      0.7840175575783738, -0.46992203961411666`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[59, 64] Cos[Rational[5, 32] Pi], Rational[-59, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+      0.8130211655711398, -0.43456886676146655`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[119, 128] Cos[Rational[9, 64] Pi], Rational[-119, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
+      0.8404275459507012, -0.39749262592346535`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[15, 16] Cos[Rational[1, 8] Pi], Rational[-15, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+      0.8661370617293314, -0.3587657178422717}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[121, 128] Cos[Rational[7, 64] Pi], Rational[-121, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
+      0.8900533741183243, -0.318466189534833}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[61, 64] Cos[Rational[3, 32] Pi], Rational[-61, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+      0.9120837574947616, -0.2766775830081594}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[123, 128] Cos[Rational[5, 64] Pi], Rational[-123, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
+      0.9321394073666321, -0.23348876662579263`}}]], 
+   LineBox[
+    NCache[{{0, 0}, {
+      Rational[31, 32] Cos[Rational[1, 16] Pi], Rational[-31, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+      0.9501357403906294, -0.18899374945312425`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[125, 128] Cos[Rational[3, 64] Pi], Rational[-125, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
+      0.9659926855124814, -0.14329147896031422`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[63, 64] Cos[Rational[1, 32] Pi], Rational[-63, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+      0.9796349653179438, -0.09648562251191121}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[127, 128] Cos[Rational[1, 64] Pi], Rational[-127, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
+      0.9909923667035695, -0.04868433312173506}}]]}]], "Output",
+ CellChangeTimes->{{3.8398584262834244`*^9, 3.8398584909826846`*^9}},
+ CellLabel->
+  "Out[548]=",ExpressionUUID->"cff004d8-6dbb-4ded-b0ca-9edc02398194"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lines3", "[", "n_", "]"}], ":=", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0"}], "}"}], ",", "#"}], "}"}], "]"}], "&"}], ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox["k", "n"]}], ")"}], 
+       RowBox[{"ReIm", "[", 
+        SuperscriptBox["\[ExponentialE]", 
+         FractionBox[
+          RowBox[{"k", " ", "2", " ", "Pi", " ", "I"}], "n"]], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", "0", ",", 
+        RowBox[{"n", "-", "1"}]}], "}"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8398585218342476`*^9, 3.839858532002271*^9}},
+ CellLabel->
+  "In[549]:=",ExpressionUUID->"eb3273d2-e6b1-4140-abf8-028c25c24c40"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{
+   RowBox[{"lines3", "[", "128", "]"}], "//", "toGL"}], "//", 
+  "Graphics"}]], "Input",
+ CellChangeTimes->{{3.839858535841363*^9, 3.839858549670518*^9}},
+ CellLabel->
+  "In[550]:=",ExpressionUUID->"cbc3b2e5-42b9-4ddd-ac7d-c2dd34d38218"],
 
 Cell[BoxData[
  GraphicsBox[{LineBox[{{0, 0}, {1, 0}}], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 64] Pi], Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
-      0.9987954562051724, 0.049067674327418015`}}]], 
+      Rational[127, 128] Cos[Rational[1, 64] Pi], Rational[127, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {0.9909923667035695, 
+      0.04868433312173506}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
-      0.9951847266721969, 0.0980171403295606}}]], 
+      Rational[63, 64] Cos[Rational[1, 32] Pi], Rational[63, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {0.9796349653179438, 
+      0.09648562251191121}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 64] Pi], Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
-      0.989176509964781, 0.14673047445536175`}}]], 
+      Rational[125, 128] Cos[Rational[3, 64] Pi], Rational[125, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {0.9659926855124814, 
+      0.14329147896031422`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
-      0.9807852804032304, 0.19509032201612825`}}]], 
+      Rational[31, 32] Cos[Rational[1, 16] Pi], Rational[31, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {0.9501357403906294, 
+      0.18899374945312425`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[5, 64] Pi], Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
-      0.970031253194544, 0.24298017990326387`}}]], 
+      Rational[123, 128] Cos[Rational[5, 64] Pi], Rational[123, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {0.9321394073666321, 
+      0.23348876662579263`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
-      0.9569403357322088, 0.29028467725446233`}}]], 
+      Rational[61, 64] Cos[Rational[3, 32] Pi], Rational[61, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {0.9120837574947616, 
+      0.2766775830081594}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[7, 64] Pi], Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
-      0.9415440651830208, 0.33688985339222005`}}]], 
+      Rational[121, 128] Cos[Rational[7, 64] Pi], Rational[121, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {0.8900533741183243, 
+      0.318466189534833}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
-      0.9238795325112867, 0.3826834323650898}}]], 
+      Rational[15, 16] Cos[Rational[1, 8] Pi], Rational[15, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {0.8661370617293314, 
+      0.3587657178422717}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[9, 64] Pi], Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
-      0.9039892931234433, 0.4275550934302821}}]], 
+      Rational[119, 128] Cos[Rational[9, 64] Pi], Rational[119, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {0.8404275459507012, 
+      0.39749262592346535`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
-      0.881921264348355, 0.47139673682599764`}}]], 
+      Rational[59, 64] Cos[Rational[5, 32] Pi], Rational[59, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {0.8130211655711398, 
+      0.43456886676146655`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[11, 64] Pi], Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
-      0.8577286100002721, 0.5141027441932217}}]], 
+      Rational[117, 128] Cos[Rational[11, 64] Pi], Rational[117, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {0.7840175575783738, 
+      0.46992203961411666`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
-      0.8314696123025452, 0.5555702330196022}}]], 
+      Rational[29, 32] Cos[Rational[3, 16] Pi], Rational[29, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {0.7535193361491817, 
+      0.5034855236740144}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[13, 64] Pi], Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
-      0.8032075314806449, 0.5956993044924334}}]], 
+      Rational[115, 128] Cos[Rational[13, 64] Pi], Rational[115, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {0.7216317665646419, 
+      0.5351985938799206}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
-      0.773010453362737, 0.6343932841636455}}]], 
+      Rational[57, 64] Cos[Rational[7, 32] Pi], Rational[57, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {0.6884624350261876, 
+      0.5650065187082468}}]], 
    LineBox[NCache[{{0, 0}, {
-      Cos[Rational[15, 64] Pi], Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
-      0.7409511253549592, 0.6715589548470183}}]], 
-   LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 0}, {
-      0.7071067811865475, 0.7071067811865475}}]], 
+      Rational[113, 128] Cos[Rational[15, 64] Pi], Rational[113, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {0.6541209153524249, 
+      0.5928606398258833}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[15, 64] Pi], Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
-      0.6715589548470183, 0.7409511253549592}}]], 
+      Rational[7, 8] 2^Rational[-1, 2], Rational[7, 8] 2^Rational[-1, 2]}}, {{
+      0, 0}, {0.618718433538229, 0.618718433538229}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
-      0.6343932841636455, 0.773010453362737}}]], 
+      Rational[111, 128] Sin[Rational[15, 64] Pi], Rational[111, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {0.5823675311563987, 
+      0.6425435540187537}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[13, 64] Pi], Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
-      0.5956993044924334, 0.8032075314806449}}]], 
+      Rational[55, 64] Sin[Rational[7, 32] Pi], Rational[55, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {0.5451817285781329, 
+      0.6643058583586021}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
-      0.5555702330196022, 0.8314696123025452}}]], 
+      Rational[109, 128] Sin[Rational[13, 64] Pi], Rational[109, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {0.5072751889818378, 
+      0.6839814135264867}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[11, 64] Pi], Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
-      0.5141027441932217, 0.8577286100002721}}]], 
+      Rational[27, 32] Sin[Rational[3, 16] Pi], Rational[27, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {0.46876238411028937`, 
+      0.7015524853802726}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
-      0.47139673682599764`, 0.881921264348355}}]], 
+      Rational[107, 128] Sin[Rational[11, 64] Pi], Rational[107, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {0.4297577627240212, 
+      0.7170075099221025}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[9, 64] Pi], Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
-      0.4275550934302821, 0.9039892931234433}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
-      0.3826834323650898, 0.9238795325112867}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[7, 64] Pi], Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
-      0.33688985339222005`, 0.9415440651830208}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
-      0.29028467725446233`, 0.9569403357322088}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[5, 64] Pi], Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
-      0.24298017990326387`, 0.970031253194544}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
-      0.19509032201612825`, 0.9807852804032304}}]], 
+      Rational[53, 64] Sin[Rational[5, 32] Pi], Rational[53, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {0.3903754226840293, 
+      0.7303410470384816}}]], 
    LineBox[
-    NCache[{{0, 0}, {Sin[Rational[3, 64] Pi], Cos[Rational[3, 64] Pi]}}, {{0, 
-      0}, {0.14673047445536175`, 0.989176509964781}}]], 
+    NCache[{{0, 0}, {
+      Rational[105, 128] Sin[Rational[9, 64] Pi], Rational[105, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {0.3507287875795283, 
+      0.7415537170153246}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
-      0.0980171403295606, 0.9951847266721969}}]], 
+      Rational[13, 16] Sin[Rational[1, 8] Pi], Rational[13, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {0.3109302887966354, 
+      0.7506521201654205}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 64] Pi], Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
-      0.049067674327418015`, 0.9987954562051724}}]], 
-   LineBox[{{0, 0}, {0, 1}}], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 64] Pi], Cos[Rational[1, 64] Pi]}}, {{0, 
-      0}, {-0.049067674327418015`, 0.9987954562051724}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 32] Pi], Cos[Rational[1, 32] Pi]}}, {{0, 
-      0}, {-0.0980171403295606, 0.9951847266721969}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[3, 64] Pi], Cos[Rational[3, 64] Pi]}}, {{0, 
-      0}, {-0.14673047445536175`, 0.989176509964781}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 16] Pi], Cos[Rational[1, 16] Pi]}}, {{0, 
-      0}, {-0.19509032201612825`, 0.9807852804032304}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[5, 64] Pi], Cos[Rational[5, 64] Pi]}}, {{0, 
-      0}, {-0.24298017990326387`, 0.970031253194544}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[3, 32] Pi], Cos[Rational[3, 32] Pi]}}, {{0, 
-      0}, {-0.29028467725446233`, 0.9569403357322088}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[7, 64] Pi], Cos[Rational[7, 64] Pi]}}, {{0, 
-      0}, {-0.33688985339222005`, 0.9415440651830208}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 8] Pi], Cos[Rational[1, 8] Pi]}}, {{0, 
-      0}, {-0.3826834323650898, 0.9238795325112867}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[9, 64] Pi], Cos[Rational[9, 64] Pi]}}, {{0, 
-      0}, {-0.4275550934302821, 0.9039892931234433}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[5, 32] Pi], Cos[Rational[5, 32] Pi]}}, {{0, 
-      0}, {-0.47139673682599764`, 0.881921264348355}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[11, 64] Pi], Cos[Rational[11, 64] Pi]}}, {{0, 
-      0}, {-0.5141027441932217, 0.8577286100002721}}]], 
+      Rational[103, 128] Sin[Rational[7, 64] Pi], Rational[103, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {0.2710910539015521, 
+      0.757648739951962}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[51, 64] Sin[Rational[3, 32] Pi], Rational[51, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {0.23132060218714967`, 
+      0.7625618300366039}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[101, 128] Sin[Rational[5, 64] Pi], Rational[101, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {0.19172654820491916`, 
+      0.7654152857238199}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[25, 32] Sin[Rational[1, 16] Pi], Rational[25, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {0.1524143140751002, 
+      0.7662385003150238}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[99, 128] Sin[Rational[3, 64] Pi], Rational[99, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {0.11348685133656886`, 
+      0.7650662069258853}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[49, 64] Sin[Rational[1, 32] Pi], Rational[49, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {0.07504437306481984, 
+      0.7619383063584008}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[97, 128] Sin[Rational[1, 64] Pi], Rational[97, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {0.03718409695124646, 
+      0.7568996816554822}}]], 
+   LineBox[NCache[{{0, 0}, {0, Rational[3, 4]}}, {{0, 0}, {0, 0.75}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-95, 128] Sin[Rational[1, 64] Pi], Rational[95, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {-0.03641741453988056, 
+      0.7412935026522764}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-47, 64] Sin[Rational[1, 32] Pi], Rational[47, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {-0.07198133742952106, 
+      0.7308387836498946}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-93, 128] Sin[Rational[3, 64] Pi], Rational[93, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {-0.10660886034647377`, 
+      0.7186985580212862}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-23, 32] Sin[Rational[1, 16] Pi], Rational[23, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {-0.14022116894909217`, 
+      0.7049394202898218}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-91, 128] Sin[Rational[5, 64] Pi], Rational[91, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {-0.17274372164997664`, 
+      0.6896315940679961}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-45, 64] Sin[Rational[3, 32] Pi], Rational[45, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {-0.20410641369454383`, 
+      0.6728486735617093}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-89, 128] Sin[Rational[7, 64] Pi], Rational[89, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {-0.234243726186778, 
+      0.6546673578225691}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-11, 16] Sin[Rational[1, 8] Pi], Rational[11, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {-0.2630948597509992, 
+      0.6351671786015096}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-87, 128] Sin[Rational[9, 64] Pi], Rational[87, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {-0.2906038525658948, 
+      0.6144302226698404}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-43, 64] Sin[Rational[5, 32] Pi], Rational[43, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {-0.3167196825549672, 
+      0.5925408494840511}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-85, 128] Sin[Rational[11, 64] Pi], Rational[85, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {-0.3413963535658113, 
+      0.5695854050783057}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-21, 32] Sin[Rational[3, 16] Pi], Rational[21, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {-0.3645929654191139, 
+      0.5456519330735453}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-83, 128] Sin[Rational[13, 64] Pi], Rational[83, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {-0.38627376775681227`, 
+      0.5208298836944807}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-41, 64] Sin[Rational[7, 32] Pi], Rational[41, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {-0.4064081976673354, 
+      0.49520982168550337`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-81, 128] Sin[Rational[15, 64] Pi], Rational[81, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {-0.4249709011141288, 
+      0.46888313401368514`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-5, 8] 2^Rational[-1, 2], Rational[5, 8] 
+       2^Rational[-1, 2]}}, {{0, 0}, {-0.44194173824159216`, 
+      0.44194173824159216`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-79, 128] Cos[Rational[15, 64] Pi], Rational[79, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {-0.4573057726800139, 
+      0.4144777924446441}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-39, 64] Cos[Rational[7, 32] Pi], Rational[39, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {-0.47105324501791784`, 
+      0.3865834075372215}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-77, 128] Cos[Rational[13, 64] Pi], Rational[77, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {-0.48317953065632546`, 
+      0.35835036285872945`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-19, 32] Cos[Rational[3, 16] Pi], Rational[19, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {-0.49368508230463626`, 
+      0.3298698258553888}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-75, 128] Cos[Rational[11, 64] Pi], Rational[75, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {-0.5025753574220344, 
+      0.30123207667571583`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-37, 64] Cos[Rational[5, 32] Pi], Rational[37, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {-0.5098607309513927, 
+      0.2725262384775299}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-73, 128] Cos[Rational[9, 64] Pi], Rational[73, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {-0.5155563937344638, 
+      0.24384001422195775`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-9, 16] Cos[Rational[1, 8] Pi], Rational[9, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {-0.5196822370375987, 
+      0.215259430705363}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-71, 128] Cos[Rational[7, 64] Pi], Rational[71, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {-0.5222627236562069, 
+      0.18686859055349705`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-35, 64] Cos[Rational[3, 32] Pi], Rational[35, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {-0.5233267461035517, 
+      0.15874943287353407`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-69, 128] Cos[Rational[5, 64] Pi], Rational[69, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {-0.5229074724251839, 
+      0.13098150322910318`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-17, 32] Cos[Rational[1, 16] Pi], Rational[17, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {-0.5210421802142162, 
+      0.10364173357106814`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-67, 128] Cos[Rational[3, 64] Pi], Rational[67, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {-0.5177720794346901, 
+      0.07680423272272842}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-33, 64] Cos[Rational[1, 32] Pi], Rational[33, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {-0.5131421246903516, 
+      0.050540087982429684`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-65, 128] Cos[Rational[1, 64] Pi], Rational[65, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {-0.5072008176041891, 
+      0.02491717836939196}}]], 
+   LineBox[NCache[{{0, 0}, {Rational[-1, 2], 0}}, {{0, 0}, {-0.5, 0}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-63, 128] Cos[Rational[1, 64] Pi], Rational[-63, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 
+      0}, {-0.4915946386009833, -0.024150495958026055`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-31, 64] Cos[Rational[1, 32] Pi], Rational[-31, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 
+      0}, {-0.4820426019818454, -0.04747705234713092}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-61, 128] Cos[Rational[3, 64] Pi], Rational[-61, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 
+      0}, {-0.47140443053009096`, -0.06992624173263333}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-15, 32] Cos[Rational[1, 16] Pi], Rational[-15, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 
+      0}, {-0.45974310018901426`, -0.09144858844506011}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-59, 128] Cos[Rational[5, 64] Pi], Rational[-59, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 
+      0}, {-0.4471237807693601, -0.11199867667416069`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-29, 64] Cos[Rational[3, 32] Pi], Rational[-29, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 
+      0}, {-0.43361358962865715`, -0.13153524438092826`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-57, 128] Cos[Rational[7, 64] Pi], Rational[-57, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 
+      0}, {-0.41928134152681396`, -0.150021262838723}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-7, 16] Cos[Rational[1, 8] Pi], Rational[-7, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 
+      0}, {-0.40419729547368793`, -0.1674240016597268}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-55, 128] Cos[Rational[9, 64] Pi], Rational[-55, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 
+      0}, {-0.38843289938897957`, -0.18371507920832433`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-27, 64] Cos[Rational[5, 32] Pi], Rational[-27, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 
+      0}, {-0.37206053339696227`, -0.19887049834846776`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-53, 128] Cos[Rational[11, 64] Pi], Rational[-53, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 
+      0}, {-0.35515325257823765`, -0.21287066751750586`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-13, 32] Cos[Rational[3, 16] Pi], Rational[-13, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 
+      0}, {-0.337784529997909, -0.22570040716421338`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-51, 128] Cos[Rational[13, 64] Pi], Rational[-51, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 
+      0}, {-0.3200280008243195, -0.2373489416337039}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-25, 64] Cos[Rational[7, 32] Pi], Rational[-25, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 
+      0}, {-0.30195720834481915`, -0.247809876626424}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-49, 128] Cos[Rational[15, 64] Pi], Rational[-49, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 
+      0}, {-0.28364535267494534`, -0.2570811624023742}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-3, 8] 2^Rational[-1, 2], Rational[-3, 8] 
+       2^Rational[-1, 2]}}, {{0, 
+      0}, {-0.2651650429449553, -0.2651650429449553}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-47, 128] Sin[Rational[15, 64] Pi], Rational[-47, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 
+      0}, {-0.24658805373288956`, -0.2720679913412741}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-23, 64] Sin[Rational[7, 32] Pi], Rational[-23, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 
+      0}, {-0.2279850864963101, -0.2778006316772336}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-45, 128] Sin[Rational[13, 64] Pi], Rational[-45, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 
+      0}, {-0.20942553673562112`, -0.28237764778616425`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-11, 32] Sin[Rational[3, 16] Pi], Rational[-11, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 
+      0}, {-0.19097726760048825`, -0.2858176792289999}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-43, 128] Sin[Rational[11, 64] Pi], Rational[-43, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 
+      0}, {-0.1727063906274104, -0.28814320492196643`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-21, 64] Sin[Rational[5, 32] Pi], Rational[-21, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 
+      0}, {-0.15467705427103048`, -0.289380414864304}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-41, 128] Sin[Rational[9, 64] Pi], Rational[-41, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 
+      0}, {-0.13695124086438723`, -0.28955907045360296`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-5, 16] Sin[Rational[1, 8] Pi], Rational[-5, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 
+      0}, {-0.11958857261409056`, -0.2887123539097771}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-39, 128] Sin[Rational[7, 64] Pi], Rational[-39, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 
+      0}, {-0.10264612720544204`, -0.2868767073604517}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-19, 64] Sin[Rational[3, 32] Pi], Rational[-19, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 
+      0}, {-0.0861782635599185, -0.28409166217049947`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-37, 128] Sin[Rational[5, 64] Pi], Rational[-37, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 
+      0}, {-0.07023645825328721, -0.28039965912654785`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-9, 32] Sin[Rational[1, 16] Pi], Rational[-9, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 
+      0}, {-0.05486915306703607, -0.27584586011340856`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-35, 128] Sin[Rational[3, 64] Pi], Rational[-35, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 
+      0}, {-0.040121614108887975`, -0.27047795194349483`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-17, 64] Sin[Rational[1, 32] Pi], Rational[-17, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 
+      0}, {-0.026035802900039536`, -0.2643459430223023}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[-33, 128] Sin[Rational[1, 64] Pi], Rational[-33, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 
+      0}, {-0.012650259787537458`, -0.257501953552896}}]], 
+   LineBox[NCache[{{0, 0}, {0, Rational[-1, 4]}}, {{0, 0}, {0, -0.25}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[31, 128] Sin[Rational[1, 64] Pi], Rational[-31, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
+      0.01188357737617155, -0.2418957745496902}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[15, 64] Sin[Rational[1, 32] Pi], Rational[-15, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
+      0.022972767264740766`, -0.23324642031379617`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[29, 128] Sin[Rational[3, 64] Pi], Rational[-29, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0}, {
+      0.0332436231187929, -0.2241103030388957}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[7, 32] Sin[Rational[1, 16] Pi], Rational[-7, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
+      0.042676007941028056`, -0.21454678008820666`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[27, 128] Sin[Rational[5, 64] Pi], Rational[-27, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
+      0.05125363169834472, -0.2046159674707241}}]], 
    LineBox[
-    NCache[{{0, 0}, {-Sin[Rational[3, 16] Pi], Cos[Rational[3, 16] Pi]}}, {{0,
-       0}, {-0.5555702330196022, 0.8314696123025452}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[13, 64] Pi], Cos[Rational[13, 64] Pi]}}, {{0, 
-      0}, {-0.5956993044924334, 0.8032075314806449}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[7, 32] Pi], Cos[Rational[7, 32] Pi]}}, {{0, 
-      0}, {-0.6343932841636455, 0.773010453362737}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[15, 64] Pi], Cos[Rational[15, 64] Pi]}}, {{0, 
-      0}, {-0.6715589548470183, 0.7409511253549592}}]], 
-   LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], 2^Rational[-1, 2]}}, {{0, 
-      0}, {-0.7071067811865475, 0.7071067811865475}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[15, 64] Pi], Sin[Rational[15, 64] Pi]}}, {{0, 
-      0}, {-0.7409511253549592, 0.6715589548470183}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[7, 32] Pi], Sin[Rational[7, 32] Pi]}}, {{0, 
-      0}, {-0.773010453362737, 0.6343932841636455}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[13, 64] Pi], Sin[Rational[13, 64] Pi]}}, {{0, 
-      0}, {-0.8032075314806449, 0.5956993044924334}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[3, 16] Pi], Sin[Rational[3, 16] Pi]}}, {{0, 
-      0}, {-0.8314696123025452, 0.5555702330196022}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[11, 64] Pi], Sin[Rational[11, 64] Pi]}}, {{0, 
-      0}, {-0.8577286100002721, 0.5141027441932217}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[5, 32] Pi], Sin[Rational[5, 32] Pi]}}, {{0, 
-      0}, {-0.881921264348355, 0.47139673682599764`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[9, 64] Pi], Sin[Rational[9, 64] Pi]}}, {{0, 
-      0}, {-0.9039892931234433, 0.4275550934302821}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 8] Pi], Sin[Rational[1, 8] Pi]}}, {{0, 
-      0}, {-0.9238795325112867, 0.3826834323650898}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[7, 64] Pi], Sin[Rational[7, 64] Pi]}}, {{0, 
-      0}, {-0.9415440651830208, 0.33688985339222005`}}]], 
+    NCache[{{0, 0}, {
+      Rational[13, 64] Sin[Rational[3, 32] Pi], Rational[-13, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
+      0.05896407506731266, -0.19437850569560491`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[25, 128] Sin[Rational[7, 64] Pi], Rational[-25, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
+      0.06579879949066798, -0.18389532523105875`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[3, 16] Sin[Rational[1, 8] Pi], Rational[-3, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
+      0.07175314356845433, -0.17322741234586625`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[23, 128] Sin[Rational[9, 64] Pi], Rational[-23, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
+      0.07682630585075381, -0.16243557610811873`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[11, 64] Sin[Rational[5, 32] Pi], Rational[-11, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
+      0.08102131414196835, -0.15158021730987353`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[21, 128] Sin[Rational[11, 64] Pi], Rational[-21, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
+      0.08434498146920043, -0.14072110007816965`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[5, 32] Sin[Rational[3, 16] Pi], Rational[-5, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
+      0.08680784890931284, -0.1299171269222727}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[19, 128] Sin[Rational[13, 64] Pi], Rational[-19, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
+      0.08842411551059558, -0.11922611795415823`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[9, 64] Sin[Rational[7, 32] Pi], Rational[-9, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
+      0.08921155558551265, -0.10870459500413489`}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[17, 128] Sin[Rational[15, 64] Pi], Rational[-17, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
+      0.08919142369061962, -0.09840757133620552}}]], 
+   LineBox[NCache[{{0, 0}, {
+      Rational[1, 8] 2^Rational[-1, 2], Rational[-1, 8] 
+       2^Rational[-1, 2]}}, {{0, 0}, {
+      0.08838834764831843, -0.08838834764831843}}]], 
    LineBox[
-    NCache[{{0, 0}, {-Cos[Rational[3, 32] Pi], Sin[Rational[3, 32] Pi]}}, {{0,
-       0}, {-0.9569403357322088, 0.29028467725446233`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[5, 64] Pi], Sin[Rational[5, 64] Pi]}}, {{0, 
-      0}, {-0.970031253194544, 0.24298017990326387`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 16] Pi], Sin[Rational[1, 16] Pi]}}, {{0, 
-      0}, {-0.9807852804032304, 0.19509032201612825`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[3, 64] Pi], Sin[Rational[3, 64] Pi]}}, {{0, 
-      0}, {-0.989176509964781, 0.14673047445536175`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 32] Pi], Sin[Rational[1, 32] Pi]}}, {{0, 
-      0}, {-0.9951847266721969, 0.0980171403295606}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 64] Pi], Sin[Rational[1, 64] Pi]}}, {{0, 
-      0}, {-0.9987954562051724, 0.049067674327418015`}}]], 
-   LineBox[{{0, 0}, {-1, 0}}], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 64] Pi], -Sin[Rational[1, 64] Pi]}}, {{0, 
-      0}, {-0.9987954562051724, -0.049067674327418015`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 
-      0}, {-0.9951847266721969, -0.0980171403295606}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[3, 64] Pi], -Sin[Rational[3, 64] Pi]}}, {{0, 
-      0}, {-0.989176509964781, -0.14673047445536175`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 
-      0}, {-0.9807852804032304, -0.19509032201612825`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[5, 64] Pi], -Sin[Rational[5, 64] Pi]}}, {{0, 
-      0}, {-0.970031253194544, -0.24298017990326387`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 
-      0}, {-0.9569403357322088, -0.29028467725446233`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[7, 64] Pi], -Sin[Rational[7, 64] Pi]}}, {{0, 
-      0}, {-0.9415440651830208, -0.33688985339222005`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 
-      0}, {-0.9238795325112867, -0.3826834323650898}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[9, 64] Pi], -Sin[Rational[9, 64] Pi]}}, {{0, 
-      0}, {-0.9039892931234433, -0.4275550934302821}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 
-      0}, {-0.881921264348355, -0.47139673682599764`}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[11, 64] Pi], -Sin[Rational[11, 64] Pi]}}, {{0, 
-      0}, {-0.8577286100002721, -0.5141027441932217}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 
-      0}, {-0.8314696123025452, -0.5555702330196022}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[13, 64] Pi], -Sin[Rational[13, 64] Pi]}}, {{0, 
-      0}, {-0.8032075314806449, -0.5956993044924334}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 
-      0}, {-0.773010453362737, -0.6343932841636455}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Cos[Rational[15, 64] Pi], -Sin[Rational[15, 64] Pi]}}, {{0, 
-      0}, {-0.7409511253549592, -0.6715589548470183}}]], 
-   LineBox[NCache[{{0, 0}, {-2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0, 
-      0}, {-0.7071067811865475, -0.7071067811865475}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[15, 64] Pi], -Cos[Rational[15, 64] Pi]}}, {{0, 
-      0}, {-0.6715589548470183, -0.7409511253549592}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 
-      0}, {-0.6343932841636455, -0.773010453362737}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[13, 64] Pi], -Cos[Rational[13, 64] Pi]}}, {{0, 
-      0}, {-0.5956993044924334, -0.8032075314806449}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 
-      0}, {-0.5555702330196022, -0.8314696123025452}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[11, 64] Pi], -Cos[Rational[11, 64] Pi]}}, {{0, 
-      0}, {-0.5141027441932217, -0.8577286100002721}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 
-      0}, {-0.47139673682599764`, -0.881921264348355}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[9, 64] Pi], -Cos[Rational[9, 64] Pi]}}, {{0, 
-      0}, {-0.4275550934302821, -0.9039892931234433}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 
-      0}, {-0.3826834323650898, -0.9238795325112867}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[7, 64] Pi], -Cos[Rational[7, 64] Pi]}}, {{0, 
-      0}, {-0.33688985339222005`, -0.9415440651830208}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 
-      0}, {-0.29028467725446233`, -0.9569403357322088}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[5, 64] Pi], -Cos[Rational[5, 64] Pi]}}, {{0, 
-      0}, {-0.24298017990326387`, -0.970031253194544}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 
-      0}, {-0.19509032201612825`, -0.9807852804032304}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[3, 64] Pi], -Cos[Rational[3, 64] Pi]}}, {{0, 
-      0}, {-0.14673047445536175`, -0.989176509964781}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 
-      0}, {-0.0980171403295606, -0.9951847266721969}}]], 
-   LineBox[NCache[{{0, 
-      0}, {-Sin[Rational[1, 64] Pi], -Cos[Rational[1, 64] Pi]}}, {{0, 
-      0}, {-0.049067674327418015`, -0.9987954562051724}}]], 
-   LineBox[{{0, 0}, {0, -1}}], 
+    NCache[{{0, 0}, {
+      Rational[15, 128] Cos[Rational[15, 64] Pi], Rational[-15, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
+      0.08683021000253428, -0.07869831502113496}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 64] Pi], -Cos[Rational[1, 64] Pi]}}, {{0, 0}, {
-      0.049067674327418015`, -0.9987954562051724}}]], 
+      Rational[7, 64] Cos[Rational[7, 32] Pi], Rational[-7, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
+      0.08454801833654936, -0.06938676545539872}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 32] Pi], -Cos[Rational[1, 32] Pi]}}, {{0, 0}, {
-      0.0980171403295606, -0.9951847266721969}}]], 
+      Rational[13, 128] Cos[Rational[13, 64] Pi], Rational[-13, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
+      0.081575764916003, -0.06050071061251276}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[3, 64] Pi], -Cos[Rational[3, 64] Pi]}}, {{0, 0}, {
-      0.14673047445536175`, -0.989176509964781}}]], 
+      Rational[3, 32] Cos[Rational[3, 16] Pi], Rational[-3, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
+      0.07795027615336361, -0.052084709345587704`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 16] Pi], -Cos[Rational[1, 16] Pi]}}, {{0, 0}, {
-      0.19509032201612825`, -0.9807852804032304}}]], 
+      Rational[11, 128] Cos[Rational[11, 64] Pi], Rational[-11, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
+      0.07371105242189839, -0.04418070457910499}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[5, 64] Pi], -Cos[Rational[5, 64] Pi]}}, {{0, 0}, {
-      0.24298017990326387`, -0.970031253194544}}]], 
+      Rational[5, 64] Cos[Rational[5, 32] Pi], Rational[-5, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
+      0.06890009877721524, -0.03682787006453107}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[3, 32] Pi], -Cos[Rational[3, 32] Pi]}}, {{0, 0}, {
-      0.29028467725446233`, -0.9569403357322088}}]], 
+      Rational[9, 128] Cos[Rational[9, 64] Pi], Rational[-9, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
+      0.06356174717274211, -0.03006246750681671}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[7, 64] Pi], -Cos[Rational[7, 64] Pi]}}, {{0, 0}, {
-      0.33688985339222005`, -0.9415440651830208}}]], 
+      Rational[1, 16] Cos[Rational[1, 8] Pi], Rational[-1, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
+      0.05774247078195542, -0.02391771452281811}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[1, 8] Pi], -Cos[Rational[1, 8] Pi]}}, {{0, 0}, {
-      0.3826834323650898, -0.9238795325112867}}]], 
+      Rational[7, 128] Cos[Rational[7, 64] Pi], Rational[-7, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
+      0.05149069106469645, -0.018423663857387033`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[9, 64] Pi], -Cos[Rational[9, 64] Pi]}}, {{0, 0}, {
-      0.4275550934302821, -0.9039892931234433}}]], 
+      Rational[3, 64] Cos[Rational[3, 32] Pi], Rational[-3, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
+      0.04485657823744729, -0.013607094246302923`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[5, 32] Pi], -Cos[Rational[5, 32] Pi]}}, {{0, 0}, {
-      0.47139673682599764`, -0.881921264348355}}]], 
+      Rational[5, 128] Cos[Rational[5, 64] Pi], Rational[-5, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
+      0.03789184582791187, -0.009491413277471245}}]], 
+   LineBox[
+    NCache[{{0, 0}, {
+      Rational[1, 32] Cos[Rational[1, 16] Pi], Rational[-1, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
+      0.03064954001260095, -0.006096572563004008}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[11, 64] Pi], -Cos[Rational[11, 64] Pi]}}, {{0, 0}, {
-      0.5141027441932217, -0.8577286100002721}}]], 
+      Rational[3, 128] Cos[Rational[3, 64] Pi], Rational[-3, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
+      0.023183824452299554`, -0.003438995495047541}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[3, 16] Pi], -Cos[Rational[3, 16] Pi]}}, {{0, 0}, {
-      0.5555702330196022, -0.8314696123025452}}]], 
+      Rational[1, 64] Cos[Rational[1, 32] Pi], Rational[-1, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
+      0.015549761354253077`, -0.0015315178176493844`}}]], 
    LineBox[NCache[{{0, 0}, {
-      Sin[Rational[13, 64] Pi], -Cos[Rational[13, 64] Pi]}}, {{0, 0}, {
-      0.5956993044924334, -0.8032075314806449}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[7, 32] Pi], -Cos[Rational[7, 32] Pi]}}, {{0, 0}, {
-      0.6343932841636455, -0.773010453362737}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Sin[Rational[15, 64] Pi], -Cos[Rational[15, 64] Pi]}}, {{0, 0}, {
-      0.6715589548470183, -0.7409511253549592}}]], 
-   LineBox[NCache[{{0, 0}, {2^Rational[-1, 2], -2^Rational[-1, 2]}}, {{0, 
-      0}, {0.7071067811865475, -0.7071067811865475}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[15, 64] Pi], -Sin[Rational[15, 64] Pi]}}, {{0, 0}, {
-      0.7409511253549592, -0.6715589548470183}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[7, 32] Pi], -Sin[Rational[7, 32] Pi]}}, {{0, 0}, {
-      0.773010453362737, -0.6343932841636455}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[13, 64] Pi], -Sin[Rational[13, 64] Pi]}}, {{0, 0}, {
-      0.8032075314806449, -0.5956993044924334}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 16] Pi], -Sin[Rational[3, 16] Pi]}}, {{0, 0}, {
-      0.8314696123025452, -0.5555702330196022}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[11, 64] Pi], -Sin[Rational[11, 64] Pi]}}, {{0, 0}, {
-      0.8577286100002721, -0.5141027441932217}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[5, 32] Pi], -Sin[Rational[5, 32] Pi]}}, {{0, 0}, {
-      0.881921264348355, -0.47139673682599764`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[9, 64] Pi], -Sin[Rational[9, 64] Pi]}}, {{0, 0}, {
-      0.9039892931234433, -0.4275550934302821}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 8] Pi], -Sin[Rational[1, 8] Pi]}}, {{0, 0}, {
-      0.9238795325112867, -0.3826834323650898}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[7, 64] Pi], -Sin[Rational[7, 64] Pi]}}, {{0, 0}, {
-      0.9415440651830208, -0.33688985339222005`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 32] Pi], -Sin[Rational[3, 32] Pi]}}, {{0, 0}, {
-      0.9569403357322088, -0.29028467725446233`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[5, 64] Pi], -Sin[Rational[5, 64] Pi]}}, {{0, 0}, {
-      0.970031253194544, -0.24298017990326387`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 16] Pi], -Sin[Rational[1, 16] Pi]}}, {{0, 0}, {
-      0.9807852804032304, -0.19509032201612825`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[3, 64] Pi], -Sin[Rational[3, 64] Pi]}}, {{0, 0}, {
-      0.989176509964781, -0.14673047445536175`}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 32] Pi], -Sin[Rational[1, 32] Pi]}}, {{0, 0}, {
-      0.9951847266721969, -0.0980171403295606}}]], 
-   LineBox[NCache[{{0, 0}, {
-      Cos[Rational[1, 64] Pi], -Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
-      0.9987954562051724, -0.049067674327418015`}}]]},
-  ImageSize->{498., Automatic}]], "Output",
- CellChangeTimes->{{3.8398464583657722`*^9, 3.8398464984660077`*^9}},
+      Rational[1, 128] Cos[Rational[1, 64] Pi], Rational[-1, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0}, {
+      0.007803089501602909, -0.00038334120568295324`}}]]}]], "Output",
+ CellChangeTimes->{3.8398585513438463`*^9},
  CellLabel->
-  "Out[531]=",ExpressionUUID->"ab94c474-2e59-4097-9804-235ced3d2446"]
+  "Out[550]=",ExpressionUUID->"9fd68175-2bf6-48d5-9a9f-f4350a544eaa"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"lines4", "[", "n_", "]"}], ":=", 
+  RowBox[{"Map", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"Line", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"{", 
+         RowBox[{"0", ",", "0.25"}], "}"}], ",", "#"}], "}"}], "]"}], "&"}], 
+    ",", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"(", 
+        RowBox[{"1", "-", 
+         FractionBox["k", "n"]}], ")"}], 
+       RowBox[{"ReIm", "[", 
+        SuperscriptBox["\[ExponentialE]", 
+         FractionBox[
+          RowBox[{"k", " ", "2", " ", "Pi", " ", "I"}], "n"]], "]"}]}], ",", 
+      RowBox[{"{", 
+       RowBox[{"k", ",", "0", ",", 
+        RowBox[{"n", "-", "1"}]}], "}"}]}], "]"}]}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.839860052807847*^9, 3.839860054719647*^9}, {
+   3.839860106913373*^9, 3.839860112471709*^9}, {3.83986016036866*^9, 
+   3.8398601643438516`*^9}, {3.8398603103725023`*^9, 
+   3.8398603766765327`*^9}, {3.839895966935381*^9, 3.839895975028738*^9}, {
+   3.839896022697275*^9, 3.8398960250741405`*^9}, {3.8398960700540476`*^9, 
+   3.839896072946061*^9}, {3.8398961047581515`*^9, 3.839896105697038*^9}, 
+   3.839896143205573*^9},
+ CellLabel->
+  "In[589]:=",ExpressionUUID->"fdcc861a-6c05-4190-addb-4677905ccac4"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Graphics", "[", 
+  RowBox[{
+   RowBox[{
+    RowBox[{"lines4", "[", "128", "]"}], "//", "toGL"}], ",", 
+   RowBox[{"Axes", "\[Rule]", "True"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.839860059531111*^9, 3.839860143934805*^9}, {
+   3.8398602199751153`*^9, 3.839860244685752*^9}, 3.839860392012686*^9, {
+   3.839895934556841*^9, 3.8398959350515327`*^9}, {3.8398959892918034`*^9, 
+   3.8398960039214725`*^9}, {3.839896041122574*^9, 3.839896055361141*^9}, {
+   3.839896085801978*^9, 3.839896087443076*^9}, {3.8398961287121973`*^9, 
+   3.8398961307443986`*^9}},
+ CellLabel->
+  "In[590]:=",ExpressionUUID->"3897b2b4-64d1-4f9d-a740-01d2b525e06e"],
+
+Cell[BoxData[
+ GraphicsBox[{LineBox[{{0, 0.25}, {1, 0}}], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[127, 128] Cos[Rational[1, 64] Pi], Rational[127, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0.25}, {0.9909923667035695, 
+      0.04868433312173506}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[63, 64] Cos[Rational[1, 32] Pi], Rational[63, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0.25}, {0.9796349653179438, 
+      0.09648562251191121}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[125, 128] Cos[Rational[3, 64] Pi], Rational[125, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0.25}, {0.9659926855124814, 
+      0.14329147896031422`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[31, 32] Cos[Rational[1, 16] Pi], Rational[31, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0.25}, {0.9501357403906294, 
+      0.18899374945312425`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[123, 128] Cos[Rational[5, 64] Pi], Rational[123, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0.25}, {0.9321394073666321, 
+      0.23348876662579263`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[61, 64] Cos[Rational[3, 32] Pi], Rational[61, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0.25}, {0.9120837574947616, 
+      0.2766775830081594}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[121, 128] Cos[Rational[7, 64] Pi], Rational[121, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0.25}, {0.8900533741183243, 
+      0.318466189534833}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[15, 16] Cos[Rational[1, 8] Pi], Rational[15, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0.25}, {0.8661370617293314, 
+      0.3587657178422717}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[119, 128] Cos[Rational[9, 64] Pi], Rational[119, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0.25}, {0.8404275459507012, 
+      0.39749262592346535`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[59, 64] Cos[Rational[5, 32] Pi], Rational[59, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0.25}, {0.8130211655711398, 
+      0.43456886676146655`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[117, 128] Cos[Rational[11, 64] Pi], Rational[117, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0.25}, {0.7840175575783738, 
+      0.46992203961411666`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[29, 32] Cos[Rational[3, 16] Pi], Rational[29, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0.25}, {0.7535193361491817, 
+      0.5034855236740144}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[115, 128] Cos[Rational[13, 64] Pi], Rational[115, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0.25}, {0.7216317665646419, 
+      0.5351985938799206}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[57, 64] Cos[Rational[7, 32] Pi], Rational[57, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0.25}, {0.6884624350261876, 
+      0.5650065187082468}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[113, 128] Cos[Rational[15, 64] Pi], Rational[113, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0.25}, {0.6541209153524249, 
+      0.5928606398258833}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[7, 8] 2^Rational[-1, 2], Rational[7, 8] 2^Rational[-1, 2]}}, {{
+      0, 0.25}, {0.618718433538229, 0.618718433538229}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[111, 128] Sin[Rational[15, 64] Pi], Rational[111, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0.25}, {0.5823675311563987, 
+      0.6425435540187537}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[55, 64] Sin[Rational[7, 32] Pi], Rational[55, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0.25}, {0.5451817285781329, 
+      0.6643058583586021}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[109, 128] Sin[Rational[13, 64] Pi], Rational[109, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0.25}, {0.5072751889818378, 
+      0.6839814135264867}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[27, 32] Sin[Rational[3, 16] Pi], Rational[27, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0.25}, {0.46876238411028937`, 
+      0.7015524853802726}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[107, 128] Sin[Rational[11, 64] Pi], Rational[107, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0.25}, {0.4297577627240212, 
+      0.7170075099221025}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[53, 64] Sin[Rational[5, 32] Pi], Rational[53, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0.25}, {0.3903754226840293, 
+      0.7303410470384816}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[105, 128] Sin[Rational[9, 64] Pi], Rational[105, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0.25}, {0.3507287875795283, 
+      0.7415537170153246}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[13, 16] Sin[Rational[1, 8] Pi], Rational[13, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0.25}, {0.3109302887966354, 
+      0.7506521201654205}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[103, 128] Sin[Rational[7, 64] Pi], Rational[103, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0.25}, {0.2710910539015521, 
+      0.757648739951962}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[51, 64] Sin[Rational[3, 32] Pi], Rational[51, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0.25}, {0.23132060218714967`, 
+      0.7625618300366039}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[101, 128] Sin[Rational[5, 64] Pi], Rational[101, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0.25}, {0.19172654820491916`, 
+      0.7654152857238199}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[25, 32] Sin[Rational[1, 16] Pi], Rational[25, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0.25}, {0.1524143140751002, 
+      0.7662385003150238}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[99, 128] Sin[Rational[3, 64] Pi], Rational[99, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0.25}, {0.11348685133656886`, 
+      0.7650662069258853}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[49, 64] Sin[Rational[1, 32] Pi], Rational[49, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0.25}, {0.07504437306481984, 
+      0.7619383063584008}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[97, 128] Sin[Rational[1, 64] Pi], Rational[97, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0.25}, {0.03718409695124646, 
+      0.7568996816554822}}]], 
+   LineBox[NCache[{{0, 0.25}, {0, Rational[3, 4]}}, {{0, 0.25}, {0, 0.75}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-95, 128] Sin[Rational[1, 64] Pi], Rational[95, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0.25}, {-0.03641741453988056, 
+      0.7412935026522764}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-47, 64] Sin[Rational[1, 32] Pi], Rational[47, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0.25}, {-0.07198133742952106, 
+      0.7308387836498946}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-93, 128] Sin[Rational[3, 64] Pi], Rational[93, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0.25}, {-0.10660886034647377`, 
+      0.7186985580212862}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-23, 32] Sin[Rational[1, 16] Pi], Rational[23, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0.25}, {-0.14022116894909217`, 
+      0.7049394202898218}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-91, 128] Sin[Rational[5, 64] Pi], Rational[91, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0.25}, {-0.17274372164997664`, 
+      0.6896315940679961}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-45, 64] Sin[Rational[3, 32] Pi], Rational[45, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0.25}, {-0.20410641369454383`, 
+      0.6728486735617093}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-89, 128] Sin[Rational[7, 64] Pi], Rational[89, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0.25}, {-0.234243726186778, 
+      0.6546673578225691}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-11, 16] Sin[Rational[1, 8] Pi], Rational[11, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0.25}, {-0.2630948597509992, 
+      0.6351671786015096}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-87, 128] Sin[Rational[9, 64] Pi], Rational[87, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0.25}, {-0.2906038525658948, 
+      0.6144302226698404}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-43, 64] Sin[Rational[5, 32] Pi], Rational[43, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0.25}, {-0.3167196825549672, 
+      0.5925408494840511}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-85, 128] Sin[Rational[11, 64] Pi], Rational[85, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0.25}, {-0.3413963535658113, 
+      0.5695854050783057}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-21, 32] Sin[Rational[3, 16] Pi], Rational[21, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0.25}, {-0.3645929654191139, 
+      0.5456519330735453}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-83, 128] Sin[Rational[13, 64] Pi], Rational[83, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0.25}, {-0.38627376775681227`, 
+      0.5208298836944807}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-41, 64] Sin[Rational[7, 32] Pi], Rational[41, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0.25}, {-0.4064081976673354, 
+      0.49520982168550337`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-81, 128] Sin[Rational[15, 64] Pi], Rational[81, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0.25}, {-0.4249709011141288, 
+      0.46888313401368514`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-5, 8] 2^Rational[-1, 2], Rational[5, 8] 
+       2^Rational[-1, 2]}}, {{0, 0.25}, {-0.44194173824159216`, 
+      0.44194173824159216`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-79, 128] Cos[Rational[15, 64] Pi], Rational[79, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0.25}, {-0.4573057726800139, 
+      0.4144777924446441}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-39, 64] Cos[Rational[7, 32] Pi], Rational[39, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0.25}, {-0.47105324501791784`, 
+      0.3865834075372215}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-77, 128] Cos[Rational[13, 64] Pi], Rational[77, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0.25}, {-0.48317953065632546`, 
+      0.35835036285872945`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-19, 32] Cos[Rational[3, 16] Pi], Rational[19, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0.25}, {-0.49368508230463626`, 
+      0.3298698258553888}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-75, 128] Cos[Rational[11, 64] Pi], Rational[75, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0.25}, {-0.5025753574220344, 
+      0.30123207667571583`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-37, 64] Cos[Rational[5, 32] Pi], Rational[37, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0.25}, {-0.5098607309513927, 
+      0.2725262384775299}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-73, 128] Cos[Rational[9, 64] Pi], Rational[73, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0.25}, {-0.5155563937344638, 
+      0.24384001422195775`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-9, 16] Cos[Rational[1, 8] Pi], Rational[9, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0.25}, {-0.5196822370375987, 
+      0.215259430705363}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-71, 128] Cos[Rational[7, 64] Pi], Rational[71, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0.25}, {-0.5222627236562069, 
+      0.18686859055349705`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-35, 64] Cos[Rational[3, 32] Pi], Rational[35, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0.25}, {-0.5233267461035517, 
+      0.15874943287353407`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-69, 128] Cos[Rational[5, 64] Pi], Rational[69, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0.25}, {-0.5229074724251839, 
+      0.13098150322910318`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-17, 32] Cos[Rational[1, 16] Pi], Rational[17, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0.25}, {-0.5210421802142162, 
+      0.10364173357106814`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-67, 128] Cos[Rational[3, 64] Pi], Rational[67, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0.25}, {-0.5177720794346901, 
+      0.07680423272272842}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-33, 64] Cos[Rational[1, 32] Pi], Rational[33, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0.25}, {-0.5131421246903516, 
+      0.050540087982429684`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-65, 128] Cos[Rational[1, 64] Pi], Rational[65, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0.25}, {-0.5072008176041891, 
+      0.02491717836939196}}]], 
+   LineBox[NCache[{{0, 0.25}, {Rational[-1, 2], 0}}, {{0, 0.25}, {-0.5, 0}}]],
+    LineBox[NCache[{{0, 0.25}, {
+      Rational[-63, 128] Cos[Rational[1, 64] Pi], Rational[-63, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{
+      0, 0.25}, {-0.4915946386009833, -0.024150495958026055`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-31, 64] Cos[Rational[1, 32] Pi], Rational[-31, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{
+      0, 0.25}, {-0.4820426019818454, -0.04747705234713092}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-61, 128] Cos[Rational[3, 64] Pi], Rational[-61, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{
+      0, 0.25}, {-0.47140443053009096`, -0.06992624173263333}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-15, 32] Cos[Rational[1, 16] Pi], Rational[-15, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{
+      0, 0.25}, {-0.45974310018901426`, -0.09144858844506011}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-59, 128] Cos[Rational[5, 64] Pi], Rational[-59, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{
+      0, 0.25}, {-0.4471237807693601, -0.11199867667416069`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-29, 64] Cos[Rational[3, 32] Pi], Rational[-29, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{
+      0, 0.25}, {-0.43361358962865715`, -0.13153524438092826`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-57, 128] Cos[Rational[7, 64] Pi], Rational[-57, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{
+      0, 0.25}, {-0.41928134152681396`, -0.150021262838723}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-7, 16] Cos[Rational[1, 8] Pi], Rational[-7, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{
+      0, 0.25}, {-0.40419729547368793`, -0.1674240016597268}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-55, 128] Cos[Rational[9, 64] Pi], Rational[-55, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{
+      0, 0.25}, {-0.38843289938897957`, -0.18371507920832433`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-27, 64] Cos[Rational[5, 32] Pi], Rational[-27, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{
+      0, 0.25}, {-0.37206053339696227`, -0.19887049834846776`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-53, 128] Cos[Rational[11, 64] Pi], Rational[-53, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{
+      0, 0.25}, {-0.35515325257823765`, -0.21287066751750586`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-13, 32] Cos[Rational[3, 16] Pi], Rational[-13, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{
+      0, 0.25}, {-0.337784529997909, -0.22570040716421338`}}]], 
+   LineBox[
+    NCache[{{0, 0.25}, {
+      Rational[-51, 128] Cos[Rational[13, 64] Pi], Rational[-51, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{
+      0, 0.25}, {-0.3200280008243195, -0.2373489416337039}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-25, 64] Cos[Rational[7, 32] Pi], Rational[-25, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{
+      0, 0.25}, {-0.30195720834481915`, -0.247809876626424}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-49, 128] Cos[Rational[15, 64] Pi], Rational[-49, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{
+      0, 0.25}, {-0.28364535267494534`, -0.2570811624023742}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-3, 8] 2^Rational[-1, 2], Rational[-3, 8] 
+       2^Rational[-1, 2]}}, {{
+      0, 0.25}, {-0.2651650429449553, -0.2651650429449553}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-47, 128] Sin[Rational[15, 64] Pi], Rational[-47, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{
+      0, 0.25}, {-0.24658805373288956`, -0.2720679913412741}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-23, 64] Sin[Rational[7, 32] Pi], Rational[-23, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{
+      0, 0.25}, {-0.2279850864963101, -0.2778006316772336}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-45, 128] Sin[Rational[13, 64] Pi], Rational[-45, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{
+      0, 0.25}, {-0.20942553673562112`, -0.28237764778616425`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-11, 32] Sin[Rational[3, 16] Pi], Rational[-11, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{
+      0, 0.25}, {-0.19097726760048825`, -0.2858176792289999}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-43, 128] Sin[Rational[11, 64] Pi], Rational[-43, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{
+      0, 0.25}, {-0.1727063906274104, -0.28814320492196643`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-21, 64] Sin[Rational[5, 32] Pi], Rational[-21, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{
+      0, 0.25}, {-0.15467705427103048`, -0.289380414864304}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-41, 128] Sin[Rational[9, 64] Pi], Rational[-41, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{
+      0, 0.25}, {-0.13695124086438723`, -0.28955907045360296`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-5, 16] Sin[Rational[1, 8] Pi], Rational[-5, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{
+      0, 0.25}, {-0.11958857261409056`, -0.2887123539097771}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-39, 128] Sin[Rational[7, 64] Pi], Rational[-39, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{
+      0, 0.25}, {-0.10264612720544204`, -0.2868767073604517}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-19, 64] Sin[Rational[3, 32] Pi], Rational[-19, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{
+      0, 0.25}, {-0.0861782635599185, -0.28409166217049947`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-37, 128] Sin[Rational[5, 64] Pi], Rational[-37, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{
+      0, 0.25}, {-0.07023645825328721, -0.28039965912654785`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-9, 32] Sin[Rational[1, 16] Pi], Rational[-9, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{
+      0, 0.25}, {-0.05486915306703607, -0.27584586011340856`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-35, 128] Sin[Rational[3, 64] Pi], Rational[-35, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{
+      0, 0.25}, {-0.040121614108887975`, -0.27047795194349483`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-17, 64] Sin[Rational[1, 32] Pi], Rational[-17, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{
+      0, 0.25}, {-0.026035802900039536`, -0.2643459430223023}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[-33, 128] Sin[Rational[1, 64] Pi], Rational[-33, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{
+      0, 0.25}, {-0.012650259787537458`, -0.257501953552896}}]], 
+   LineBox[NCache[{{0, 0.25}, {0, Rational[-1, 4]}}, {{0, 0.25}, {
+      0, -0.25}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[31, 128] Sin[Rational[1, 64] Pi], Rational[-31, 128] 
+       Cos[Rational[1, 64] Pi]}}, {{0, 0.25}, {
+      0.01188357737617155, -0.2418957745496902}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[15, 64] Sin[Rational[1, 32] Pi], Rational[-15, 64] 
+       Cos[Rational[1, 32] Pi]}}, {{0, 0.25}, {
+      0.022972767264740766`, -0.23324642031379617`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[29, 128] Sin[Rational[3, 64] Pi], Rational[-29, 128] 
+       Cos[Rational[3, 64] Pi]}}, {{0, 0.25}, {
+      0.0332436231187929, -0.2241103030388957}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[7, 32] Sin[Rational[1, 16] Pi], Rational[-7, 32] 
+       Cos[Rational[1, 16] Pi]}}, {{0, 0.25}, {
+      0.042676007941028056`, -0.21454678008820666`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[27, 128] Sin[Rational[5, 64] Pi], Rational[-27, 128] 
+       Cos[Rational[5, 64] Pi]}}, {{0, 0.25}, {
+      0.05125363169834472, -0.2046159674707241}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[13, 64] Sin[Rational[3, 32] Pi], Rational[-13, 64] 
+       Cos[Rational[3, 32] Pi]}}, {{0, 0.25}, {
+      0.05896407506731266, -0.19437850569560491`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[25, 128] Sin[Rational[7, 64] Pi], Rational[-25, 128] 
+       Cos[Rational[7, 64] Pi]}}, {{0, 0.25}, {
+      0.06579879949066798, -0.18389532523105875`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[3, 16] Sin[Rational[1, 8] Pi], Rational[-3, 16] 
+       Cos[Rational[1, 8] Pi]}}, {{0, 0.25}, {
+      0.07175314356845433, -0.17322741234586625`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[23, 128] Sin[Rational[9, 64] Pi], Rational[-23, 128] 
+       Cos[Rational[9, 64] Pi]}}, {{0, 0.25}, {
+      0.07682630585075381, -0.16243557610811873`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[11, 64] Sin[Rational[5, 32] Pi], Rational[-11, 64] 
+       Cos[Rational[5, 32] Pi]}}, {{0, 0.25}, {
+      0.08102131414196835, -0.15158021730987353`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[21, 128] Sin[Rational[11, 64] Pi], Rational[-21, 128] 
+       Cos[Rational[11, 64] Pi]}}, {{0, 0.25}, {
+      0.08434498146920043, -0.14072110007816965`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[5, 32] Sin[Rational[3, 16] Pi], Rational[-5, 32] 
+       Cos[Rational[3, 16] Pi]}}, {{0, 0.25}, {
+      0.08680784890931284, -0.1299171269222727}}]], 
+   LineBox[
+    NCache[{{0, 0.25}, {
+      Rational[19, 128] Sin[Rational[13, 64] Pi], Rational[-19, 128] 
+       Cos[Rational[13, 64] Pi]}}, {{0, 0.25}, {
+      0.08842411551059558, -0.11922611795415823`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[9, 64] Sin[Rational[7, 32] Pi], Rational[-9, 64] 
+       Cos[Rational[7, 32] Pi]}}, {{0, 0.25}, {
+      0.08921155558551265, -0.10870459500413489`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[17, 128] Sin[Rational[15, 64] Pi], Rational[-17, 128] 
+       Cos[Rational[15, 64] Pi]}}, {{0, 0.25}, {
+      0.08919142369061962, -0.09840757133620552}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[1, 8] 2^Rational[-1, 2], Rational[-1, 8] 
+       2^Rational[-1, 2]}}, {{0, 0.25}, {
+      0.08838834764831843, -0.08838834764831843}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[15, 128] Cos[Rational[15, 64] Pi], Rational[-15, 128] 
+       Sin[Rational[15, 64] Pi]}}, {{0, 0.25}, {
+      0.08683021000253428, -0.07869831502113496}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[7, 64] Cos[Rational[7, 32] Pi], Rational[-7, 64] 
+       Sin[Rational[7, 32] Pi]}}, {{0, 0.25}, {
+      0.08454801833654936, -0.06938676545539872}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[13, 128] Cos[Rational[13, 64] Pi], Rational[-13, 128] 
+       Sin[Rational[13, 64] Pi]}}, {{0, 0.25}, {
+      0.081575764916003, -0.06050071061251276}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[3, 32] Cos[Rational[3, 16] Pi], Rational[-3, 32] 
+       Sin[Rational[3, 16] Pi]}}, {{0, 0.25}, {
+      0.07795027615336361, -0.052084709345587704`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[11, 128] Cos[Rational[11, 64] Pi], Rational[-11, 128] 
+       Sin[Rational[11, 64] Pi]}}, {{0, 0.25}, {
+      0.07371105242189839, -0.04418070457910499}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[5, 64] Cos[Rational[5, 32] Pi], Rational[-5, 64] 
+       Sin[Rational[5, 32] Pi]}}, {{0, 0.25}, {
+      0.06890009877721524, -0.03682787006453107}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[9, 128] Cos[Rational[9, 64] Pi], Rational[-9, 128] 
+       Sin[Rational[9, 64] Pi]}}, {{0, 0.25}, {
+      0.06356174717274211, -0.03006246750681671}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[1, 16] Cos[Rational[1, 8] Pi], Rational[-1, 16] 
+       Sin[Rational[1, 8] Pi]}}, {{0, 0.25}, {
+      0.05774247078195542, -0.02391771452281811}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[7, 128] Cos[Rational[7, 64] Pi], Rational[-7, 128] 
+       Sin[Rational[7, 64] Pi]}}, {{0, 0.25}, {
+      0.05149069106469645, -0.018423663857387033`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[3, 64] Cos[Rational[3, 32] Pi], Rational[-3, 64] 
+       Sin[Rational[3, 32] Pi]}}, {{0, 0.25}, {
+      0.04485657823744729, -0.013607094246302923`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[5, 128] Cos[Rational[5, 64] Pi], Rational[-5, 128] 
+       Sin[Rational[5, 64] Pi]}}, {{0, 0.25}, {
+      0.03789184582791187, -0.009491413277471245}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[1, 32] Cos[Rational[1, 16] Pi], Rational[-1, 32] 
+       Sin[Rational[1, 16] Pi]}}, {{0, 0.25}, {
+      0.03064954001260095, -0.006096572563004008}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[3, 128] Cos[Rational[3, 64] Pi], Rational[-3, 128] 
+       Sin[Rational[3, 64] Pi]}}, {{0, 0.25}, {
+      0.023183824452299554`, -0.003438995495047541}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[1, 64] Cos[Rational[1, 32] Pi], Rational[-1, 64] 
+       Sin[Rational[1, 32] Pi]}}, {{0, 0.25}, {
+      0.015549761354253077`, -0.0015315178176493844`}}]], 
+   LineBox[NCache[{{0, 0.25}, {
+      Rational[1, 128] Cos[Rational[1, 64] Pi], Rational[-1, 128] 
+       Sin[Rational[1, 64] Pi]}}, {{0, 0.25}, {
+      0.007803089501602909, -0.00038334120568295324`}}]]},
+  Axes->True]], "Output",
+ CellChangeTimes->{{3.8398600686070704`*^9, 3.839860133993415*^9}, 
+   3.839860168910018*^9, {3.839860221183936*^9, 3.8398602457318745`*^9}, {
+   3.839860319678944*^9, 3.8398603486319904`*^9}, {3.83986038011417*^9, 
+   3.839860393422535*^9}, 3.839895936097884*^9, {3.839895982390814*^9, 
+   3.839896146858596*^9}},
+ CellLabel->
+  "Out[590]=",ExpressionUUID->"8ea0f2fb-6c32-4bfe-89a2-7667743b96c5"]
 }, Open  ]]
 }, Open  ]]
 },
@@ -46390,8 +48345,23 @@ Cell[2598322, 45740, 1227, 47, 204, "Output",ExpressionUUID->"c5868524-fa21-46bd
 }, Open  ]],
 Cell[2599564, 45790, 870, 24, 44, "Input",ExpressionUUID->"3028c41f-2e2a-404b-9817-05cd5a828e64"],
 Cell[CellGroupData[{
-Cell[2600459, 45818, 273, 7, 29, "Input",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
-Cell[2600735, 45827, 19109, 376, 514, "Output",ExpressionUUID->"ab94c474-2e59-4097-9804-235ced3d2446"]
+Cell[2600459, 45818, 835, 21, 130, "Input",ExpressionUUID->"51281fd2-0013-4fd5-9ee4-2e91143d0784"],
+Cell[2601297, 45841, 35927, 657, 324, "Output",ExpressionUUID->"ee5443fd-c99f-4111-a1a6-610a605f273f"]
+}, Open  ]],
+Cell[2637239, 46501, 867, 25, 47, "Input",ExpressionUUID->"f27a1c16-d8d3-423e-bb11-b1ffbbea0ed5"],
+Cell[CellGroupData[{
+Cell[2638131, 46530, 329, 8, 29, "Input",ExpressionUUID->"f2490a01-c284-483d-ba93-d9ef6fcc2849"],
+Cell[2638463, 46540, 24690, 505, 272, "Output",ExpressionUUID->"cff004d8-6dbb-4ded-b0ca-9edc02398194"]
+}, Open  ]],
+Cell[2663168, 47048, 878, 26, 47, "Input",ExpressionUUID->"eb3273d2-e6b1-4140-abf8-028c25c24c40"],
+Cell[CellGroupData[{
+Cell[2664071, 47078, 272, 7, 29, "Input",ExpressionUUID->"cbc3b2e5-42b9-4ddd-ac7d-c2dd34d38218"],
+Cell[2664346, 47087, 24669, 506, 271, "Output",ExpressionUUID->"9fd68175-2bf6-48d5-9a9f-f4350a544eaa"]
+}, Open  ]],
+Cell[2689030, 47596, 1263, 33, 47, "Input",ExpressionUUID->"fdcc861a-6c05-4190-addb-4677905ccac4"],
+Cell[CellGroupData[{
+Cell[2690318, 47633, 664, 13, 29, "Input",ExpressionUUID->"3897b2b4-64d1-4f9d-a740-01d2b525e06e"],
+Cell[2690985, 47648, 25716, 510, 294, "Output",ExpressionUUID->"8ea0f2fb-6c32-4bfe-89a2-7667743b96c5"]
 }, Open  ]]
 }, Open  ]]
 }
