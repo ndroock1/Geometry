@@ -2,7 +2,7 @@
 
 (* Created by the Wolfram Workbench 03/7-'18 *)
 
-BeginPackage["Geometry`"]
+BeginPackage["Geometry2`"]
 (* Exported symbols added here with SymbolName::usage *) 
 
 (*===WHAT IS THIS===???*)
