@@ -3,6 +3,7 @@
 (* Created by the Wolfram Workbench 03/7-'18 *)
 
 BeginPackage["Geometry`"]
+
 (* Exported symbols added here with SymbolName::usage *) 
 
 (*===WHAT IS THIS===???*)
